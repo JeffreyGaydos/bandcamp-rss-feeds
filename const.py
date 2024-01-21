@@ -1,0 +1,6 @@
+_date = "{{date}}"
+_title ="{{title}}"
+_items = "{{items}}"
+_links = "{{links}}"
+_guid = "{{guid}}"
+_ssf_path = "./SSF"

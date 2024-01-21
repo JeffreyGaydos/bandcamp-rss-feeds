@@ -5,17 +5,6 @@
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
 <lastBuildDate>{{date}}</lastBuildDate>
-<item>
-<title>Wishlist Updates for **{{user}}**</title>
-<guid>guid1</guid>
-<description>https://ghost.bandcamp.com/album/if-you-have-ghost https://nanoray.bandcamp.com/album/gacha</description>
-<pubDate>{{date}}</pubDate>
-</item>
-<item>
-<title>New Releases for **{{user}}**</title>
-<guid>guid2</guid>
-<description>https://ghost.bandcamp.com/album/if-you-have-ghost https://nanoray.bandcamp.com/album/gacha</description>
-<pubDate>{{date}}</pubDate>
-</item>
+{{items}}
 </channel>
 </rss>

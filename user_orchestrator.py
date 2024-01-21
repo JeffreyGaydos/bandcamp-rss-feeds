@@ -17,9 +17,9 @@ items.close()
 update = False
 
 for user in open("users.ssf").read().split("\n"):
-    sys.argv[1] = user #used for the next 2 calls
-    wishlist_parser.run()
-    update = update or rss_aggregator.run()
+    wishlist_parser.run(user)
+    thisUpdate = rss_aggregator.run(user)
+    update = thisUpdate or update
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _prefix = f"[{_process}]:"

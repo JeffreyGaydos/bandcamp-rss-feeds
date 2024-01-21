@@ -4,21 +4,24 @@ import re
 import const
 
 _process = "rss_aggregator.py"
-_user = sys.argv[1]
-_prefix = f"[{_process}:{_user}]:" # The GHA will repeat this for all users looping through the users.ssf
+_user = "unknown user..."
+_prefix = f"[{_process}:{_user}]:"
 
-def createItem(titlePrefix, guidPrefix, date, links):
+def createItem(titlePrefix, guidPrefix, date, links, user):
     item = open("./item.rss").read()
 
-    item = item.replace(const._title, f"{titlePrefix}**{_user}**")
-    item = item.replace(const._guid, f"{guidPrefix}-{(str)(date).replace(' ', '_')}-{_user}")
+    item = item.replace(const._title, f"{titlePrefix}**{user}**")
+    item = item.replace(const._guid, f"{guidPrefix}-{(str)(date).replace(' ', '_')}-{user}")
     item = item.replace(const._links, links.replace("\n", " "))
     item = item.replace(const._date, f"{date}")
 
-    print(f"{_prefix} Created item {titlePrefix}**{_user}**")
+    print(f"{_prefix} Created item {titlePrefix}**{user}**")
     return item
 
-def run():
+def run(user):
+    _user = user
+    _prefix = f"[{_process}:{_user}]:"
+
     cutoffDate = datetime.datetime.now()
     cutoffDate = cutoffDate.__add__(datetime.timedelta(seconds=-21600))
     items = []
@@ -29,7 +32,7 @@ def run():
     wishlistHasUpdate = wishlistDate > cutoffDate
 
     if wishlistHasUpdate:
-        items.append(createItem("Wishlist Update for ", "wishlist", wishlistDate, wishlistLinks))
+        items.append(createItem("Wishlist Update for ", "wishlist", wishlistDate, wishlistLinks, _user))
 
     #update RSS file
     if len(items) > 0:

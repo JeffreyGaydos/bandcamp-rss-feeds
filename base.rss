@@ -9,14 +9,9 @@
 <title>{{tit.le}}</title>
 <link>https://ghost.bandcamp.com/album/if-you-have-ghost</link>
 <guid>{{url}}</guid>
-<description>```table here```</description>
-<pubDate>{{date}}</pubDate>
-</item>
-<item>
-<title>{{tit.le2}}</title>
-<link>https://ghost.bandcamp.com/album/if-you-have-ghost</link>
-<guid>{{url2}}</guid>
-<description>```table here```</description>
+<description>```table here```
+
+another</description>
 <pubDate>{{date}}</pubDate>
 </item>
 </channel>

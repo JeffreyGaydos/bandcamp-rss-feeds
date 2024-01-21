@@ -1,6 +1,7 @@
 <item>
 <title>{{title}}</title>
 <guid>{{guid}}</guid>
-<link>{{links}}</link>
+<link>N/A</link>
+<description>{{links}}</description>
 <pubDate>{{date}}</pubDate>
 </item>

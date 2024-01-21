@@ -10,6 +10,7 @@
 <link>https://ghost.bandcamp.com/album/if-you-have-ghost</link>
 <guid>{{url}}</guid>
 <description>Ooh hey a description. Does this do anything?</description>
+<custom>you picking this up?</custom>
 <pubDate>{{date}}</pubDate>
 </item>
 </channel>

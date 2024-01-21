@@ -6,10 +6,10 @@
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
 <lastBuildDate>{{date}}</lastBuildDate>
 <item>
-<title><p>hello</p>{{title}}</title>
-<link><h1>Hello!</h1> https://ghost.bandcamp.com/album/if-you-have-ghost &#xA;&#xD; https://ghost.bandcamp.com/album/if-you-have-ghost</link>
+<title>{{tit.le}}</title>
+<link>https://ghost.bandcamp.com/album/if-you-have-ghost</link>
 <guid>{{url}}</guid>
-<description></description>
+<description>Ooh hey a description. Does this do anything?</description>
 <pubDate>{{date}}</pubDate>
 </item>
 </channel>

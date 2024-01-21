@@ -2,7 +2,7 @@ name: RSS Update
 
 on:
   schedule:
-  - cron: '15 15 * * *'
+  - cron: '15 20 * * *'
 
 jobs:
   rss-update:

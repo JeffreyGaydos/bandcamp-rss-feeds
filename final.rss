@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
+<link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
+<description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
+<lastBuildDate>2024-01-21 15:13:46.079109</lastBuildDate>
+<item>
+<title>Wishlist Update for **jeffg__g**</title>
+<guid>wishlist-2024-01-21_14:44:18.329358-jeffg__g</guid>
+<link>https://softcult.bandcamp.com/track/been-a-son </link>
+<pubDate>2024-01-21 14:44:18.329358</pubDate>
+</item>
+<item>
+<title>Wishlist Update for **bsg__**</title>
+<guid>wishlist-2024-01-21_15:11:41.244040-bsg__</guid>
+<link>https://donatodozzy.bandcamp.com/album/magda</link>
+<pubDate>2024-01-21 15:11:41.244040</pubDate>
+</item>
+
+</channel>
+</rss>

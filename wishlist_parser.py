@@ -1,14 +1,13 @@
 import sys
-import os
 import datetime
 import requests
 import re
+import const
 from bs4 import BeautifulSoup
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _user = sys.argv[1]
 _prefix = f"[{_process}:{_user}]:"
-_ssf_path = "./SSF"
 
 print(f"{_prefix} Pinging bandcamp wishlist feed for user {_user}")
 
@@ -26,7 +25,7 @@ for link in linkElements:
 print(f"{_prefix} Found {len(links)} links...")
 
 newLinks = []
-ssfr = open(f"{_ssf_path}/wishlist_{_user}.ssf", "r", -1, "utf-8")
+ssfr = open(f"{const._ssf_path}/wishlist_{_user}.ssf", "r", -1, "utf-8")
 ssfAll = ssfr.read()
 ssfr.close()
 for link in links:
@@ -35,7 +34,9 @@ for link in links:
 print(f"{_prefix} Found {len(newLinks)} new wishlist items")
 
 if len(newLinks) > 0:
-    ssfw = open(f"{_ssf_path}/wishlist_{_user}.ssf", "w", -1, "utf-8")
+    ssfw = open(f"{const._ssf_path}/wishlist_{_user}.ssf", "w", -1, "utf-8")
+    ssfw.write((str)(datetime.datetime.now()))
+    ssfw.write("\n")
     for link in newLinks:
         ssfw.write(link)
         ssfw.write("\n")

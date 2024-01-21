@@ -9,11 +9,7 @@
 <title>{{tit.le}}</title>
 <link>https://ghost.bandcamp.com/album/if-you-have-ghost</link>
 <guid>{{url}}</guid>
-<description>https://ghost.bandcamp.com/album/if-you-have-ghost ```He he``` https://ghost.bandcamp.com/album/if-you-have-ghost ```haha```
-
-another
-another
-</description>
+<description>```If You Have Ghost``` https://ghost.bandcamp.com/album/if-you-have-ghost ```Gacha``` https://nanoray.bandcamp.com/album/gacha</description>
 <pubDate>{{date}}</pubDate>
 </item>
 </channel>

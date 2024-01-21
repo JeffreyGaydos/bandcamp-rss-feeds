@@ -12,5 +12,12 @@
 <description>https://ghost.bandcamp.com/album/if-you-have-ghost https://nanoray.bandcamp.com/album/gacha</description>
 <pubDate>{{date}}</pubDate>
 </item>
+<item>
+<title>New Releases from Artists jeffg__g Follows</title>
+<link>https://ghost.bandcamp.com/album/if-you-have-ghost</link>
+<guid>{{url}}</guid>
+<description>https://ghost.bandcamp.com/album/if-you-have-ghost https://nanoray.bandcamp.com/album/gacha</description>
+<pubDate>{{date}}</pubDate>
+</item>
 </channel>
 </rss>

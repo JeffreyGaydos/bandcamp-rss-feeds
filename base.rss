@@ -7,8 +7,7 @@
 <lastBuildDate>{{date}}</lastBuildDate>
 <item>
 <title>{{title}}</title>
-<link>https://ghost.bandcamp.com/album/if-you-have-ghost
-https://ghost.bandcamp.com/album/if-you-have-ghost</link>
+<link>https://ghost.bandcamp.com/album/if-you-have-ghost\nhttps://ghost.bandcamp.com/album/if-you-have-ghost</link>
 <guid>{{url}}</guid>
 <description></description>
 <pubDate>{{date}}</pubDate>

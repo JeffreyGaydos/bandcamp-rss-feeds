@@ -6,13 +6,10 @@
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
 <lastBuildDate>{{date}}</lastBuildDate>
 <item>
-<title>{{tit.le}}</title>
+<title>Wishlist Updates for jeffg__g</title>
 <link>https://ghost.bandcamp.com/album/if-you-have-ghost</link>
 <guid>{{url}}</guid>
-<description>```If You Have Ghost``` https://ghost.bandcamp.com/album/if-you-have-ghost ```Gacha``` https://nanoray.bandcamp.com/album/gacha
-# heading 1
-# heading 2
-# heading 3</description>
+<description>https://ghost.bandcamp.com/album/if-you-have-ghost https://nanoray.bandcamp.com/album/gacha</description>
 <pubDate>{{date}}</pubDate>
 </item>
 </channel>

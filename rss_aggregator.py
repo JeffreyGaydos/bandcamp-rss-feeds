@@ -1,6 +1,4 @@
-import sys
 import datetime
-import re
 import const
 
 _process = "rss_aggregator.py"
@@ -18,7 +16,9 @@ def createItem(titlePrefix, guidPrefix, date, links, user):
     print(f"{_prefix} Created item {titlePrefix}**{user}**")
     return item
 
-def run(user):
+# user
+# parsers: a list of parserNames that were input into the generic_parser
+def run(user, parsers):
     _user = user
     _prefix = f"[{_process}:{_user}]:"
 
@@ -26,13 +26,16 @@ def run(user):
     cutoffDate = cutoffDate.__add__(datetime.timedelta(seconds=-21600))
     items = []
 
-    wishlistFile = open(f"{const._ssf_path}/wishlist_{_user}.ssf")
-    wishlistDate = datetime.datetime.fromisoformat((wishlistFile.readline())[0:-1])
-    wishlistLinks = wishlistFile.read()
-    wishlistHasUpdate = wishlistDate > cutoffDate
-
-    if wishlistHasUpdate:
-        items.append(createItem("Wishlist Update for ", "wishlist", wishlistDate, wishlistLinks, _user))
+    for parser in parsers:
+        ssf = open(f"{const._ssf_path}/{parser}_{_user}.ssf")
+        ssfDate = datetime.datetime.fromisoformat((ssf.readline())[0:-1])
+        ssfLinks = ssf.read().splitlines()
+        newSsfLinks = []
+        for link in ssfLinks:
+            if link.startswith(const._newIndicator):
+                newSsfLinks.append(link.replace(const._newIndicator, ""))
+        if ssfDate > cutoffDate and len(newSsfLinks) > 0:
+            items.append(createItem(f"{parser.capitalize()} update for ", parser, ssfDate, " ".join(newSsfLinks), _user))
 
     #update RSS file
     if len(items) > 0:

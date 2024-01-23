@@ -1,12 +1,10 @@
-import sys
 import datetime
 import requests
-import re
 import const
 from bs4 import BeautifulSoup
 
 # user: the user of a bandcamp page, as dsiplayed in the URL for bandcamp
-# parserName: 1 word, suitable for use in logging and file names
+# parserName: 1 word, suitable for use in logging and file names, lowercase
 # urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{_user}/"
 # querySelector: a CSS query selector that points to a list of links that we want to update on
 def run(user, parserName, urlPostfix, querySelector):

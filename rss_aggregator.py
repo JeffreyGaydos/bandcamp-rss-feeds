@@ -1,6 +1,4 @@
-import sys
 import datetime
-import re
 import const
 
 _process = "rss_aggregator.py"

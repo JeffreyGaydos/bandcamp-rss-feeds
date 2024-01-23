@@ -4,6 +4,7 @@ import datetime
 import re
 import rss_aggregator
 import wishlist_parser
+import generic_parser
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _prefix = f"[{_process}]:"
@@ -17,8 +18,10 @@ items.close()
 update = False
 
 for user in open("users.ssf").read().split("\n"):
-    wishlist_parser.run(user)
-    thisUpdate = rss_aggregator.run(user)
+    # wishlist_parser.run(user)
+    generic_parser.run(user, "wishlist", "wishlist", "ol.collection-grid  .collection-title-details .item-link")
+    generic_parser.run(user, "following", "following/artists_and_labels", "div.fan-info a.fan-username")
+    thisUpdate = rss_aggregator.run(user, ["wishlist", "following"])
     update = thisUpdate or update
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)

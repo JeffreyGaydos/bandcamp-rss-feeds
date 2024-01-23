@@ -26,28 +26,33 @@ def run(user):
 
     print(f"{_prefix} Found {len(links)} links...")
 
-    newLinks = []
+    prefixedLinks = []
+    countNewLinks = 0
     try:
         ssfr = open(f"{const._ssf_path}/wishlist_{_user}.ssf", "r", -1, "utf-8")
         ssfAll = ssfr.read()
         ssfr.close()
         for link in links:
             if not ssfAll.__contains__(link):
-                newLinks.append(link)
+                prefixedLinks.append(f"NEW: {link}")
+                countNewLinks += 1
             if ssfAll.__contains__(link):
-                break
+                prefixedLinks.append(f"{link}")
     except:
         print(f"{_prefix} Wishlist SSF for this user DNE, must be a new user.")
-        newLinks = links
-    print(f"{_prefix} Found {len(newLinks)} new wishlist items")
+        for link in links:
+            prefixedLinks.append(f"NEW: {link}")
+    print(f"{_prefix} Found {countNewLinks} new wishlist items")
 
-    if len(newLinks) > 0:
-        ssfw = open(f"{const._ssf_path}/wishlist_{_user}.ssf", "w", -1, "utf-8")
-        ssfw.write((str)(datetime.datetime.now()))
+    ssfw = open(f"{const._ssf_path}/wishlist_{_user}.ssf", "w", -1, "utf-8")
+    
+    ssfw.write((str)(datetime.datetime.now()))
+    ssfw.write("\n")
+    for link in prefixedLinks:
+        ssfw.write(link)
         ssfw.write("\n")
-        for link in newLinks:
-            ssfw.write(link)
-            ssfw.write("\n")
-        ssfw.close()
+    ssfw.close()
 
     print(f"{_prefix} Exited successfully")
+
+# run("jeffg__g")

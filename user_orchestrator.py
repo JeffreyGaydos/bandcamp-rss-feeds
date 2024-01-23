@@ -17,7 +17,6 @@ items.close()
 update = False
 
 for user in open("users.ssf").read().split("\n"):
-    # wishlist_parser.run(user)
     generic_parser.run(user, "wishlist", "wishlist", "ol.collection-grid  .collection-title-details .item-link")
     generic_parser.run(user, "following", "following/artists_and_labels", "div.fan-info a.fan-username")
     generic_parser.run(user, "collection", "", "div.collection-items div.collection-title-details a.item-link")

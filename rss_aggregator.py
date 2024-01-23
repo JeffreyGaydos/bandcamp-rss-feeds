@@ -28,11 +28,15 @@ def run(user):
 
     wishlistFile = open(f"{const._ssf_path}/wishlist_{_user}.ssf")
     wishlistDate = datetime.datetime.fromisoformat((wishlistFile.readline())[0:-1])
-    wishlistLinks = wishlistFile.read()
-    wishlistHasUpdate = wishlistDate > cutoffDate
+    wishlistLinks = wishlistFile.read().splitlines()
+    newWishlistLinks = []
+    for link in wishlistLinks:
+        if link.startswith(const._newIndicator):
+            newWishlistLinks.append(link.replace(const._newIndicator, ""))
+    wishlistHasUpdate = wishlistDate > cutoffDate and len(newWishlistLinks) > 0
 
     if wishlistHasUpdate:
-        items.append(createItem("Wishlist Update for ", "wishlist", wishlistDate, wishlistLinks, _user))
+        items.append(createItem("Wishlist Update for ", "wishlist", wishlistDate, " ".join(newWishlistLinks), _user))
 
     #update RSS file
     if len(items) > 0:

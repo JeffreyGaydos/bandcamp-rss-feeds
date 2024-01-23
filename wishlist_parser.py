@@ -34,7 +34,7 @@ def run(user):
         ssfr.close()
         for link in links:
             if not ssfAll.__contains__(link):
-                prefixedLinks.append(f"NEW: {link}")
+                prefixedLinks.append(f"{const._newIndicator}{link}")
                 countNewLinks += 1
             if ssfAll.__contains__(link):
                 prefixedLinks.append(f"{link}")
@@ -54,5 +54,3 @@ def run(user):
     ssfw.close()
 
     print(f"{_prefix} Exited successfully")
-
-# run("jeffg__g")

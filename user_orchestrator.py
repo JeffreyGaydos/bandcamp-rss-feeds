@@ -16,10 +16,15 @@ items.close()
 
 update = False
 
-for user in open("users.ssf").read().split("\n"):
-    generic_parser.run(user, "wishlist", "wishlist", "ol.collection-grid  .collection-title-details .item-link")
-    generic_parser.run(user, "following", "following/artists_and_labels", "div.fan-info a.fan-username")
-    generic_parser.run(user, "collection", "", "div.collection-items div.collection-title-details a.item-link")
+for userTuple in open("users.ssf").read().split("\n"):
+    user = userTuple.split(" ")[0]
+    fanId = userTuple.split(" ")[1]
+    # generic_parser.run(user, "wishlist", "wishlist", "ol.collection-grid  .collection-title-details .item-link")
+    # generic_parser.run(user, "following", "following/artists_and_labels", "div.fan-info a.fan-username")
+    # generic_parser.run(user, "collection", "", "div.collection-items div.collection-title-details a.item-link")
+    generic_parser.runPost(user, fanId, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"])
+    generic_parser.runPost(user, fanId, "collection", "collection_items", ":p::", "items", ["item_url"])
+    generic_parser.runPost(user, fanId, "wishlist", "wishlist_items", ":a::", "items", ["item_url"])
     thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection"])
     update = thisUpdate or update
 

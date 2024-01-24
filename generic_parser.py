@@ -2,35 +2,19 @@ import datetime
 import requests
 import const
 from bs4 import BeautifulSoup
+import re
 
-# user: the user of a bandcamp page, as dsiplayed in the URL for bandcamp
-# parserName: 1 word, suitable for use in logging and file names, lowercase
-# urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{_user}/"
-# querySelector: a CSS query selector that points to a list of links that we want to update on
-def run(user, parserName, urlPostfix, querySelector):
-    _process = f"{parserName}_parser.py"
-    _user = user
-    _prefix = f"[{_process}:{_user}]:"
-
-    print(f"{_prefix} Pinging bandcamp {parserName} feed for user {_user}")
-
-    requestsResponse = requests.get(f"https://bandcamp.com/{_user}/{urlPostfix}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
-    rawContent = requestsResponse.content
-
-    print(f"{_prefix} Got {len(rawContent)} bytes of data.")
-
-    soup = BeautifulSoup(rawContent, 'html.parser')
-    linkElements = soup.select(querySelector)
-    links = []
-    for link in linkElements:
-        links.append(link.get_attribute_list("href")[0])
-
-    print(f"{_prefix} Found {len(links)} links...")
+# links: the array of links output from the calling function; a list of links we want to update on
+# parserName: the parserName from the calling function
+# user: the user from the calling function
+# prefix: the logging prefix from the calling function
+def udpateSsf(links, parserName, user, prefix):
+    print(f"{prefix} Found {len(links)} links...")
 
     prefixedLinks = []
     countNewLinks = 0
     try:
-        ssfr = open(f"{const._ssf_path}/{parserName}_{_user}.ssf", "r", -1, "utf-8")
+        ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")
         ssfAll = ssfr.read()
         ssfr.close()
         for link in links:
@@ -40,12 +24,12 @@ def run(user, parserName, urlPostfix, querySelector):
             if ssfAll.__contains__(link):
                 prefixedLinks.append(f"{link}")
     except:
-        print(f"{_prefix} {parserName.capitalize()} SSF for this user DNE, must be a new user.")
+        print(f"{prefix} {parserName.capitalize()} SSF for this user DNE, must be a new user.")
         for link in links:
             prefixedLinks.append(f"NEW: {link}")
-    print(f"{_prefix} Found {countNewLinks} new {parserName} items")
+    print(f"{prefix} Found {countNewLinks} new {parserName} items")
 
-    ssfw = open(f"{const._ssf_path}/{parserName}_{_user}.ssf", "w", -1, "utf-8")
+    ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "w", -1, "utf-8")
     
     ssfw.write((str)(datetime.datetime.now()))
     ssfw.write("\n")
@@ -54,4 +38,57 @@ def run(user, parserName, urlPostfix, querySelector):
         ssfw.write("\n")
     ssfw.close()
 
-    print(f"{_prefix} Exited successfully")
+    print(f"{prefix} Exited successfully")
+
+# user: the user of a bandcamp page, as dsiplayed in the URL for bandcamp
+# parserName: 1 word, suitable for use in logging and file names, lowercase
+# urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{_user}/"
+# querySelector: a CSS query selector that points to a list of links that we want to update on
+def runGet(user, parserName, urlPostfix, querySelector):
+    process = f"{parserName}_parser.py"
+    prefix = f"[{process}:{user}]:"
+
+    print(f"{prefix} Pinging bandcamp {parserName} feed for user {user}")
+
+    requestsResponse = requests.get(f"https://bandcamp.com/{user}/{urlPostfix}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+    rawContent = requestsResponse.content
+
+    print(f"{prefix} Got {len(rawContent)} bytes of data.")
+
+    soup = BeautifulSoup(rawContent, 'html.parser')
+    linkElements = soup.select(querySelector)
+    links = []
+    for link in linkElements:
+        links.append(link.get_attribute_list("href")[0])
+
+    udpateSsf(links, parserName, user, prefix)
+
+# user: the username of the bandcamp user we are pinging for
+# fanID: The internal ID bandcamp uses for a specific user, should be placed in users.ssf after each username with a space in between
+# parserName: 1 word, suitable for use in logging and file names, lowercase
+# urlPostfix: The endpoint you want to ping. Known endpoints include: "collection_items", "wishlist_items", "following_bands"
+# tokenPostfix: Some of the bandcamp endpoints require a special postfix on the end of the older_than_token
+# field: the top level field that we will loop through
+# subfields: an array of subfields on the objects we are looping through that leads to the field we want
+# raw: set to true if you want the raw data from whatever subfield you are accessing (i.e. no URL wrap)
+def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields):
+    process = f"{parserName}_parser.py"
+    prefix = f"[{process}:{user}]:"
+    postResponse = requests.post(f"{const._bandcampCollectionAPI}/{urlPostfix}", f"{{\"fan_id\":{fanID},\"older_than_token\":\"9999999999:9999999999{tokenPostfix}\",\"count\":1000000}}")
+    jsondata = postResponse.json()[field]
+    links = []
+    for data in jsondata:
+        drilldown = data
+        for subfield in subfields:
+            drilldown = drilldown[subfield]
+        if parserName == "following":
+            print(f"https://{drilldown}.bandcamp.com/music")
+        else:
+            print(drilldown)
+    
+    udpateSsf(links, parserName, user, prefix)
+
+
+runPost("jeffg__g", 7032471, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"], False)
+# runPost("jeffg__g", 7032471, "collection", "collection_items", ":p::", "items", ["item_url"])
+# runPost("jeffg__g", 7032471, "wishlist", "wishlist_items", ":a::", "items", ["item_url"])

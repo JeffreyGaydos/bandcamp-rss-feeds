@@ -82,13 +82,13 @@ def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields)
         for subfield in subfields:
             drilldown = drilldown[subfield]
         if parserName == "following":
-            print(f"https://{drilldown}.bandcamp.com/music")
+            links.append(f"https://{drilldown}.bandcamp.com")
         else:
-            print(drilldown)
+            links.append(drilldown)
     
     udpateSsf(links, parserName, user, prefix)
 
 
-runPost("jeffg__g", 7032471, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"], False)
+#runPost("jeffg__g", 7032471, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"], False)
 # runPost("jeffg__g", 7032471, "collection", "collection_items", ":p::", "items", ["item_url"])
 # runPost("jeffg__g", 7032471, "wishlist", "wishlist_items", ":a::", "items", ["item_url"])

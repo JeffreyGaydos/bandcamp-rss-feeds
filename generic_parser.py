@@ -27,12 +27,13 @@ def udpateSsf(links, parserName, user, prefix):
         print(f"{prefix} {parserName.capitalize()} SSF for this user DNE, must be a new user.")
         for link in links:
             prefixedLinks.append(f"NEW: {link}")
+            countNewLinks += 1
     print(f"{prefix} Found {countNewLinks} new {parserName} items")
 
     ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "w", -1, "utf-8")
-    
     ssfw.write((str)(datetime.datetime.now()))
     ssfw.write("\n")
+    
     for link in prefixedLinks:
         ssfw.write(link)
         ssfw.write("\n")
@@ -44,13 +45,16 @@ def udpateSsf(links, parserName, user, prefix):
 # parserName: 1 word, suitable for use in logging and file names, lowercase
 # urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{_user}/"
 # querySelector: a CSS query selector that points to a list of links that we want to update on
-def runGet(user, parserName, urlPostfix, querySelector):
+def runGet(user, parserName, urlPostfix, querySelector, artist=""):
     process = f"{parserName}_parser.py"
     prefix = f"[{process}:{user}]:"
 
     print(f"{prefix} Pinging bandcamp {parserName} feed for user {user}")
-
-    requestsResponse = requests.get(f"https://bandcamp.com/{user}/{urlPostfix}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+    requestsResponse = ""
+    if artist == "":
+        requestsResponse = requests.get(f"https://bandcamp.com/{user}/{urlPostfix}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+    else:
+        requestsResponse = requests.get(f"{artist}/{urlPostfix}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     rawContent = requestsResponse.content
 
     print(f"{prefix} Got {len(rawContent)} bytes of data.")
@@ -59,7 +63,10 @@ def runGet(user, parserName, urlPostfix, querySelector):
     linkElements = soup.select(querySelector)
     links = []
     for link in linkElements:
-        links.append(link.get_attribute_list("href")[0])
+        if artist == "":
+            links.append(link.get_attribute_list("href")[0])
+        else:
+            links.append(f"{artist}{link.get_attribute_list('href')[0]}")
 
     udpateSsf(links, parserName, user, prefix)
 

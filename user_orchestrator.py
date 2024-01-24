@@ -4,6 +4,7 @@ import datetime
 import re
 import rss_aggregator
 import generic_parser
+import os
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _prefix = f"[{_process}]:"
@@ -19,14 +20,26 @@ update = False
 for userTuple in open("users.ssf").read().split("\n"):
     user = userTuple.split(" ")[0]
     fanId = userTuple.split(" ")[1]
+    releasePath = f"{const._ssf_path}/{const._releasesFolder}/{user}"
+    if not os.path.exists(releasePath):
+        os.mkdir(releasePath)
     # generic_parser.run(user, "wishlist", "wishlist", "ol.collection-grid  .collection-title-details .item-link")
     # generic_parser.run(user, "following", "following/artists_and_labels", "div.fan-info a.fan-username")
     # generic_parser.run(user, "collection", "", "div.collection-items div.collection-title-details a.item-link")
     generic_parser.runPost(user, fanId, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"])
     generic_parser.runPost(user, fanId, "collection", "collection_items", ":p::", "items", ["item_url"])
     generic_parser.runPost(user, fanId, "wishlist", "wishlist_items", ":a::", "items", ["item_url"])
+    followFile = open(f"{const._ssf_path}/following_{user}.ssf")
+    followFile.readline()
+    artists = followFile.read().splitlines()
+    followFile.close()
     thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection"])
     update = thisUpdate or update
+    for artist in artists:
+        parseName = f"{const._releasesFolder}/{user}/{artist[8:artist.index('.bandcamp.com')]}_release"
+        generic_parser.runGet(user, parseName, "music", "ol.music-grid li.music-grid-item a", artist)
+        thisUpdate = rss_aggregator.run(user, [parseName])
+        update = thisUpdate or update
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _prefix = f"[{_process}]:"

@@ -20,9 +20,6 @@ update = False
 for userTuple in open("users.ssf").read().split("\n"):
     user = userTuple.split(" ")[0]
     fanId = userTuple.split(" ")[1]
-    releasePath = f"{const._ssf_path}/{const._releasesFolder}/{user}"
-    if not os.path.exists(releasePath):
-        os.mkdir(releasePath)
     # generic_parser.run(user, "wishlist", "wishlist", "ol.collection-grid  .collection-title-details .item-link")
     # generic_parser.run(user, "following", "following/artists_and_labels", "div.fan-info a.fan-username")
     # generic_parser.run(user, "collection", "", "div.collection-items div.collection-title-details a.item-link")
@@ -33,13 +30,9 @@ for userTuple in open("users.ssf").read().split("\n"):
     followFile.readline()
     artists = followFile.read().splitlines()
     followFile.close()
-    thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection"])
+    generic_parser.runGet(user, "release", "music", "ol.music-grid li.music-grid-item a", artists)
+    thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection", "release"])
     update = thisUpdate or update
-    for artist in artists:
-        parseName = f"{const._releasesFolder}/{user}/{artist[8:artist.index('.bandcamp.com')]}_release"
-        generic_parser.runGet(user, parseName, "music", "ol.music-grid li.music-grid-item a", artist)
-        thisUpdate = rss_aggregator.run(user, [parseName])
-        update = thisUpdate or update
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _prefix = f"[{_process}]:"

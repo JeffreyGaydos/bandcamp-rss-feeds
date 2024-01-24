@@ -4,34 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-01-23 21:38:03.893560</lastBuildDate>
+<lastBuildDate>2024-01-24 18:33:34.025610</lastBuildDate>
 <item>
-<title>Askii update for **jeffg__g**</title>
-<guid>Releases/jeffg__g/askii_release-2024-01-23_21:36:05.252679-jeffg__g</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-01-24_18:32:28.130502-jeffg__g</guid>
 <link>N/A</link>
-<description>https://askii.bandcamp.com/album/andaram</description>
-<pubDate>2024-01-23 21:36:05.252679</pubDate>
-</item>
-<item>
-<title>Abeaconschool update for **jeffg__g**</title>
-<guid>Releases/jeffg__g/abeaconschool_release-2024-01-23_21:36:31.523760-jeffg__g</guid>
-<link>N/A</link>
-<description>https://abeaconschool.bandcamp.com/album/yoyo</description>
-<pubDate>2024-01-23 21:36:31.523760</pubDate>
-</item>
-<item>
-<title>Ghost update for **jeffg__g**</title>
-<guid>Releases/jeffg__g/ghost_release-2024-01-23_21:36:34.349906-jeffg__g</guid>
-<link>N/A</link>
-<description>https://ghost.bandcamp.com/track/stay-feat-patrick-wilson-insidious-version</description>
-<pubDate>2024-01-23 21:36:34.349906</pubDate>
-</item>
-<item>
-<title>Saulstokes update for **jeffg__g**</title>
-<guid>Releases/jeffg__g/saulstokes_release-2024-01-23_21:36:47.694995-jeffg__g</guid>
-<link>N/A</link>
-<description>https://saulstokes.bandcamp.com/album/tuned-to-the-moon-live</description>
-<pubDate>2024-01-23 21:36:47.694995</pubDate>
+<description>https://fm84.bandcamp.com/album/maverick-atlas-b-sides https://hellometeor.bandcamp.com/album/maps-and-locations-jaladri</description>
+<pubDate>2024-01-24 18:32:28.130502</pubDate>
 </item>
 
 </channel>

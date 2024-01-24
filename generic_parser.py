@@ -41,20 +41,8 @@ def udpateSsf(links, parserName, user, prefix):
 
     print(f"{prefix} Exited successfully")
 
-# user: the user of a bandcamp page, as dsiplayed in the URL for bandcamp
-# parserName: 1 word, suitable for use in logging and file names, lowercase
-# urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{_user}/"
-# querySelector: a CSS query selector that points to a list of links that we want to update on
-def runGet(user, parserName, urlPostfix, querySelector, artist=""):
-    process = f"{parserName}_parser.py"
-    prefix = f"[{process}:{user}]:"
-
-    print(f"{prefix} Pinging bandcamp {parserName} feed for user {user}")
-    requestsResponse = ""
-    if artist == "":
-        requestsResponse = requests.get(f"https://bandcamp.com/{user}/{urlPostfix}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
-    else:
-        requestsResponse = requests.get(f"{artist}/{urlPostfix}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+def getLinks(source, prefix, querySelector, urlPostfix):
+    requestsResponse = requests.get(f"{source}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     rawContent = requestsResponse.content
 
     print(f"{prefix} Got {len(rawContent)} bytes of data.")
@@ -62,11 +50,34 @@ def runGet(user, parserName, urlPostfix, querySelector, artist=""):
     soup = BeautifulSoup(rawContent, 'html.parser')
     linkElements = soup.select(querySelector)
     links = []
+    "".startswith("/")
     for link in linkElements:
-        if artist == "":
-            links.append(link.get_attribute_list("href")[0])
+        if link.get_attribute_list("href")[0].startswith("/"):
+            sanitizedSource = source.replace(urlPostfix, '')
+            if sanitizedSource.endswith("/"):
+                sanitizedSource = sanitizedSource[:-1]
+            link = f"{sanitizedSource}{link.get_attribute_list('href')[0]}"
+            links.append(link)
         else:
-            links.append(f"{artist}{link.get_attribute_list('href')[0]}")
+            links.append(link.get_attribute_list("href")[0])
+    return links
+
+# user: the user of a bandcamp page, as dsiplayed in the URL for bandcamp
+# parserName: 1 word, suitable for use in logging and file names, lowercase
+# urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{_user}/"
+# querySelector: a CSS query selector that points to a list of links that we want to update on
+def runGet(user, parserName, urlPostfix, querySelector, artists=[]):
+    process = f"{parserName}_parser.py"
+    prefix = f"[{process}:{user}]:"
+
+    print(f"{prefix} Pinging bandcamp {parserName} feed for user {user}")
+    
+    links = []
+    if len(artists) == 0:
+        links.extend(getLinks(f"https://bandcamp.com/{user}/{urlPostfix}", prefix, querySelector, urlPostfix))
+    else:
+        for artist in artists:
+            links.extend(getLinks(f"{artist}/{urlPostfix}", prefix, querySelector, urlPostfix))
 
     udpateSsf(links, parserName, user, prefix)
 

@@ -8,7 +8,7 @@ import re
 # parserName: the parserName from the calling function
 # user: the user from the calling function
 # prefix: the logging prefix from the calling function
-def udpateSsf(links, parserName, user, prefix):
+def udpateSsf(links, parserName, user, prefix, newSource = False):
     print(f"{prefix} Found {len(links)} links...")
 
     prefixedLinks = []
@@ -19,7 +19,10 @@ def udpateSsf(links, parserName, user, prefix):
         ssfr.close()
         for link in links:
             if not ssfAll.__contains__(link):
-                prefixedLinks.append(f"{const._newIndicator}{link}")
+                if not newSource:
+                    prefixedLinks.append(f"{const._newIndicator}{link}")
+                else:
+                    prefixedLinks.append(f"{link.replace(const._newIndicator, '')}")
                 countNewLinks += 1
             if ssfAll.__contains__(link):
                 prefixedLinks.append(f"{link}")
@@ -42,7 +45,7 @@ def udpateSsf(links, parserName, user, prefix):
     print(f"{prefix} Exited successfully")
 
 def getLinks(source, prefix, querySelector, urlPostfix):
-    requestsResponse = requests.get(f"{source}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+    requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     rawContent = requestsResponse.content
 
     print(f"{prefix} Got {len(rawContent)} bytes of data.")
@@ -73,13 +76,19 @@ def runGet(user, parserName, urlPostfix, querySelector, artists=[]):
     print(f"{prefix} Pinging bandcamp {parserName} feed for user {user}")
     
     links = []
+    newArtistLinks = []
     if len(artists) == 0:
         links.extend(getLinks(f"https://bandcamp.com/{user}/{urlPostfix}", prefix, querySelector, urlPostfix))
     else:
         for artist in artists:
-            links.extend(getLinks(f"{artist}/{urlPostfix}", prefix, querySelector, urlPostfix))
+            if artist.startswith(const._newIndicator):
+                newArtistLinks.extend(getLinks(f"{artist}/{urlPostfix}", prefix, querySelector, urlPostfix))
+            else:
+                links.extend(getLinks(f"{artist}/{urlPostfix}", prefix, querySelector, urlPostfix))
 
     udpateSsf(links, parserName, user, prefix)
+    if len(newArtistLinks) > 0:
+        udpateSsf(newArtistLinks, parserName, user, prefix, True)
 
 # user: the username of the bandcamp user we are pinging for
 # fanID: The internal ID bandcamp uses for a specific user, should be placed in users.ssf after each username with a space in between

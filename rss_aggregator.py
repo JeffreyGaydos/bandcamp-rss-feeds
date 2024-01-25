@@ -8,6 +8,10 @@ _prefix = f"[{_process}:{_user}]:"
 def createItem(titlePrefix, guidPrefix, date, links, user):
     item = open("./item.rss").read()
 
+    if titlePrefix.startswith(const._releasesFolder):
+        titlePrefix = titlePrefix[titlePrefix.index(user) + len(user) + 1:titlePrefix.index("_release")].capitalize()
+        titlePrefix = f"{titlePrefix} update for "
+
     item = item.replace(const._title, f"{titlePrefix}**{user}**")
     item = item.replace(const._guid, f"{guidPrefix}-{(str)(date).replace(' ', '_')}-{user}")
     item = item.replace(const._links, links.replace("\n", " "))
@@ -33,7 +37,7 @@ def run(user, parsers):
         newSsfLinks = []
         for link in ssfLinks:
             if link.startswith(const._newIndicator):
-                newSsfLinks.append(link.replace(const._newIndicator, ""))
+                    newSsfLinks.append(link.replace(const._newIndicator, ""))
         if ssfDate > cutoffDate and len(newSsfLinks) > 0:
             items.append(createItem(f"{parser.capitalize()} update for ", parser, ssfDate, " ".join(newSsfLinks), _user))
 

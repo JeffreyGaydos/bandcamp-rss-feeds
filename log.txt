@@ -1,18 +1,38 @@
 [user_orchestrator.py]: Starting
 [user_orchestrator.py]: Clearing existing items from items.rss
 [wishlist_parser.py:jeffg__g]: Pinging bandcamp wishlist feed for user jeffg__g
-[wishlist_parser.py:jeffg__g]: Got 421102 bytes of data.
+[wishlist_parser.py:jeffg__g]: Got 417265 bytes of data.
 [wishlist_parser.py:jeffg__g]: Found 20 links...
-[wishlist_parser.py:jeffg__g]: Found 2 new wishlist items
+[wishlist_parser.py:jeffg__g]: Found 0 new wishlist items
 [wishlist_parser.py:jeffg__g]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Wishlist Update for **jeffg__g**
-[rss_aggregator.py:jeffg__g]: updating items.rss with 1 updates for this user
+[following_parser.py:jeffg__g]: Pinging bandcamp following feed for user jeffg__g
+[following_parser.py:jeffg__g]: Got 441186 bytes of data.
+[following_parser.py:jeffg__g]: Found 45 links...
+[following_parser.py:jeffg__g]: Found 0 new following items
+[following_parser.py:jeffg__g]: Exited successfully
+[collection_parser.py:jeffg__g]: Pinging bandcamp collection feed for user jeffg__g
+[collection_parser.py:jeffg__g]: Got 431705 bytes of data.
+[collection_parser.py:jeffg__g]: Found 20 links...
+[collection_parser.py:jeffg__g]: Found 0 new collection items
+[collection_parser.py:jeffg__g]: Exited successfully
+[rss_aggregator.py:jeffg__g]: No updates detected for this user
+[rss_aggregator.py:jeffg__g]: Exited successfully
 [wishlist_parser.py:bsg__]: Pinging bandcamp wishlist feed for user bsg__
-[wishlist_parser.py:bsg__]: Got 370967 bytes of data.
+[wishlist_parser.py:bsg__]: Got 370747 bytes of data.
 [wishlist_parser.py:bsg__]: Found 20 links...
-[wishlist_parser.py:bsg__]: Found 1 new wishlist items
+[wishlist_parser.py:bsg__]: Found 0 new wishlist items
 [wishlist_parser.py:bsg__]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Wishlist Update for **bsg__**
-[rss_aggregator.py:bsg__]: updating items.rss with 1 updates for this user
-[user_orchestrator.py]: Updating final.rss at 2024-01-22 11:47:41.540529
+[following_parser.py:bsg__]: Pinging bandcamp following feed for user bsg__
+[following_parser.py:bsg__]: Got 372473 bytes of data.
+[following_parser.py:bsg__]: Found 45 links...
+[following_parser.py:bsg__]: Found 0 new following items
+[following_parser.py:bsg__]: Exited successfully
+[collection_parser.py:bsg__]: Pinging bandcamp collection feed for user bsg__
+[collection_parser.py:bsg__]: Got 307585 bytes of data.
+[collection_parser.py:bsg__]: Found 4 links...
+[collection_parser.py:bsg__]: Found 0 new collection items
+[collection_parser.py:bsg__]: Exited successfully
+[rss_aggregator.py:bsg__]: No updates detected for this user
+[rss_aggregator.py:bsg__]: Exited successfully
+[user_orchestrator.py]: No updates found for final.rss
 [user_orchestrator.py]: Exited successfully

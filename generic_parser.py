@@ -53,10 +53,10 @@ def getLinks(source, prefix, querySelector, urlPostfix):
     soup = BeautifulSoup(rawContent, 'html.parser')
     linkElements = soup.select(querySelector)
     links = []
-    "".startswith("/")
+
     for link in linkElements:
         if link.get_attribute_list("href")[0].startswith("/"):
-            sanitizedSource = source.replace(urlPostfix, '')
+            sanitizedSource = re.sub(f"{urlPostfix}$", "", source) # only remove from the end
             if sanitizedSource.endswith("/"):
                 sanitizedSource = sanitizedSource[:-1]
             link = f"{sanitizedSource}{link.get_attribute_list('href')[0]}"

@@ -109,7 +109,7 @@ def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields)
         for subfield in subfields:
             drilldown = drilldown[subfield]
         if parserName == "following":
-            links.append(f"https://{drilldown}.bandcamp.com")
+            links.append(f"https://{drilldown}.bandcamp.com{const._musicPostfix}")
         else:
             links.append(drilldown)
     

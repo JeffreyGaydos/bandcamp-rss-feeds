@@ -4,27 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-02-02 11:48:15.953630</lastBuildDate>
+<lastBuildDate>2024-02-03 11:48:34.242459</lastBuildDate>
 <item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2024-02-02_11:47:31.417674-jeffg__g</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-02-03_11:48:04.856074-jeffg__g</guid>
 <link>N/A</link>
-<description>https://gunshipmusic.bandcamp.com/album/dark-all-day</description>
-<pubDate>2024-02-02 11:47:31.417674</pubDate>
-</item>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2024-02-02_11:47:30.599453-jeffg__g</guid>
-<link>N/A</link>
-<description>https://thevillaintinos.bandcamp.com</description>
-<pubDate>2024-02-02 11:47:30.599453</pubDate>
+<description>https://rjraffa.bandcamp.com/album/susceptible-to-the-divine-live-2019-2023</description>
+<pubDate>2024-02-03 11:48:04.856074</pubDate>
 </item>
 <item>
 <title>Following update for **bsg__**</title>
-<guid>following-2024-02-02_11:47:51.837526-bsg__</guid>
+<guid>following-2024-02-03_11:48:04.981255-bsg__</guid>
 <link>N/A</link>
-<description>https://waspfactory.bandcamp.com https://davebuker.bandcamp.com https://happychichester.bandcamp.com https://sweetfrancis.bandcamp.com</description>
-<pubDate>2024-02-02 11:47:51.837526</pubDate>
+<description>https://connectionsband.bandcamp.com/music</description>
+<pubDate>2024-02-03 11:48:04.981255</pubDate>
 </item>
 
 </channel>

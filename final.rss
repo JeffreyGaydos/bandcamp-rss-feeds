@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-02-10 11:48:07.485226</lastBuildDate>
-<item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-02-10_11:47:42.917675-jeffg__g</guid>
-<link>N/A</link>
-<description>https://electronicvisions.bandcamp.com/track/tales-of-forgotten-biomes-2</description>
-<pubDate>2024-02-10 11:47:42.917675</pubDate>
-</item>
+<lastBuildDate>2024-02-11 11:48:04.991878</lastBuildDate>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-02-10_11:47:44.257373-bsg__</guid>
+<guid>wishlist-2024-02-11_11:47:42.578700-bsg__</guid>
 <link>N/A</link>
-<description>https://nymphlord.bandcamp.com/album/mothers-cry-and-then-we-die</description>
-<pubDate>2024-02-10 11:47:44.257373</pubDate>
+<description>https://roziplain.bandcamp.com/album/prize</description>
+<pubDate>2024-02-11 11:47:42.578700</pubDate>
 </item>
 
 </channel>

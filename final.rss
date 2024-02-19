@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-02-18 11:48:11.430120</lastBuildDate>
+<lastBuildDate>2024-02-19 11:48:40.663093</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-02-18_11:47:52.210544-jeffg__g</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2024-02-19_11:47:41.835546-jeffg__g</guid>
 <link>N/A</link>
-<description>https://desertsand.bandcamp.com/album/--37</description>
-<pubDate>2024-02-18 11:47:52.210544</pubDate>
+<description>https://shook.bandcamp.com/album/system https://beginagainband.bandcamp.com/album/everything-is-changing-2 https://beginagainband.bandcamp.com/track/i-felt-a-funeral-in-my-brain-act-1-demo</description>
+<pubDate>2024-02-19 11:47:41.835546</pubDate>
+</item>
+<item>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2024-02-19_11:47:41.047613-jeffg__g</guid>
+<link>N/A</link>
+<description>https://beginagainband.bandcamp.com/music</description>
+<pubDate>2024-02-19 11:47:41.047613</pubDate>
 </item>
 
 </channel>

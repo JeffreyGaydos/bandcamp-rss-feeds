@@ -33,9 +33,10 @@ def udpateSsf(links, parserName, user, prefix, newSource = False):
             countNewLinks += 1
     print(f"{prefix} Found {countNewLinks} new {parserName} items")
 
-    ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "w", -1, "utf-8")
-    ssfw.write((str)(datetime.datetime.now()))
-    ssfw.write("\n")
+    ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "a" if newSource else "w", -1, "utf-8")
+    if not newSource:
+        ssfw.write((str)(datetime.datetime.now()))
+        ssfw.write("\n")
     
     for link in prefixedLinks:
         ssfw.write(link)

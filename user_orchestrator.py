@@ -4,7 +4,6 @@ import datetime
 import re
 import rss_aggregator
 import generic_parser
-import os
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _prefix = f"[{_process}]:"

@@ -17,10 +17,10 @@
 [collection_parser.py:bsg__]: Found 4 links...
 [collection_parser.py:bsg__]: Found 0 new collection items
 [collection_parser.py:bsg__]: Exited successfully
-[wishlist_parser.py:bsg__]: Found 207 links...
-[wishlist_parser.py:bsg__]: Found 0 new wishlist items
+[wishlist_parser.py:bsg__]: Found 208 links...
+[wishlist_parser.py:bsg__]: Found 1 new wishlist items
 [wishlist_parser.py:bsg__]: Exited successfully
-[rss_aggregator.py:bsg__]: No updates detected for this user
-[rss_aggregator.py:bsg__]: Exited successfully
-[user_orchestrator.py]: No updates found for final.rss
+[rss_aggregator.py:unknown user...]: Created item Wishlist update for **bsg__**
+[rss_aggregator.py:bsg__]: updating items.rss with 1 updates for this user
+[user_orchestrator.py]: Updating final.rss at 2024-03-13 11:47:43.720018
 [user_orchestrator.py]: Exited successfully

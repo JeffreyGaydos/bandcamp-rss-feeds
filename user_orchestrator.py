@@ -29,9 +29,8 @@ for userTuple in open("users.ssf").read().split("\n"):
     sanitizedArtists = []
     for artist in artists:
         sanitizedArtists.append(artist[:-len(const._musicPostfix)])
-    #generic_parser.runGet(user, "release", "music", "ol.music-grid li.music-grid-item a", sanitizedArtists)
-    #thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection", "release"])
-    thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection"])
+    generic_parser.runGet(user, "release", "music", "ol.music-grid li.music-grid-item a", sanitizedArtists)
+    thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection", "release"])
     update = thisUpdate or update
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)

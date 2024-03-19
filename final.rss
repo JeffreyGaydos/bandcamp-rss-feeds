@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-03-17 11:48:18.225805</lastBuildDate>
+<lastBuildDate>2024-03-19 11:48:27.368934</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-03-17_11:47:52.364806-jeffg__g</guid>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-03-19_11:47:59.459413-bsg__</guid>
 <link>N/A</link>
-<description>https://flamingosis1.bandcamp.com/track/nebula-gazer https://turquoisedeath.bandcamp.com/album/lost-in-motion</description>
-<pubDate>2024-03-17 11:47:52.364806</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2024-03-17_11:48:18.224881-bsg__</guid>
-<link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/album/lost-in-motion https://mforsleep.bandcamp.com/album/i-ritmi-improvvisi-del-silenzio https://cathedralbellsmusic.bandcamp.com/track/spiral</description>
-<pubDate>2024-03-17 11:48:18.224881</pubDate>
+<description>https://astrophysicsbrazil.bandcamp.com/album/the-unending-need-for-perpetual-motion https://mgmt.bandcamp.com/album/in-the-afternoon</description>
+<pubDate>2024-03-19 11:47:59.459413</pubDate>
 </item>
 
 </channel>

@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-03-20 11:48:45.617586</lastBuildDate>
+<lastBuildDate>2024-03-21 11:48:41.969978</lastBuildDate>
+<item>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2024-03-21_11:47:49.902175-jeffg__g</guid>
+<link>N/A</link>
+<description>https://hellometeor.bandcamp.com/album/the-coastal-obscure https://hellometeor.bandcamp.com/album/cimmerian https://hellometeor.bandcamp.com/album/conditioned-air https://demin.bandcamp.com/track/eyesite-demo</description>
+<pubDate>2024-03-21 11:47:49.902175</pubDate>
+</item>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-03-20_11:48:19.033805-jeffg__g</guid>
+<guid>release-2024-03-21_11:48:14.673146-jeffg__g</guid>
 <link>N/A</link>
-<description>https://cryochamber.bandcamp.com/album/metrophagy</description>
-<pubDate>2024-03-20 11:48:19.033805</pubDate>
+<description>https://demin.bandcamp.com/track/eyesite-demo</description>
+<pubDate>2024-03-21 11:48:14.673146</pubDate>
 </item>
 
 </channel>

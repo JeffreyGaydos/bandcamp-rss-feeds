@@ -1,5 +1,6 @@
 import datetime
 import const
+import random
 
 _process = "rss_aggregator.py"
 _user = "unknown user..."
@@ -54,3 +55,22 @@ def run(user, parsers):
         print(f"{_prefix} No updates detected for this user")    
         print(f"{_prefix} Exited successfully")
         return False
+    
+def createBandcampFridayItem(guidPrefix, date):
+    item = open("./item.rss").read()
+    gif = const._bandcampFridayGifs[random.randint(0, 2)]
+    item = item.replace(const._title, f"**It's Bandcamp Friday!**")
+    item = item.replace(const._guid, f"{guidPrefix}-{(str)(date).replace(' ', '_')}")
+    item = item.replace(const._links, gif)
+    item = item.replace(const._date, f"{date}")
+
+    print(f"{_prefix} Created item Bandcamp Friday")
+    return item
+
+def addBandcampFridayItem():
+    print(f"{_prefix} updating items.rss with bandcamp friday notification")
+
+    itemsrss = open("./items.rss", "a", -1, "utf-8")
+    itemsrss.write(createBandcampFridayItem("bandcamp-friday", (str)(datetime.datetime.now())))
+    itemsrss.write("\n")
+    itemsrss.close()

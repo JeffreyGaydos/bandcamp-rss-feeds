@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
+<link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
+<description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
+<lastBuildDate>2024-03-08 11:47:22.791366</lastBuildDate>
+<item>
+<title>It's Bandcamp Friday!</title>
+<guid>friday-2024-03-24_11:47:22.789713-all</guid>
+<link>N/A</link>
+<description>Something</description>
+<pubDate>2024-03-08 11:47:22.789713</pubDate>
+</item>
+
+</channel>
+</rss>

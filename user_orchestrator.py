@@ -36,6 +36,10 @@ for userTuple in open("users.ssf").read().split("\n"):
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _prefix = f"[{_process}]:"
 
+if(datetime.datetime.today().weekday() == 5 and datetime.datetime.today().day <= 7):
+    rss_aggregator.addBandcampFridayItem()
+    update = True
+
 #transfer items to final
 if update:
     dateString = (str)(datetime.datetime.now())

@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-03-26 11:48:55.282504</lastBuildDate>
+<lastBuildDate>2024-03-27 11:48:30.242637</lastBuildDate>
 <item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2024-03-26_11:47:47.595804-jeffg__g</guid>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-03-27_11:48:05.906289-bsg__</guid>
 <link>N/A</link>
-<description>https://finivoid.bandcamp.com/music https://cr3epymane.bandcamp.com/music https://kipptune.bandcamp.com/music https://melonadem.bandcamp.com/music</description>
-<pubDate>2024-03-26 11:47:47.595804</pubDate>
+<description>https://windows96.bandcamp.com/album/nostalgi-gaius</description>
+<pubDate>2024-03-27 11:48:05.906289</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-03-27_11:48:30.241647-bsg__</guid>
+<link>N/A</link>
+<description>https://vacation.bandcamp.com/album/rare-earth</description>
+<pubDate>2024-03-27 11:48:30.241647</pubDate>
 </item>
 
 </channel>

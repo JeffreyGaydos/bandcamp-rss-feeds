@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-04-20 11:48:38.939559</lastBuildDate>
+<lastBuildDate>2024-04-22 11:48:22.910724</lastBuildDate>
 <item>
 <title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2024-04-20_11:47:34.778286-jeffg__g</guid>
+<guid>wishlist-2024-04-22_11:47:36.535051-jeffg__g</guid>
 <link>N/A</link>
-<description>https://girlfriendsandboyfriends.bandcamp.com/album/our-garden</description>
-<pubDate>2024-04-20 11:47:34.778286</pubDate>
+<description>https://fmskyline.bandcamp.com/album/images</description>
+<pubDate>2024-04-22 11:47:36.535051</pubDate>
 </item>
 <item>
-<title>Release update for **bsg__**</title>
-<guid>release-2024-04-20_11:48:38.938769-bsg__</guid>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2024-04-22_11:47:35.681268-jeffg__g</guid>
 <link>N/A</link>
-<description>https://davebuker.bandcamp.com/album/what-can-bring-you-back-to-me-10th-anniversary-edition</description>
-<pubDate>2024-04-20 11:48:38.938769</pubDate>
+<description>https://fmskyline.bandcamp.com/music</description>
+<pubDate>2024-04-22 11:47:35.681268</pubDate>
+</item>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-04-22_11:47:58.825952-jeffg__g</guid>
+<link>N/A</link>
+<description>https://flamingosis1.bandcamp.com/track/anime-elegy</description>
+<pubDate>2024-04-22 11:47:58.825952</pubDate>
 </item>
 
 </channel>

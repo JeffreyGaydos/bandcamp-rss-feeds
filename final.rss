@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-04-24 11:48:30.414847</lastBuildDate>
+<lastBuildDate>2024-04-25 11:48:27.126907</lastBuildDate>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-04-25_11:47:51.751905-jeffg__g</guid>
+<link>N/A</link>
+<description>https://softcult.bandcamp.com/track/one-of-the-pack</description>
+<pubDate>2024-04-25 11:47:51.751905</pubDate>
+</item>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-04-24_11:47:58.996931-bsg__</guid>
+<guid>wishlist-2024-04-25_11:47:53.929942-bsg__</guid>
 <link>N/A</link>
-<description>https://wildnothingct.bandcamp.com/album/gemini</description>
-<pubDate>2024-04-24 11:47:58.996931</pubDate>
+<description>https://dontgetlemon.bandcamp.com/album/have-some-shame https://chatterton.bandcamp.com/album/fields-of-this</description>
+<pubDate>2024-04-25 11:47:53.929942</pubDate>
 </item>
 
 </channel>

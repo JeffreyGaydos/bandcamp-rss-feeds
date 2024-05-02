@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-05-01 11:48:25.230640</lastBuildDate>
+<lastBuildDate>2024-05-02 11:48:39.881957</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-05-01_11:48:03.426757-jeffg__g</guid>
+<guid>release-2024-05-02_11:48:12.487796-jeffg__g</guid>
 <link>N/A</link>
-<description>https://daverodgersmusic.bandcamp.com/track/sunshine-in-your-eyes-2024-remix-2</description>
-<pubDate>2024-05-01 11:48:03.426757</pubDate>
+<description>https://washedout.bandcamp.com/album/notes-from-a-quiet-life</description>
+<pubDate>2024-05-02 11:48:12.487796</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-05-02_11:48:39.881063-bsg__</guid>
+<link>N/A</link>
+<description>https://illuminatihotties.bandcamp.com/track/cant-be-still</description>
+<pubDate>2024-05-02 11:48:39.881063</pubDate>
 </item>
 
 </channel>

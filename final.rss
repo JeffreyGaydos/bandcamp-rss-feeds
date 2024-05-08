@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-05-06 11:48:20.156277</lastBuildDate>
+<lastBuildDate>2024-05-08 11:48:37.936436</lastBuildDate>
 <item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2024-05-06_11:47:33.758899-jeffg__g</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-05-08_11:48:08.054071-jeffg__g</guid>
 <link>N/A</link>
-<description>https://sapphyre.bandcamp.com/track/light-essence</description>
-<pubDate>2024-05-06 11:47:33.758899</pubDate>
+<description>https://daverodgersmusic.bandcamp.com/album/initial-dave-eurobeat-series-vol-7</description>
+<pubDate>2024-05-08 11:48:08.054071</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-05-08_11:48:09.895841-bsg__</guid>
+<link>N/A</link>
+<description>https://frogconcert.bandcamp.com/album/slumbering-sounds-of-the-frog-fellowship https://drahla.bandcamp.com/album/angeltape</description>
+<pubDate>2024-05-08 11:48:09.895841</pubDate>
 </item>
 
 </channel>

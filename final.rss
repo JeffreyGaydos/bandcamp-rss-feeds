@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-05-09 11:48:26.331011</lastBuildDate>
+<lastBuildDate>2024-05-10 11:48:19.440185</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-05-09_11:48:01.934339-jeffg__g</guid>
+<guid>release-2024-05-10_11:48:02.578434-jeffg__g</guid>
 <link>N/A</link>
-<description>https://daverodgersmusic.bandcamp.com/track/dont-cry-eurobeat-version https://daverodgersmusic.bandcamp.com/album/rocking-the-city-2024-remastered</description>
-<pubDate>2024-05-09 11:48:01.934339</pubDate>
+<description>https://ghost.bandcamp.com/album/rite-here-rite-now-original-motion-picture-soundtrack https://voyage95.bandcamp.com/track/afterimage</description>
+<pubDate>2024-05-10 11:48:02.578434</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-05-10_11:48:04.307838-bsg__</guid>
+<link>N/A</link>
+<description>https://cynthoni.bandcamp.com/album/sewerslvt-presents-cynthoni-pt-1-ep</description>
+<pubDate>2024-05-10 11:48:04.307838</pubDate>
 </item>
 
 </channel>

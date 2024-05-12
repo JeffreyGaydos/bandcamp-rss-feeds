@@ -4,13 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-05-11 11:48:19.317088</lastBuildDate>
+<lastBuildDate>2024-05-12 11:48:29.939343</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-05-11_11:48:01.913184-jeffg__g</guid>
+<guid>release-2024-05-12_11:48:09.206893-jeffg__g</guid>
 <link>N/A</link>
-<description>https://flamingosis1.bandcamp.com/album/better-will-come https://windows96.bandcamp.com/album/yes-da-da-da</description>
-<pubDate>2024-05-11 11:48:01.913184</pubDate>
+<description>https://turquoisedeath.bandcamp.com/album/fools-sanctuary</description>
+<pubDate>2024-05-12 11:48:09.206893</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-05-12_11:48:10.962382-bsg__</guid>
+<link>N/A</link>
+<description>https://windows96.bandcamp.com/album/yes-da-da-da</description>
+<pubDate>2024-05-12 11:48:10.962382</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-05-12_11:48:29.938662-bsg__</guid>
+<link>N/A</link>
+<description>https://turquoisedeath.bandcamp.com/album/fools-sanctuary</description>
+<pubDate>2024-05-12 11:48:29.938662</pubDate>
 </item>
 
 </channel>

@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-05-23 11:48:21.584637</lastBuildDate>
+<lastBuildDate>2024-05-24 11:48:43.865315</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-05-23_11:47:59.161941-jeffg__g</guid>
+<guid>release-2024-05-24_11:48:12.612831-jeffg__g</guid>
 <link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/album/raise-the-sun</description>
-<pubDate>2024-05-23 11:47:59.161941</pubDate>
+<description>https://softcult.bandcamp.com/album/heaven</description>
+<pubDate>2024-05-24 11:48:12.612831</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-05-24_11:48:15.148320-bsg__</guid>
+<link>N/A</link>
+<description>https://midairthief.bandcamp.com/album/crumbling https://mutebranches.bandcamp.com/album/the-detective-is-dead https://inquietus.bandcamp.com/album/every-star-dies</description>
+<pubDate>2024-05-24 11:48:15.148320</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2024-05-23_11:48:21.583848-bsg__</guid>
+<guid>release-2024-05-24_11:48:43.864456-bsg__</guid>
 <link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/album/raise-the-sun https://mforsleep.bandcamp.com/album/two-lonely-stars</description>
-<pubDate>2024-05-23 11:48:21.583848</pubDate>
+<description>https://mforsleep.bandcamp.com/album/facing-the-southern-sunset-lights https://cathedralbellsmusic.bandcamp.com/track/corridor</description>
+<pubDate>2024-05-24 11:48:43.864456</pubDate>
 </item>
 
 </channel>

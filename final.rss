@@ -4,27 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-05-25 11:48:43.213213</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2024-05-25_11:47:43.234821-jeffg__g</guid>
-<link>N/A</link>
-<description>https://hellometeor.bandcamp.com/album/shadow-boundaries https://softcult.bandcamp.com/album/heaven</description>
-<pubDate>2024-05-25 11:47:43.234821</pubDate>
-</item>
+<lastBuildDate>2024-05-26 11:48:18.066701</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-05-25_11:48:12.304576-jeffg__g</guid>
+<guid>release-2024-05-26_11:47:53.804434-jeffg__g</guid>
 <link>N/A</link>
-<description>https://robinguthrie.bandcamp.com/album/springtime-ep https://robinguthrie.bandcamp.com/album/riviera-ep https://robinguthrie.bandcamp.com/album/pearldiving-album https://robinguthrie.bandcamp.com/album/mockingbird-love-ep https://robinguthrie.bandcamp.com/album/fortune-album https://robinguthrie.bandcamp.com/album/emeralds-album https://hotelpoolsmusic.bandcamp.com/album/nature</description>
-<pubDate>2024-05-25 11:48:12.304576</pubDate>
+<description>https://klauswiese.bandcamp.com/album/sol-night-version-complete-album-included</description>
+<pubDate>2024-05-26 11:47:53.804434</pubDate>
 </item>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-05-25_11:48:14.012589-bsg__</guid>
+<guid>wishlist-2024-05-26_11:47:55.364969-bsg__</guid>
 <link>N/A</link>
-<description>https://convulserecords.bandcamp.com/album/paranoid-in-hell</description>
-<pubDate>2024-05-25 11:48:14.012589</pubDate>
+<description>https://gilah.bandcamp.com/album/from-where-im-standing</description>
+<pubDate>2024-05-26 11:47:55.364969</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-05-26_11:48:18.065849-bsg__</guid>
+<link>N/A</link>
+<description>https://klauswiese.bandcamp.com/album/sol-night-version-complete-album-included</description>
+<pubDate>2024-05-26 11:48:18.065849</pubDate>
 </item>
 
 </channel>

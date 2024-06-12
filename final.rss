@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-06-11 11:48:19.398719</lastBuildDate>
+<lastBuildDate>2024-06-12 11:48:12.827374</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-06-11_11:47:56.009924-jeffg__g</guid>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-06-12_11:47:53.909206-bsg__</guid>
 <link>N/A</link>
-<description>https://shook.bandcamp.com/album/synth-funk https://shook.bandcamp.com/album/distorted-love-love-for-you-single https://shook.bandcamp.com/track/tidal-single</description>
-<pubDate>2024-06-11 11:47:56.009924</pubDate>
+<description>https://bibio.bandcamp.com/album/ovals-emeralds</description>
+<pubDate>2024-06-12 11:47:53.909206</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-06-12_11:48:12.826562-bsg__</guid>
+<link>N/A</link>
+<description>https://scattersun.bandcamp.com/album/scattersun?label=672087633&tab=music</description>
+<pubDate>2024-06-12 11:48:12.826562</pubDate>
 </item>
 
 </channel>

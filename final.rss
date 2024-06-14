@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-06-13 11:48:19.412328</lastBuildDate>
+<lastBuildDate>2024-06-14 11:48:11.419208</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-06-13_11:47:55.499265-jeffg__g</guid>
+<guid>release-2024-06-14_11:47:50.000008-jeffg__g</guid>
 <link>N/A</link>
-<description>https://shook.bandcamp.com/album/synth-funk-ep</description>
-<pubDate>2024-06-13 11:47:55.499265</pubDate>
+<description>https://usedcvnt.bandcamp.com/track/you-wont-regret-w-dvdirl</description>
+<pubDate>2024-06-14 11:47:50.000008</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-06-14_11:47:51.655410-bsg__</guid>
+<link>N/A</link>
+<description>https://rebeccatrescher.bandcamp.com/album/rebecca-trescher-tentet-character-pieces</description>
+<pubDate>2024-06-14 11:47:51.655410</pubDate>
 </item>
 
 </channel>

@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-06-16 11:47:59.965663</lastBuildDate>
+<lastBuildDate>2024-06-20 11:48:30.917175</lastBuildDate>
 <item>
 <title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2024-06-16_11:47:17.494552-jeffg__g</guid>
+<guid>wishlist-2024-06-20_11:47:42.460774-jeffg__g</guid>
 <link>N/A</link>
-<description>https://shook.bandcamp.com/album/rpg-ep</description>
-<pubDate>2024-06-16 11:47:17.494552</pubDate>
+<description>https://hellometeor.bandcamp.com/album/the-oahu-gp-2-hyper-tropic</description>
+<pubDate>2024-06-20 11:47:42.460774</pubDate>
 </item>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-06-16_11:47:37.327138-jeffg__g</guid>
+<guid>release-2024-06-20_11:48:07.512792-jeffg__g</guid>
 <link>N/A</link>
-<description>https://shook.bandcamp.com/album/rpg-ep</description>
-<pubDate>2024-06-16 11:47:37.327138</pubDate>
+<description>https://hellometeor.bandcamp.com/album/the-oahu-gp-2-hyper-tropic</description>
+<pubDate>2024-06-20 11:48:07.512792</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-06-20_11:48:09.210261-bsg__</guid>
+<link>N/A</link>
+<description>https://monoofjapan.bandcamp.com/album/oath https://digital.susumuhirasawa.com/album/kai-kai</description>
+<pubDate>2024-06-20 11:48:09.210261</pubDate>
 </item>
 
 </channel>

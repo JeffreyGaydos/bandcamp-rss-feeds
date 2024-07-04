@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-07-03 11:48:45.373650</lastBuildDate>
+<lastBuildDate>2024-07-04 11:48:30.919013</lastBuildDate>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-07-03_11:48:09.626046-bsg__</guid>
+<guid>wishlist-2024-07-04_11:48:09.717531-bsg__</guid>
 <link>N/A</link>
-<description>https://unknowntoknown.bandcamp.com/album/river-crossing https://night-school.bandcamp.com/album/tristwch-y-fenywod https://xtheband.bandcamp.com/album/more-fun-in-the-new-world</description>
-<pubDate>2024-07-03 11:48:09.626046</pubDate>
+<description>https://eliwinter.bandcamp.com/album/eli-winter</description>
+<pubDate>2024-07-04 11:48:09.717531</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-07-04_11:48:30.918209-bsg__</guid>
+<link>N/A</link>
+<description>https://swissportrait.bandcamp.com/track/photobooth</description>
+<pubDate>2024-07-04 11:48:30.918209</pubDate>
 </item>
 
 </channel>

@@ -60,7 +60,7 @@
 [release_parser.py:jeffg__g]: Got 118420 bytes of data.
 [release_parser.py:jeffg__g]: Got 117600 bytes of data.
 [release_parser.py:jeffg__g]: Got 126182 bytes of data.
-[release_parser.py:jeffg__g]: Got 133888 bytes of data.
+[release_parser.py:jeffg__g]: Got 133174 bytes of data.
 [release_parser.py:jeffg__g]: Got 120158 bytes of data.
 [release_parser.py:jeffg__g]: Got 145524 bytes of data.
 [release_parser.py:jeffg__g]: Got 123558 bytes of data.
@@ -96,7 +96,7 @@
 [collection_parser.py:bsg__]: Found 0 new collection items
 [collection_parser.py:bsg__]: Exited successfully
 [wishlist_parser.py:bsg__]: Found 272 links...
-[wishlist_parser.py:bsg__]: Found 1 new wishlist items
+[wishlist_parser.py:bsg__]: Found 0 new wishlist items
 [wishlist_parser.py:bsg__]: Exited successfully
 [release_parser.py:bsg__]: Pinging bandcamp release feed for user bsg__
 [release_parser.py:bsg__]: Got 222948 bytes of data.
@@ -163,7 +163,7 @@
 [release_parser.py:bsg__]: Got 117624 bytes of data.
 [release_parser.py:bsg__]: Got 120971 bytes of data.
 [release_parser.py:bsg__]: Got 120464 bytes of data.
-[release_parser.py:bsg__]: Got 147567 bytes of data.
+[release_parser.py:bsg__]: Got 143744 bytes of data.
 [release_parser.py:bsg__]: Got 118534 bytes of data.
 [release_parser.py:bsg__]: Got 120162 bytes of data.
 [release_parser.py:bsg__]: Got 120015 bytes of data.
@@ -176,10 +176,11 @@
 [release_parser.py:bsg__]: Got 119846 bytes of data.
 [release_parser.py:bsg__]: Got 211057 bytes of data.
 [release_parser.py:bsg__]: Found 660 links...
-[release_parser.py:bsg__]: Found 1 new release items
+[release_parser.py:bsg__]: Found 0 new release items
 [release_parser.py:bsg__]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Wishlist update for **bsg__**
-[rss_aggregator.py:unknown user...]: Created item Release update for **bsg__**
-[rss_aggregator.py:bsg__]: updating items.rss with 2 updates for this user
-[user_orchestrator.py]: Updating final.rss at 2024-07-04 11:48:30.919013
+[rss_aggregator.py:bsg__]: No updates detected for this user
+[rss_aggregator.py:bsg__]: Exited successfully
+[rss_aggregator.py:unknown user...]: updating items.rss with bandcamp friday notification
+[rss_aggregator.py:unknown user...]: Created item Bandcamp Friday
+[user_orchestrator.py]: Updating final.rss at 2024-07-05 11:48:22.933815
 [user_orchestrator.py]: Exited successfully

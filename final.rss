@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-07-05 11:48:22.933815</lastBuildDate>
+<lastBuildDate>2024-07-06 11:48:10.490394</lastBuildDate>
 <item>
-<title>**It's Bandcamp Friday!**</title>
-<guid>bandcamp-friday-2024-07-05_11:48:22.933734</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2024-07-06_11:47:31.206599-jeffg__g</guid>
 <link>N/A</link>
-<description>https://media.discordapp.net/attachments/971520732544766002/1221323444453376112/BandcampFriday1.gif?ex=66122918&is=65ffb418&hm=80ded9ee523c51ace839fe231cf5079294e9badeca9f714046016cd139d93588&=</description>
-<pubDate>2024-07-05 11:48:22.933734</pubDate>
+<description>https://eagleeyedtiger.bandcamp.com/album/smile-for-the-camera-2 https://eagleeyedtiger.bandcamp.com/track/fly-me-to-the-groove-2 https://hotelpoolsmusic.bandcamp.com/album/nature</description>
+<pubDate>2024-07-06 11:47:31.206599</pubDate>
+</item>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-07-06_11:47:49.430463-jeffg__g</guid>
+<link>N/A</link>
+<description>https://micromecha.bandcamp.com/album/mecha-saken https://hotelpoolsmusic.bandcamp.com/album/filo-3</description>
+<pubDate>2024-07-06 11:47:49.430463</pubDate>
 </item>
 
 </channel>

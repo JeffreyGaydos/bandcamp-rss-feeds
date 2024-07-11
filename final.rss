@@ -4,27 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-07-10 11:48:06.442464</lastBuildDate>
-<item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-07-10_11:47:44.844268-jeffg__g</guid>
-<link>N/A</link>
-<description>https://kinggizzard.bandcamp.com/album/flight-b741 https://turquoisedeath.bandcamp.com/album/little-victories</description>
-<pubDate>2024-07-10 11:47:44.844268</pubDate>
-</item>
+<lastBuildDate>2024-07-11 11:48:31.938968</lastBuildDate>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-07-10_11:47:47.113081-bsg__</guid>
+<guid>wishlist-2024-07-11_11:48:10.296917-bsg__</guid>
 <link>N/A</link>
-<description>https://slowdive.bandcamp.com/album/everything-is-alive</description>
-<pubDate>2024-07-10 11:47:47.113081</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2024-07-10_11:48:06.441677-bsg__</guid>
-<link>N/A</link>
-<description>https://toe-music.bandcamp.com/album/now-i-see-the-light?label=672087633&tab=music https://turquoisedeath.bandcamp.com/album/little-victories</description>
-<pubDate>2024-07-10 11:48:06.441677</pubDate>
+<description>https://trst.bandcamp.com/album/performance https://heynothing.bandcamp.com/album/maine https://intlanthem.bandcamp.com/album/small-medium-large https://toe-music.bandcamp.com/album/now-i-see-the-light https://moonglyph.bandcamp.com/album/to-live-die-in-space-time https://ovalangle.bandcamp.com/album/figures-of-speech</description>
+<pubDate>2024-07-11 11:48:10.296917</pubDate>
 </item>
 
 </channel>

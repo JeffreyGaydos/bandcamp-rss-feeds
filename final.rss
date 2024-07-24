@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-07-21 11:48:04.284605</lastBuildDate>
+<lastBuildDate>2024-07-24 11:48:29.102848</lastBuildDate>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-07-24_11:48:01.058746-bsg__</guid>
+<link>N/A</link>
+<description>https://nadasurf.bandcamp.com/album/never-not-together https://golemm.bandcamp.com/album/smile-fight</description>
+<pubDate>2024-07-24 11:48:01.058746</pubDate>
+</item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2024-07-21_11:48:04.283803-bsg__</guid>
+<guid>release-2024-07-24_11:48:29.101955-bsg__</guid>
 <link>N/A</link>
-<description>https://golemm.bandcamp.com/album/smile-fight</description>
-<pubDate>2024-07-21 11:48:04.283803</pubDate>
+<description>https://ruahruahruah.bandcamp.com/track/fond-affections-this-mortal-coil-rema-rema</description>
+<pubDate>2024-07-24 11:48:29.101955</pubDate>
 </item>
 
 </channel>

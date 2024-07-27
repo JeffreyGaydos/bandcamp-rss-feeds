@@ -4,34 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-07-26 11:48:24.137365</lastBuildDate>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2024-07-26_11:47:42.785537-jeffg__g</guid>
-<link>N/A</link>
-<description>https://douglasholmquist.bandcamp.com/music</description>
-<pubDate>2024-07-26 11:47:42.785537</pubDate>
-</item>
-<item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-07-26_11:48:02.115894-jeffg__g</guid>
-<link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/album/hold-tight</description>
-<pubDate>2024-07-26 11:48:02.115894</pubDate>
-</item>
-<item>
-<title>Collection update for **bsg__**</title>
-<guid>collection-2024-07-26_11:48:02.312353-bsg__</guid>
-<link>N/A</link>
-<description>https://sweepingpromises.bandcamp.com/album/good-living-is-coming-for-you-2 https://sweepingpromises.bandcamp.com/album/hunger-for-a-way-out</description>
-<pubDate>2024-07-26 11:48:02.312353</pubDate>
-</item>
+<lastBuildDate>2024-07-27 11:48:22.958309</lastBuildDate>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2024-07-26_11:48:24.136511-bsg__</guid>
+<guid>release-2024-07-27_11:48:22.957491-bsg__</guid>
 <link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/album/hold-tight</description>
-<pubDate>2024-07-26 11:48:24.136511</pubDate>
+<description>https://cathedralbellsmusic.bandcamp.com/track/all-that-remained-ft-porch-kiss</description>
+<pubDate>2024-07-27 11:48:22.957491</pubDate>
 </item>
 
 </channel>

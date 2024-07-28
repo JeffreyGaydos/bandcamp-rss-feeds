@@ -37,7 +37,8 @@ _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _prefix = f"[{_process}]:"
 
 # add notification on Thursday (4) so that it will appear Friday morning
-if(datetime.datetime.today().weekday() == 4 and datetime.datetime.today().day <= 7):
+#if(datetime.datetime.today().weekday() == 4 and datetime.datetime.today().day <= 7):
+if(generic_parser.isItBandcampFriday()):
     rss_aggregator.addBandcampFridayItem()
     update = True
 

@@ -45,6 +45,27 @@ def udpateSsf(links, parserName, user, prefix, newSource = False):
 
     print(f"{prefix} Exited successfully")
 
+def isItBandcampFriday():
+    requestsResponse = requests.get(f"https://isitbandcampfriday.com/", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+    rawContent = requestsResponse.content
+
+    soup = BeautifulSoup(rawContent, 'html.parser')
+    #yesWord = soup.select('span.next-fundraiser')
+    nextDates = soup.select('div#bandcamp-friday-vm')[0]["data-fundraisers"]
+
+    theNextDate = nextDates[nextDates.index("\"display\":") + 11:nextDates.index("\"},{")]
+
+    theNextDate = theNextDate.replace("th,", "")
+    theNextDate = theNextDate.replace("st,", "")
+    theNextDate = theNextDate.replace("rd,", "")
+    theNextDate = theNextDate.replace("nd,", "")
+    dateOfNextBandcampFriday = datetime.datetime.strptime(theNextDate, '%B %d %Y')
+    dateOfNextBandcampFriday = dateOfNextBandcampFriday + datetime.timedelta(days=-1)
+    today = datetime.datetime.now().date()
+    isItThough = dateOfNextBandcampFriday == datetime.datetime(today.year, today.month, today.day)
+
+    return isItThough
+
 def getLinks(source, prefix, querySelector, urlPostfix):
     requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     rawContent = requestsResponse.content

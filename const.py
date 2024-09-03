@@ -13,3 +13,4 @@ _bandcampFridayGifs = [
     "https://media.discordapp.net/attachments/971520732544766002/1221323444810154004/BandcampFriday2.gif?ex=66122918&is=65ffb418&hm=0c345350097384a5678287b85123659c294aff4baa9b4bc3bd76f8eee09e6a39&=",
     "https://media.discordapp.net/attachments/971520732544766002/1221323445217005668/BandcampFriday3.gif?ex=66122918&is=65ffb418&hm=06b0142b915e51f0e11ad205f99ae2428cdeb5c7631064cd7a0a0359334036a5&="
 ]
+_pingDelay = 0.1

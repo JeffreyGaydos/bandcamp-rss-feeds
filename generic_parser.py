@@ -1,3 +1,4 @@
+import time
 import datetime
 import requests
 import const
@@ -46,6 +47,7 @@ def udpateSsf(links, parserName, user, prefix, newSource = False):
     print(f"{prefix} Exited successfully")
 
 def isItBandcampFriday():
+    time.sleep(const._pingDelay)
     requestsResponse = requests.get(f"https://isitbandcampfriday.com/", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     rawContent = requestsResponse.content
 
@@ -67,6 +69,7 @@ def isItBandcampFriday():
     return isItThough
 
 def getLinks(source, prefix, querySelector, urlPostfix):
+    time.sleep(const._pingDelay)
     requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     rawContent = requestsResponse.content
 
@@ -123,6 +126,7 @@ def runGet(user, parserName, urlPostfix, querySelector, artists=[]):
 def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields):
     process = f"{parserName}_parser.py"
     prefix = f"[{process}:{user}]:"
+    time.sleep(const._pingDelay)
     postResponse = requests.post(f"{const._bandcampCollectionAPI}/{urlPostfix}", f"{{\"fan_id\":{fanID},\"older_than_token\":\"9999999999:9999999999{tokenPostfix}\",\"count\":1000000}}")
     jsondata = postResponse.json()[field]
     links = []

@@ -12,7 +12,7 @@
 [release_parser.py:jeffg__g]: Pinging bandcamp release feed for user jeffg__g
 [release_parser.py:jeffg__g]: Got 132563 bytes of data.
 [release_parser.py:jeffg__g]: Got 121499 bytes of data.
-[release_parser.py:jeffg__g]: Got 135974 bytes of data.
+[release_parser.py:jeffg__g]: Got 132151 bytes of data.
 [release_parser.py:jeffg__g]: Got 129113 bytes of data.
 [release_parser.py:jeffg__g]: Got 123281 bytes of data.
 [release_parser.py:jeffg__g]: Got 132493 bytes of data.
@@ -23,7 +23,7 @@
 [release_parser.py:jeffg__g]: Got 105493 bytes of data.
 [release_parser.py:jeffg__g]: Got 123865 bytes of data.
 [release_parser.py:jeffg__g]: Got 127578 bytes of data.
-[release_parser.py:jeffg__g]: Got 218529 bytes of data.
+[release_parser.py:jeffg__g]: Got 218444 bytes of data.
 [release_parser.py:jeffg__g]: Got 146835 bytes of data.
 [release_parser.py:jeffg__g]: Got 156743 bytes of data.
 [release_parser.py:jeffg__g]: Got 121405 bytes of data.
@@ -73,8 +73,8 @@
 [release_parser.py:jeffg__g]: Got 135835 bytes of data.
 [release_parser.py:jeffg__g]: Got 128706 bytes of data.
 [release_parser.py:jeffg__g]: Got 126528 bytes of data.
-[release_parser.py:jeffg__g]: Got 236457 bytes of data.
-[release_parser.py:jeffg__g]: Got 128973 bytes of data.
+[release_parser.py:jeffg__g]: Got 236465 bytes of data.
+[release_parser.py:jeffg__g]: Got 127385 bytes of data.
 [release_parser.py:jeffg__g]: Got 131917 bytes of data.
 [release_parser.py:jeffg__g]: Got 135755 bytes of data.
 [release_parser.py:jeffg__g]: Got 134700 bytes of data.
@@ -107,7 +107,7 @@
 [release_parser.py:bsg__]: Got 155851 bytes of data.
 [release_parser.py:bsg__]: Got 129048 bytes of data.
 [release_parser.py:bsg__]: Got 126751 bytes of data.
-[release_parser.py:bsg__]: Got 125506 bytes of data.
+[release_parser.py:bsg__]: Got 126400 bytes of data.
 [release_parser.py:bsg__]: Got 124505 bytes of data.
 [release_parser.py:bsg__]: Got 121982 bytes of data.
 [release_parser.py:bsg__]: Got 130586 bytes of data.
@@ -117,7 +117,7 @@
 [release_parser.py:bsg__]: Got 167317 bytes of data.
 [release_parser.py:bsg__]: Got 123143 bytes of data.
 [release_parser.py:bsg__]: Got 126061 bytes of data.
-[release_parser.py:bsg__]: Got 134817 bytes of data.
+[release_parser.py:bsg__]: Got 138623 bytes of data.
 [release_parser.py:bsg__]: Got 133679 bytes of data.
 [release_parser.py:bsg__]: Got 191041 bytes of data.
 [release_parser.py:bsg__]: Got 122753 bytes of data.
@@ -131,7 +131,7 @@
 [release_parser.py:bsg__]: Got 124644 bytes of data.
 [release_parser.py:bsg__]: Got 135055 bytes of data.
 [release_parser.py:bsg__]: Got 124292 bytes of data.
-[release_parser.py:bsg__]: Got 123980 bytes of data.
+[release_parser.py:bsg__]: Got 123175 bytes of data.
 [release_parser.py:bsg__]: Got 124530 bytes of data.
 [release_parser.py:bsg__]: Got 126641 bytes of data.
 [release_parser.py:bsg__]: Got 138553 bytes of data.
@@ -141,7 +141,7 @@
 [release_parser.py:bsg__]: Got 124735 bytes of data.
 [release_parser.py:bsg__]: Got 125959 bytes of data.
 [release_parser.py:bsg__]: Got 126884 bytes of data.
-[release_parser.py:bsg__]: Got 132157 bytes of data.
+[release_parser.py:bsg__]: Got 129842 bytes of data.
 [release_parser.py:bsg__]: Got 129132 bytes of data.
 [release_parser.py:bsg__]: Got 122392 bytes of data.
 [release_parser.py:bsg__]: Got 129646 bytes of data.
@@ -149,7 +149,7 @@
 [release_parser.py:bsg__]: Got 125837 bytes of data.
 [release_parser.py:bsg__]: Got 134115 bytes of data.
 [release_parser.py:bsg__]: Got 123829 bytes of data.
-[release_parser.py:bsg__]: Got 144963 bytes of data.
+[release_parser.py:bsg__]: Got 144251 bytes of data.
 [release_parser.py:bsg__]: Got 228352 bytes of data.
 [release_parser.py:bsg__]: Got 131267 bytes of data.
 [release_parser.py:bsg__]: Got 122107 bytes of data.
@@ -159,7 +159,7 @@
 [release_parser.py:bsg__]: Got 132966 bytes of data.
 [release_parser.py:bsg__]: Got 125268 bytes of data.
 [release_parser.py:bsg__]: Got 124256 bytes of data.
-[release_parser.py:bsg__]: Got 126241 bytes of data.
+[release_parser.py:bsg__]: Got 140895 bytes of data.
 [release_parser.py:bsg__]: Got 122827 bytes of data.
 [release_parser.py:bsg__]: Got 218301 bytes of data.
 [release_parser.py:bsg__]: Got 133415 bytes of data.

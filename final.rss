@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-09-06 11:48:47.601596</lastBuildDate>
+<lastBuildDate>2024-09-07 11:48:35.512979</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-09-06_11:48:15.302240-jeffg__g</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2024-09-07_11:47:22.914183-jeffg__g</guid>
 <link>N/A</link>
-<description>https://heavenwardband.bandcamp.com/track/tangerine-hundredth-version https://turquoisedeath.bandcamp.com/album/kaleidoscope https://robinguthrie.bandcamp.com/track/mountain</description>
-<pubDate>2024-09-06 11:48:15.302240</pubDate>
+<description>https://heavenwardband.bandcamp.com/track/tangerine-hundredth-version</description>
+<pubDate>2024-09-07 11:47:22.914183</pubDate>
 </item>
 <item>
-<title>Release update for **bsg__**</title>
-<guid>release-2024-09-06_11:48:47.309929-bsg__</guid>
+<title>Collection update for **jeffg__g**</title>
+<guid>collection-2024-09-07_11:47:22.291977-jeffg__g</guid>
 <link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/album/kaleidoscope https://swissportrait.bandcamp.com/track/tumbleweed https://imorgana.bandcamp.com/album/amour-propre</description>
-<pubDate>2024-09-06 11:48:47.309929</pubDate>
+<description>https://softcult.bandcamp.com/album/heaven</description>
+<pubDate>2024-09-07 11:47:22.291977</pubDate>
+</item>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-09-07_11:47:58.091661-jeffg__g</guid>
+<link>N/A</link>
+<description>https://eagleeyedtiger.bandcamp.com/album/inside-our-crumbling-castle-2 https://miamihorror.bandcamp.com/track/beyond-us https://starfucker.bandcamp.com/album/parallel-realms-deluxe-edition</description>
+<pubDate>2024-09-07 11:47:58.091661</pubDate>
 </item>
 
 </channel>

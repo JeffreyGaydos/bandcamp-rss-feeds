@@ -4,27 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-09-07 11:48:35.512979</lastBuildDate>
+<lastBuildDate>2024-09-10 11:48:30.976279</lastBuildDate>
 <item>
 <title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2024-09-07_11:47:22.914183-jeffg__g</guid>
+<guid>wishlist-2024-09-10_11:47:32.715241-jeffg__g</guid>
 <link>N/A</link>
-<description>https://heavenwardband.bandcamp.com/track/tangerine-hundredth-version</description>
-<pubDate>2024-09-07 11:47:22.914183</pubDate>
-</item>
-<item>
-<title>Collection update for **jeffg__g**</title>
-<guid>collection-2024-09-07_11:47:22.291977-jeffg__g</guid>
-<link>N/A</link>
-<description>https://softcult.bandcamp.com/album/heaven</description>
-<pubDate>2024-09-07 11:47:22.291977</pubDate>
-</item>
-<item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-09-07_11:47:58.091661-jeffg__g</guid>
-<link>N/A</link>
-<description>https://eagleeyedtiger.bandcamp.com/album/inside-our-crumbling-castle-2 https://miamihorror.bandcamp.com/track/beyond-us https://starfucker.bandcamp.com/album/parallel-realms-deluxe-edition</description>
-<pubDate>2024-09-07 11:47:58.091661</pubDate>
+<description>https://eagleeyedtiger.bandcamp.com/album/inside-our-crumbling-castle-2</description>
+<pubDate>2024-09-10 11:47:32.715241</pubDate>
 </item>
 
 </channel>

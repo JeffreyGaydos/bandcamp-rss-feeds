@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-09-12 11:48:52.923956</lastBuildDate>
+<lastBuildDate>2024-09-13 11:48:36.401003</lastBuildDate>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-09-12_11:48:19.989614-bsg__</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-09-13_11:48:02.530456-jeffg__g</guid>
 <link>N/A</link>
-<description>https://disintegrationcleveland.bandcamp.com/album/shiver-in-a-weak-light https://swimmingswam.bandcamp.com/album/thats-ok https://adambosarge.bandcamp.com/album/structures-without-rooms https://waveracerscollective.bandcamp.com/album/irly https://cynthoni.bandcamp.com/album/sewerslvt-presents-cynthoni-pt-2-ep</description>
-<pubDate>2024-09-12 11:48:19.989614</pubDate>
+<description>https://daverodgersmusic.bandcamp.com/track/zombie-dance-by-youll-melt-more</description>
+<pubDate>2024-09-13 11:48:02.530456</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-09-13_11:48:36.117888-bsg__</guid>
+<link>N/A</link>
+<description>https://golemm.bandcamp.com/track/haha https://golemm.bandcamp.com/track/golemm-time https://taleenkali.bandcamp.com/track/cupid-come-my-bloody-valentine-cover</description>
+<pubDate>2024-09-13 11:48:36.117888</pubDate>
 </item>
 
 </channel>

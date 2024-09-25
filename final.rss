@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-09-24 11:48:58.638918</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2024-09-24_11:47:37.291217-jeffg__g</guid>
-<link>N/A</link>
-<description>https://solarfields.bandcamp.com/album/leaving-home https://solarfields.bandcamp.com/album/blue-moon-station</description>
-<pubDate>2024-09-24 11:47:37.291217</pubDate>
-</item>
+<lastBuildDate>2024-09-25 11:48:36.504606</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-09-24_11:48:16.121797-jeffg__g</guid>
+<guid>release-2024-09-25_11:48:04.378923-jeffg__g</guid>
 <link>N/A</link>
-<description>https://micromecha.bandcamp.com/album/vaporloot-set-2024 https://washedout.bandcamp.com/album/high-times</description>
-<pubDate>2024-09-24 11:48:16.121797</pubDate>
+<description>https://hellometeor.bandcamp.com/album/premium-grey-market</description>
+<pubDate>2024-09-25 11:48:04.378923</pubDate>
 </item>
 
 </channel>

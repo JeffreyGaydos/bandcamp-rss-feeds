@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-09-26 11:48:52.035310</lastBuildDate>
+<lastBuildDate>2024-09-27 11:48:52.430873</lastBuildDate>
 <item>
 <title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2024-09-26_11:47:29.029146-jeffg__g</guid>
+<guid>wishlist-2024-09-27_11:47:28.086322-jeffg__g</guid>
 <link>N/A</link>
-<description>https://solarfields.bandcamp.com/album/red https://solarfields.bandcamp.com/album/green</description>
-<pubDate>2024-09-26 11:47:29.029146</pubDate>
+<description>https://solarfields.bandcamp.com/album/reflective-frequencies https://solarfields.bandcamp.com/track/wasted-feeling-solar-fields-remix https://solarfields.bandcamp.com/track/insum-2014-remix https://solarfields.bandcamp.com/track/cluster https://solarfields.bandcamp.com/album/blue-moon-station-remastered https://solarfields.bandcamp.com/track/by-the-void</description>
+<pubDate>2024-09-27 11:47:28.086322</pubDate>
 </item>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-09-26_11:48:12.462354-bsg__</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-09-27_11:48:09.326159-jeffg__g</guid>
 <link>N/A</link>
-<description>https://leathers.bandcamp.com/album/reckless</description>
-<pubDate>2024-09-26 11:48:12.462354</pubDate>
+<description>https://heavenwardband.bandcamp.com/album/pyrophonics-deluxe-edition https://teenagewrist.bandcamp.com/album/still-love-deluxe</description>
+<pubDate>2024-09-27 11:48:09.326159</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-09-27_11:48:51.915968-bsg__</guid>
+<link>N/A</link>
+<description>https://swissportrait.bandcamp.com/album/someday</description>
+<pubDate>2024-09-27 11:48:51.915968</pubDate>
 </item>
 
 </channel>

@@ -4,13 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-09-30 11:48:36.434378</lastBuildDate>
+<lastBuildDate>2024-10-01 11:48:43.139711</lastBuildDate>
 <item>
-<title>Collection update for **jeffg__g**</title>
-<guid>collection-2024-09-30_11:47:30.501838-jeffg__g</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2024-10-01_11:48:12.124111-jeffg__g</guid>
 <link>N/A</link>
-<description>https://solarfields.bandcamp.com/track/cluster</description>
-<pubDate>2024-09-30 11:47:30.501838</pubDate>
+<description>https://trevorsomething.bandcamp.com/track/die-1000x https://turquoisedeath.bandcamp.com/album/saraba-no-seishin</description>
+<pubDate>2024-10-01 11:48:12.124111</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-10-01_11:48:14.390729-bsg__</guid>
+<link>N/A</link>
+<description>https://chaincult.bandcamp.com/album/harm-reduction https://fontainesdc.bandcamp.com/album/romance</description>
+<pubDate>2024-10-01 11:48:14.390729</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-10-01_11:48:42.815820-bsg__</guid>
+<link>N/A</link>
+<description>https://cynthoni.bandcamp.com/album/smoke-it-to-the-butt https://turquoisedeath.bandcamp.com/album/saraba-no-seishin</description>
+<pubDate>2024-10-01 11:48:42.815820</pubDate>
 </item>
 
 </channel>

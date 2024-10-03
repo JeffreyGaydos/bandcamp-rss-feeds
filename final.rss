@@ -4,27 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-10-01 11:48:43.139711</lastBuildDate>
-<item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-10-01_11:48:12.124111-jeffg__g</guid>
-<link>N/A</link>
-<description>https://trevorsomething.bandcamp.com/track/die-1000x https://turquoisedeath.bandcamp.com/album/saraba-no-seishin</description>
-<pubDate>2024-10-01 11:48:12.124111</pubDate>
-</item>
-<item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-10-01_11:48:14.390729-bsg__</guid>
-<link>N/A</link>
-<description>https://chaincult.bandcamp.com/album/harm-reduction https://fontainesdc.bandcamp.com/album/romance</description>
-<pubDate>2024-10-01 11:48:14.390729</pubDate>
-</item>
+<lastBuildDate>2024-10-03 11:48:55.348970</lastBuildDate>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2024-10-01_11:48:42.815820-bsg__</guid>
+<guid>release-2024-10-03_11:48:55.004669-bsg__</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/album/smoke-it-to-the-butt https://turquoisedeath.bandcamp.com/album/saraba-no-seishin</description>
-<pubDate>2024-10-01 11:48:42.815820</pubDate>
+<description>https://mdoumoctar.bandcamp.com/album/tears-of-injustice</description>
+<pubDate>2024-10-03 11:48:55.004669</pubDate>
+</item>
+<item>
+<title>**It's Bandcamp Friday!**</title>
+<guid>bandcamp-friday-2024-10-03_11:48:55.348876</guid>
+<link>N/A</link>
+<description>https://media.discordapp.net/attachments/971520732544766002/1221323444453376112/BandcampFriday1.gif?ex=66122918&is=65ffb418&hm=80ded9ee523c51ace839fe231cf5079294e9badeca9f714046016cd139d93588&=</description>
+<pubDate>2024-10-03 11:48:55.348876</pubDate>
 </item>
 
 </channel>

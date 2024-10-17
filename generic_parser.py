@@ -4,6 +4,7 @@ import requests
 import const
 from bs4 import BeautifulSoup
 import re
+import json
 
 # links: the array of links output from the calling function; a list of links we want to update on
 # parserName: the parserName from the calling function
@@ -55,14 +56,13 @@ def isItBandcampFriday():
     #yesWord = soup.select('span.next-fundraiser')
     nextDates = soup.select('div#bandcamp-friday-vm')[0]["data-fundraisers"]
 
-    theNextDate = nextDates[nextDates.index("\"display\":") + 11:nextDates.index("\"},{")]
+    theNextDate = json.loads(nextDates)[0]["display"]
 
     theNextDate = theNextDate.replace("th,", "")
     theNextDate = theNextDate.replace("st,", "")
     theNextDate = theNextDate.replace("rd,", "")
     theNextDate = theNextDate.replace("nd,", "")
     dateOfNextBandcampFriday = datetime.datetime.strptime(theNextDate, '%B %d %Y')
-    dateOfNextBandcampFriday = dateOfNextBandcampFriday + datetime.timedelta(days=-1)
     today = datetime.datetime.now().date()
     isItThough = dateOfNextBandcampFriday == datetime.datetime(today.year, today.month, today.day)
 

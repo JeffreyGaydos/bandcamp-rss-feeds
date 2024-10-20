@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-10-19 11:48:28.550189</lastBuildDate>
-<item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-10-19_11:47:53.863124-jeffg__g</guid>
-<link>N/A</link>
-<description>https://micromecha.bandcamp.com/album/v-i-o-l-e-t-b-l-a-d-e</description>
-<pubDate>2024-10-19 11:47:53.863124</pubDate>
-</item>
+<lastBuildDate>2024-10-20 11:48:24.595872</lastBuildDate>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2024-10-19_11:48:28.076171-bsg__</guid>
+<guid>release-2024-10-20_11:48:24.233135-bsg__</guid>
 <link>N/A</link>
-<description>https://hoorayforearth.bandcamp.com/album/absolute-batman-1-soundtrack-prototype-af-ccny24</description>
-<pubDate>2024-10-19 11:48:28.076171</pubDate>
+<description>https://femtanyl.bandcamp.com/track/m3-n-min3-feat-danny-brown</description>
+<pubDate>2024-10-20 11:48:24.233135</pubDate>
 </item>
 
 </channel>

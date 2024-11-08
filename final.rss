@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-11-07 11:48:34.622247</lastBuildDate>
-<item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2024-11-07_11:48:00.337325-jeffg__g</guid>
-<link>N/A</link>
-<description>https://robinguthrie.bandcamp.com/album/astoria-ep</description>
-<pubDate>2024-11-07 11:48:00.337325</pubDate>
-</item>
+<lastBuildDate>2024-11-08 11:48:44.625054</lastBuildDate>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-11-07_11:48:03.609205-bsg__</guid>
+<guid>wishlist-2024-11-08_11:48:09.936666-bsg__</guid>
 <link>N/A</link>
-<description>https://1-800-mikey.bandcamp.com/album/digital-pet</description>
-<pubDate>2024-11-07 11:48:03.609205</pubDate>
+<description>https://picturethat.bandcamp.com/album/strum</description>
+<pubDate>2024-11-08 11:48:09.936666</pubDate>
 </item>
 
 </channel>

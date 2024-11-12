@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-11-11 11:48:39.357279</lastBuildDate>
+<lastBuildDate>2024-11-12 11:48:30.900270</lastBuildDate>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-11-11_11:48:02.888699-bsg__</guid>
+<guid>wishlist-2024-11-12_11:47:59.251025-bsg__</guid>
 <link>N/A</link>
-<description>https://mapsforgettinglost.bandcamp.com/album/river-crossing</description>
-<pubDate>2024-11-11 11:48:02.888699</pubDate>
+<description>https://jennyscheinman.bandcamp.com/album/all-species-parade https://shiftingparadigmrecords.bandcamp.com/album/human-activity-dream-of-the-possible https://svaneborgkardyb.bandcamp.com/album/superkilen</description>
+<pubDate>2024-11-12 11:47:59.251025</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2024-11-12_11:48:30.522106-bsg__</guid>
+<link>N/A</link>
+<description>https://bdrmm.bandcamp.com/album/microtonic</description>
+<pubDate>2024-11-12 11:48:30.522106</pubDate>
 </item>
 
 </channel>

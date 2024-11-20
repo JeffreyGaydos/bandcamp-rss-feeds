@@ -4,27 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-11-18 11:48:53.628025</lastBuildDate>
+<lastBuildDate>2024-11-20 11:48:51.647024</lastBuildDate>
+<item>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2024-11-20_11:47:45.550882-jeffg__g</guid>
+<link>N/A</link>
+<description>https://stevereich.bandcamp.com/album/reich-richter https://stevereich.bandcamp.com/album/music-for-18-musicians</description>
+<pubDate>2024-11-20 11:47:45.550882</pubDate>
+</item>
+<item>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2024-11-20_11:47:44.542300-jeffg__g</guid>
+<link>N/A</link>
+<description>https://stevereich.bandcamp.com/music</description>
+<pubDate>2024-11-20 11:47:44.542300</pubDate>
+</item>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-11-18_11:48:20.314538-jeffg__g</guid>
+<guid>release-2024-11-20_11:48:19.100636-jeffg__g</guid>
 <link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/track/you-make-me-feel</description>
-<pubDate>2024-11-18 11:48:20.314538</pubDate>
-</item>
-<item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2024-11-18_11:48:22.863027-bsg__</guid>
-<link>N/A</link>
-<description>https://stevereich.bandcamp.com/album/music-for-18-musicians</description>
-<pubDate>2024-11-18 11:48:22.863027</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2024-11-18_11:48:53.335419-bsg__</guid>
-<link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/track/you-make-me-feel</description>
-<pubDate>2024-11-18 11:48:53.335419</pubDate>
+<description>https://hellometeor.bandcamp.com/album/the-1995-new-expo</description>
+<pubDate>2024-11-20 11:48:19.100636</pubDate>
 </item>
 
 </channel>

@@ -70,7 +70,7 @@ def isItBandcampFriday():
         return isItThough
     else:
         print("Unable to find next bandcamp Friday. Recieved: " + soup.text)
-        print("Here's the raw HTML: " + rawContent)
+        print("Here's the raw HTML: " + (str)(rawContent))
         return False
 
 def getLinks(source, prefix, querySelector, urlPostfix):

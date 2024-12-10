@@ -54,19 +54,24 @@ def isItBandcampFriday():
 
     soup = BeautifulSoup(rawContent, 'html.parser')
     #yesWord = soup.select('span.next-fundraiser')
-    nextDates = soup.select('div#bandcamp-friday-vm')[0]["data-fundraisers"]
+    if(len(soup.select('div#bandcamp-friday-vm')) > 0 and soup.select('div#bandcamp-friday-vm')[0].has_attr("data-fundraisers")):
+        nextDates = soup.select('div#bandcamp-friday-vm')[0]["data-fundraisers"]
 
-    theNextDate = json.loads(nextDates)[0]["display"]
+        theNextDate = json.loads(nextDates)[0]["display"]
 
-    theNextDate = theNextDate.replace("th,", "")
-    theNextDate = theNextDate.replace("st,", "")
-    theNextDate = theNextDate.replace("rd,", "")
-    theNextDate = theNextDate.replace("nd,", "")
-    dateOfNextBandcampFriday = datetime.datetime.strptime(theNextDate, '%B %d %Y')
-    today = datetime.datetime.now().date()
-    isItThough = dateOfNextBandcampFriday == datetime.datetime(today.year, today.month, today.day)
+        theNextDate = theNextDate.replace("th,", "")
+        theNextDate = theNextDate.replace("st,", "")
+        theNextDate = theNextDate.replace("rd,", "")
+        theNextDate = theNextDate.replace("nd,", "")
+        dateOfNextBandcampFriday = datetime.datetime.strptime(theNextDate, '%B %d %Y')
+        today = datetime.datetime.now().date()
+        isItThough = dateOfNextBandcampFriday == datetime.datetime(today.year, today.month, today.day)
 
-    return isItThough
+        return isItThough
+    else:
+        print("Unable to find next bandcamp Friday. Recieved: " + soup.text)
+        print("Here's the raw HTML: " + (str)(rawContent))
+        return False
 
 def getLinks(source, prefix, querySelector, urlPostfix):
     time.sleep(const._pingDelay)

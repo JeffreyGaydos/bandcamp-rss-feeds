@@ -4,13 +4,34 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-12-12 11:48:51.411833</lastBuildDate>
+<lastBuildDate>2024-12-13 11:48:47.382409</lastBuildDate>
+<item>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2024-12-13_11:47:26.902363-jeffg__g</guid>
+<link>N/A</link>
+<description>https://datarebel.bandcamp.com/album/electra-cid https://datarebel.bandcamp.com/album/scapes https://pizzahotline.bandcamp.com/album/hold-music-archive-tape-002</description>
+<pubDate>2024-12-13 11:47:26.902363</pubDate>
+</item>
+<item>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2024-12-13_11:47:25.760364-jeffg__g</guid>
+<link>N/A</link>
+<description>https://datarebel.bandcamp.com/music https://sungazermusic.bandcamp.com/music</description>
+<pubDate>2024-12-13 11:47:25.760364</pubDate>
+</item>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-12-12_11:48:14.283670-jeffg__g</guid>
+<guid>release-2024-12-13_11:48:10.278441-jeffg__g</guid>
 <link>N/A</link>
-<description>https://c418.bandcamp.com/track/wanderstop</description>
-<pubDate>2024-12-12 11:48:14.283670</pubDate>
+<description>https://usedcvnt.bandcamp.com/album/the-world-doesnt-care</description>
+<pubDate>2024-12-13 11:48:10.278441</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2024-12-13_11:48:13.016866-bsg__</guid>
+<link>N/A</link>
+<description>https://turquoisedeath.bandcamp.com/album/furtherworld-6</description>
+<pubDate>2024-12-13 11:48:13.016866</pubDate>
 </item>
 
 </channel>

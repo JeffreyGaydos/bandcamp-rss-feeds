@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-12-15 11:48:36.222356</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2024-12-15_11:47:28.925734-jeffg__g</guid>
-<link>N/A</link>
-<description>https://saulstokes.bandcamp.com/album/rain-maker-frequensea-episode-6</description>
-<pubDate>2024-12-15 11:47:28.925734</pubDate>
-</item>
+<lastBuildDate>2024-12-17 11:48:51.449230</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2024-12-15_11:48:04.029105-jeffg__g</guid>
+<guid>release-2024-12-17_11:48:19.093225-jeffg__g</guid>
 <link>N/A</link>
-<description>https://tkdpll.bandcamp.com/album/isle-of-procyon</description>
-<pubDate>2024-12-15 11:48:04.029105</pubDate>
+<description>https://desertsand.bandcamp.com/album/perli-tal-passat</description>
+<pubDate>2024-12-17 11:48:19.093225</pubDate>
 </item>
 
 </channel>

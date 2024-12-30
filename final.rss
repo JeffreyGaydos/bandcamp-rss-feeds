@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2024-12-28 11:48:36.634879</lastBuildDate>
+<lastBuildDate>2024-12-30 11:48:53.040960</lastBuildDate>
+<item>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2024-12-30_11:47:34.375507-jeffg__g</guid>
+<link>N/A</link>
+<description>https://machinegirl.bandcamp.com/album/mg-ultra https://machinegirl.bandcamp.com/album/neon-white-ost-2-the-burn-that-cures</description>
+<pubDate>2024-12-30 11:47:34.375507</pubDate>
+</item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2024-12-28_11:48:36.356999-bsg__</guid>
+<guid>release-2024-12-30_11:48:52.837008-bsg__</guid>
 <link>N/A</link>
-<description>https://farbik.bandcamp.com/album/backyard-tape</description>
-<pubDate>2024-12-28 11:48:36.356999</pubDate>
+<description>https://farbik.bandcamp.com/album/- https://farbik.bandcamp.com/album/quark-expresso</description>
+<pubDate>2024-12-30 11:48:52.837008</pubDate>
 </item>
 
 </channel>

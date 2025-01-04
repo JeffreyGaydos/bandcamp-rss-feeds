@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-01-03 11:49:23.317083</lastBuildDate>
+<lastBuildDate>2025-01-04 11:48:48.589040</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2025-01-03_11:48:35.618842-jeffg__g</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2025-01-04_11:47:23.905359-jeffg__g</guid>
 <link>N/A</link>
-<description>https://sapphyre.bandcamp.com/track/mystic</description>
-<pubDate>2025-01-03 11:48:35.618842</pubDate>
+<description>https://narrowheadtx.bandcamp.com/album/moments-of-clarity https://narrowheadtx.bandcamp.com/album/satisfaction https://superheavenband.bandcamp.com/album/long-gone-numb-to-what-is-real https://superheavenband.bandcamp.com/album/ours-is-chrome https://titlefightmusic.bandcamp.com/album/hyperview https://superheavenband.bandcamp.com/album/jar</description>
+<pubDate>2025-01-04 11:47:23.905359</pubDate>
 </item>
 <item>
-<title>Release update for **bsg__**</title>
-<guid>release-2025-01-03_11:49:22.974583-bsg__</guid>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2025-01-04_11:47:22.412428-jeffg__g</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/album/lvstlove-single</description>
-<pubDate>2025-01-03 11:49:22.974583</pubDate>
+<description>https://narrowheadtx.bandcamp.com/music https://superheavenband.bandcamp.com/music</description>
+<pubDate>2025-01-04 11:47:22.412428</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2025-01-04_11:48:12.005887-bsg__</guid>
+<link>N/A</link>
+<description>https://kmru.bandcamp.com/album/jar https://runforcoverrecords.bandcamp.com/album/jar https://el-b.bandcamp.com/album/southside-summer-wooly-road-creep-love-life-lost</description>
+<pubDate>2025-01-04 11:48:12.005887</pubDate>
 </item>
 
 </channel>

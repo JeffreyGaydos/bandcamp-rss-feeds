@@ -4,27 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-01-17 11:49:03.136274</lastBuildDate>
+<lastBuildDate>2025-01-18 11:49:11.565458</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-01-17_11:48:27.219321-jeffg__g</guid>
+<guid>release-2025-01-18_11:48:34.475653-jeffg__g</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/album/even-further-down-the-drain-single</description>
-<pubDate>2025-01-17 11:48:27.219321</pubDate>
-</item>
-<item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2025-01-17_11:48:30.007301-bsg__</guid>
-<link>N/A</link>
-<description>https://grossorecords.bandcamp.com/album/tito-puente-mambo-goz-n-the-rca-years-1949-1960</description>
-<pubDate>2025-01-17 11:48:30.007301</pubDate>
+<description>https://bayledges.bandcamp.com/track/early-90s-richard-houghten-remix</description>
+<pubDate>2025-01-18 11:48:34.475653</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2025-01-17_11:49:02.921459-bsg__</guid>
+<guid>release-2025-01-18_11:49:11.245499-bsg__</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/album/even-further-down-the-drain-single</description>
-<pubDate>2025-01-17 11:49:02.921459</pubDate>
+<description>https://bayledges.bandcamp.com/track/early-90s-richard-houghten-remix</description>
+<pubDate>2025-01-18 11:49:11.245499</pubDate>
 </item>
 
 </channel>

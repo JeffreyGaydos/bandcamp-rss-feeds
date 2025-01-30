@@ -4,27 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-01-29 11:48:57.902445</lastBuildDate>
+<lastBuildDate>2025-01-30 11:48:51.943825</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-01-29_11:48:26.992358-jeffg__g</guid>
+<guid>release-2025-01-30_11:48:21.727375-jeffg__g</guid>
 <link>N/A</link>
-<description>https://untitleddist.bandcamp.com/album/bad-dog-ep https://hellometeor.bandcamp.com/album/mondo-canyon</description>
-<pubDate>2025-01-29 11:48:26.992358</pubDate>
-</item>
-<item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2025-01-29_11:48:29.621779-bsg__</guid>
-<link>N/A</link>
-<description>https://cheapskaperecords.bandcamp.com/album/3dklonoacore-vol-1</description>
-<pubDate>2025-01-29 11:48:29.621779</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2025-01-29_11:48:57.671067-bsg__</guid>
-<link>N/A</link>
-<description>https://weatherornot.bandcamp.com/album/hornet-disaster?label=672087633&tab=music</description>
-<pubDate>2025-01-29 11:48:57.671067</pubDate>
+<description>https://mommaband.bandcamp.com/album/welcome-to-my-blue-sky</description>
+<pubDate>2025-01-30 11:48:21.727375</pubDate>
 </item>
 
 </channel>

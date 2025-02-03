@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-02-02 11:49:02.483990</lastBuildDate>
+<lastBuildDate>2025-02-03 11:48:57.498389</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2025-02-02_11:48:29.013975-jeffg__g</guid>
+<title>Collection update for **jeffg__g**</title>
+<guid>collection-2025-02-03_11:47:34.751178-jeffg__g</guid>
 <link>N/A</link>
-<description>https://shook.bandcamp.com/track/within-you</description>
-<pubDate>2025-02-02 11:48:29.013975</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2025-02-02_11:49:02.172395-bsg__</guid>
-<link>N/A</link>
-<description>https://shook.bandcamp.com/track/within-you</description>
-<pubDate>2025-02-02 11:49:02.172395</pubDate>
+<description>https://mommaband.bandcamp.com/album/household-name</description>
+<pubDate>2025-02-03 11:47:34.751178</pubDate>
 </item>
 
 </channel>

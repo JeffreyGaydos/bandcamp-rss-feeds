@@ -4,13 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-02-24 11:49:04.089170</lastBuildDate>
+<lastBuildDate>2025-02-26 11:49:19.330042</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-02-24_11:48:27.984103-jeffg__g</guid>
+<guid>release-2025-02-26_11:48:42.432306-jeffg__g</guid>
 <link>N/A</link>
-<description>https://tkdpll.bandcamp.com/album/mortal-machine</description>
-<pubDate>2025-02-24 11:48:27.984103</pubDate>
+<description>https://persica3.bandcamp.com/album/beauty-in-the-noise https://persica3.bandcamp.com/album/tangerine</description>
+<pubDate>2025-02-26 11:48:42.432306</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2025-02-26_11:48:45.137558-bsg__</guid>
+<link>N/A</link>
+<description>https://leylinehex.bandcamp.com/album/somewhere-in-between</description>
+<pubDate>2025-02-26 11:48:45.137558</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-02-26_11:49:19.011580-bsg__</guid>
+<link>N/A</link>
+<description>https://thanyaiyer.bandcamp.com/album/tide-tied?label=672087633&tab=music https://smilingbroadly.bandcamp.com/album/for-a-moment-i-saw-myself-as-inexorably-beautiful https://smilingbroadly.bandcamp.com/album/smiling-broadly-ep https://smilingbroadly.bandcamp.com/album/connections-and-feelings-2014-2022 https://smilingbroadly.bandcamp.com/album/touched-or-been-touched-by-2 https://smilingbroadly.bandcamp.com/album/endless-summer-malaise https://smilingbroadly.bandcamp.com/album/all-fall-floral</description>
+<pubDate>2025-02-26 11:49:19.011580</pubDate>
 </item>
 
 </channel>

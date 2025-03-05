@@ -4,41 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-03-04 11:48:47.317163</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2025-03-04_11:47:33.341494-jeffg__g</guid>
-<link>N/A</link>
-<description>https://music.dynatronsynth.com/album/origins</description>
-<pubDate>2025-03-04 11:47:33.341494</pubDate>
-</item>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2025-03-04_11:47:31.954875-jeffg__g</guid>
-<link>N/A</link>
-<description>https://dynatron.bandcamp.com/music</description>
-<pubDate>2025-03-04 11:47:31.954875</pubDate>
-</item>
+<lastBuildDate>2025-03-05 11:48:57.077945</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-03-04_11:48:14.988768-jeffg__g</guid>
+<guid>release-2025-03-05_11:48:22.749008-jeffg__g</guid>
 <link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/album/blood-merchandise https://shook.bandcamp.com/album/the-cenote-sessions-ep</description>
-<pubDate>2025-03-04 11:48:14.988768</pubDate>
-</item>
-<item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2025-03-04_11:48:18.286497-bsg__</guid>
-<link>N/A</link>
-<description>https://andybell.bandcamp.com/album/pinball-wanderer https://deary.bandcamp.com/album/deary</description>
-<pubDate>2025-03-04 11:48:18.286497</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2025-03-04_11:48:47.079551-bsg__</guid>
-<link>N/A</link>
-<description>https://shook.bandcamp.com/album/the-cenote-sessions-ep https://turquoisedeath.bandcamp.com/album/blood-merchandise</description>
-<pubDate>2025-03-04 11:48:47.079551</pubDate>
+<description>https://ghost.bandcamp.com/album/skelet</description>
+<pubDate>2025-03-05 11:48:22.749008</pubDate>
 </item>
 
 </channel>

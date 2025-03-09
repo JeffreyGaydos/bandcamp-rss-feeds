@@ -4,27 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-03-08 11:49:09.594412</lastBuildDate>
+<lastBuildDate>2025-03-09 11:49:11.124915</lastBuildDate>
 <item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2025-03-08_11:47:34.500362-jeffg__g</guid>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-03-09_11:49:10.862527-bsg__</guid>
 <link>N/A</link>
-<description>https://dusqk.bandcamp.com/album/loveless-mini-mix</description>
-<pubDate>2025-03-08 11:47:34.500362</pubDate>
-</item>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2025-03-08_11:47:32.731111-jeffg__g</guid>
-<link>N/A</link>
-<description>https://midairthief.bandcamp.com/music</description>
-<pubDate>2025-03-08 11:47:32.731111</pubDate>
-</item>
-<item>
-<title>Following update for **bsg__**</title>
-<guid>following-2025-03-08_11:48:30.176412-bsg__</guid>
-<link>N/A</link>
-<description>https://devilscrosscountry.bandcamp.com/music</description>
-<pubDate>2025-03-08 11:48:30.176412</pubDate>
+<description>https://golemm.bandcamp.com/track/green-death https://golemm.bandcamp.com/track/hear-it-twize</description>
+<pubDate>2025-03-09 11:49:10.862527</pubDate>
 </item>
 
 </channel>

@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-03-09 11:49:11.124915</lastBuildDate>
+<lastBuildDate>2025-03-11 11:49:00.631549</lastBuildDate>
 <item>
-<title>Release update for **bsg__**</title>
-<guid>release-2025-03-09_11:49:10.862527-bsg__</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2025-03-11_11:47:33.671675-jeffg__g</guid>
 <link>N/A</link>
-<description>https://golemm.bandcamp.com/track/green-death https://golemm.bandcamp.com/track/hear-it-twize</description>
-<pubDate>2025-03-09 11:49:10.862527</pubDate>
+<description>https://davz.bandcamp.com/album/endless-paracosm</description>
+<pubDate>2025-03-11 11:47:33.671675</pubDate>
+</item>
+<item>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2025-03-11_11:47:32.099324-jeffg__g</guid>
+<link>N/A</link>
+<description>https://davz.bandcamp.com/music</description>
+<pubDate>2025-03-11 11:47:32.099324</pubDate>
 </item>
 
 </channel>

@@ -4,20 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-03-27 11:48:53.226130</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2025-03-27_11:47:28.424746-jeffg__g</guid>
-<link>N/A</link>
-<description>https://douglasholmquist.bandcamp.com/album/beyondium-ost https://douglasholmquist.bandcamp.com/album/smash-hit-ost</description>
-<pubDate>2025-03-27 11:47:28.424746</pubDate>
-</item>
+<lastBuildDate>2025-03-28 11:48:49.684605</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-03-27_11:48:19.728349-jeffg__g</guid>
+<guid>release-2025-03-28_11:48:17.369500-jeffg__g</guid>
 <link>N/A</link>
-<description>https://douglasholmquist.bandcamp.com/album/overlook-trail-original-game-soundtrack</description>
-<pubDate>2025-03-27 11:48:19.728349</pubDate>
+<description>https://sapphyre.bandcamp.com/track/partycja-ulotne-sapphyre-remix https://machinegirl.bandcamp.com/album/mrk90-mix-vol-1-cd</description>
+<pubDate>2025-03-28 11:48:17.369500</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-03-28_11:48:49.443152-bsg__</guid>
+<link>N/A</link>
+<description>https://machinegirl.bandcamp.com/album/mrk90-mix-vol-1-cd</description>
+<pubDate>2025-03-28 11:48:49.443152</pubDate>
 </item>
 
 </channel>

@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-03-30 11:48:42.461672</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2025-03-30_11:47:29.834517-jeffg__g</guid>
-<link>N/A</link>
-<description>https://demin.bandcamp.com/album/forgive-reformat</description>
-<pubDate>2025-03-30 11:47:29.834517</pubDate>
-</item>
+<lastBuildDate>2025-03-31 11:48:44.905127</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-03-30_11:48:15.441502-jeffg__g</guid>
+<guid>release-2025-03-31_11:48:12.539329-jeffg__g</guid>
 <link>N/A</link>
-<description>https://stateazure.bandcamp.com/album/the-light-that-remains</description>
-<pubDate>2025-03-30 11:48:15.441502</pubDate>
+<description>https://tkdpll.bandcamp.com/album/doppler-domain</description>
+<pubDate>2025-03-31 11:48:12.539329</pubDate>
 </item>
 
 </channel>

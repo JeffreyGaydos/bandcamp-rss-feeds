@@ -7,11 +7,11 @@
 [collection_parser.py:jeffg__g]: Found 0 new collection items
 [collection_parser.py:jeffg__g]: Exited successfully
 [wishlist_parser.py:jeffg__g]: Found 175 links...
-[wishlist_parser.py:jeffg__g]: Found 2 new wishlist items
+[wishlist_parser.py:jeffg__g]: Found 0 new wishlist items
 [wishlist_parser.py:jeffg__g]: Exited successfully
 [release_parser.py:jeffg__g]: Pinging bandcamp release feed for user jeffg__g
-[release_parser.py:jeffg__g]: Got 126508 bytes of data.
-[release_parser.py:jeffg__g]: Got 145074 bytes of data.
+[release_parser.py:jeffg__g]: Got 130331 bytes of data.
+[release_parser.py:jeffg__g]: Got 145287 bytes of data.
 [release_parser.py:jeffg__g]: Got 136090 bytes of data.
 [release_parser.py:jeffg__g]: Got 123611 bytes of data.
 [release_parser.py:jeffg__g]: Got 123858 bytes of data.
@@ -43,7 +43,7 @@
 [release_parser.py:jeffg__g]: Got 129656 bytes of data.
 [release_parser.py:jeffg__g]: Got 128227 bytes of data.
 [release_parser.py:jeffg__g]: Got 154746 bytes of data.
-[release_parser.py:jeffg__g]: Got 124679 bytes of data.
+[release_parser.py:jeffg__g]: Got 137521 bytes of data.
 [release_parser.py:jeffg__g]: Got 134742 bytes of data.
 [release_parser.py:jeffg__g]: Got 129089 bytes of data.
 [release_parser.py:jeffg__g]: Got 131167 bytes of data.
@@ -118,9 +118,9 @@
 [release_parser.py:jeffg__g]: Got 247018 bytes of data.
 [release_parser.py:jeffg__g]: Got 128346 bytes of data.
 [release_parser.py:jeffg__g]: Got 129003 bytes of data.
-[release_parser.py:jeffg__g]: Got 141009 bytes of data.
+[release_parser.py:jeffg__g]: Got 140303 bytes of data.
 [release_parser.py:jeffg__g]: Got 136209 bytes of data.
-[release_parser.py:jeffg__g]: Got 153911 bytes of data.
+[release_parser.py:jeffg__g]: Got 153169 bytes of data.
 [release_parser.py:jeffg__g]: Got 131382 bytes of data.
 [release_parser.py:jeffg__g]: Got 133297 bytes of data.
 [release_parser.py:jeffg__g]: Got 167849 bytes of data.
@@ -131,9 +131,8 @@
 [release_parser.py:jeffg__g]: Found 1268 links...
 [release_parser.py:jeffg__g]: Found 1 new release items
 [release_parser.py:jeffg__g]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Wishlist update for **jeffg__g**
 [rss_aggregator.py:unknown user...]: Created item Release update for **jeffg__g**
-[rss_aggregator.py:jeffg__g]: updating items.rss with 2 updates for this user
+[rss_aggregator.py:jeffg__g]: updating items.rss with 1 updates for this user
 [following_parser.py:bsg__]: Found 88 links...
 [following_parser.py:bsg__]: Found 0 new following items
 [following_parser.py:bsg__]: Exited successfully
@@ -239,5 +238,5 @@
 [rss_aggregator.py:bsg__]: Exited successfully
 Unable to find next bandcamp Friday. Recieved: b''
 Here's the raw HTML: b''
-[user_orchestrator.py]: Updating final.rss at 2025-04-09 11:48:45.419314
+[user_orchestrator.py]: Updating final.rss at 2025-04-10 11:48:58.046968
 [user_orchestrator.py]: Exited successfully

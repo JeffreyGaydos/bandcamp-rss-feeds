@@ -4,27 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-04-23 11:48:50.223793</lastBuildDate>
+<lastBuildDate>2025-04-25 11:48:59.040532</lastBuildDate>
+<item>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2025-04-25_11:47:40.739007-jeffg__g</guid>
+<link>N/A</link>
+<description>https://kenjiueda.bandcamp.com/album/pasadena-garden</description>
+<pubDate>2025-04-25 11:47:40.739007</pubDate>
+</item>
+<item>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2025-04-25_11:47:39.398590-jeffg__g</guid>
+<link>N/A</link>
+<description>https://kenjiueda.bandcamp.com/music</description>
+<pubDate>2025-04-25 11:47:39.398590</pubDate>
+</item>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-04-23_11:48:20.041660-jeffg__g</guid>
+<guid>release-2025-04-25_11:48:29.356097-jeffg__g</guid>
 <link>N/A</link>
-<description>https://trevorsomething.bandcamp.com/album/lost-love-ep https://trevorsomething.bandcamp.com/album/die-with-you https://trevorsomething.bandcamp.com/album/soulless-computer-boy-and-the-eternal-render https://ghost.bandcamp.com/album/peacefield</description>
-<pubDate>2025-04-23 11:48:20.041660</pubDate>
-</item>
-<item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2025-04-23_11:48:23.375765-bsg__</guid>
-<link>N/A</link>
-<description>https://rindertlammers.bandcamp.com/album/thank-you-kirin-kiki</description>
-<pubDate>2025-04-23 11:48:23.375765</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2025-04-23_11:48:50.010568-bsg__</guid>
-<link>N/A</link>
-<description>https://subsoniceye.bandcamp.com/album/singapore-dreaming?label=672087633&tab=music</description>
-<pubDate>2025-04-23 11:48:50.010568</pubDate>
+<description>https://dusqk.bandcamp.com/album/manual-drive-1991 https://badsunsmusic.bandcamp.com/album/accelerator</description>
+<pubDate>2025-04-25 11:48:29.356097</pubDate>
 </item>
 
 </channel>

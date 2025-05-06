@@ -4,48 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-05-03 11:48:49.214714</lastBuildDate>
-<item>
-<title>Collection update for **jeffg__g**</title>
-<guid>collection-2025-05-03_11:47:21.634375-jeffg__g</guid>
-<link>N/A</link>
-<description>https://dusqk.bandcamp.com/album/loveless-mini-mix https://dusqk.bandcamp.com/album/angel-mem https://dusqk.bandcamp.com/album/heaven-exe https://dusqk.bandcamp.com/album/sanctuary-os</description>
-<pubDate>2025-05-03 11:47:21.634375</pubDate>
-</item>
+<lastBuildDate>2025-05-06 11:49:00.015169</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-05-03_11:48:16.437441-jeffg__g</guid>
+<guid>release-2025-05-06_11:48:25.975726-jeffg__g</guid>
 <link>N/A</link>
-<description>https://stateazure.bandcamp.com/album/core</description>
-<pubDate>2025-05-03 11:48:16.437441</pubDate>
-</item>
-<item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2025-05-03_11:48:19.391561-bsg__</guid>
-<link>N/A</link>
-<description>https://panamerican.bandcamp.com/album/new-world-lonely-ride</description>
-<pubDate>2025-05-03 11:48:19.391561</pubDate>
-</item>
-<item>
-<title>Following update for **bsg__**</title>
-<guid>following-2025-05-03_11:48:16.673223-bsg__</guid>
-<link>N/A</link>
-<description>https://etrandelair.bandcamp.com/music</description>
-<pubDate>2025-05-03 11:48:16.673223</pubDate>
-</item>
-<item>
-<title>Collection update for **bsg__**</title>
-<guid>collection-2025-05-03_11:48:16.989343-bsg__</guid>
-<link>N/A</link>
-<description>https://elephant-gym.bandcamp.com/album/angle https://etrandelair.bandcamp.com/album/agadez</description>
-<pubDate>2025-05-03 11:48:16.989343</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2025-05-03_11:48:48.966647-bsg__</guid>
-<link>N/A</link>
-<description>https://farbik.bandcamp.com/album/- https://farbik.bandcamp.com/album/quark-expresso https://farbik.bandcamp.com/album/backyard-tape https://farbik.bandcamp.com/album/r-hre https://farbik.bandcamp.com/track/maria https://farbik.bandcamp.com/album/rother https://farbik.bandcamp.com/album/himmelreich-h-llental-ep</description>
-<pubDate>2025-05-03 11:48:48.966647</pubDate>
+<description>https://menitrust.bandcamp.com/album/equus-caballus</description>
+<pubDate>2025-05-06 11:48:25.975726</pubDate>
 </item>
 
 </channel>

@@ -10,9 +10,9 @@
 [wishlist_parser.py:jeffg__g]: Found 0 new wishlist items
 [wishlist_parser.py:jeffg__g]: Exited successfully
 [release_parser.py:jeffg__g]: Pinging bandcamp release feed for user jeffg__g
-[release_parser.py:jeffg__g]: Got 128652 bytes of data.
+[release_parser.py:jeffg__g]: Got 127939 bytes of data.
 [release_parser.py:jeffg__g]: Got 203135 bytes of data.
-[release_parser.py:jeffg__g]: Got 134562 bytes of data.
+[release_parser.py:jeffg__g]: Got 133859 bytes of data.
 [release_parser.py:jeffg__g]: Got 137254 bytes of data.
 [release_parser.py:jeffg__g]: Got 123488 bytes of data.
 [release_parser.py:jeffg__g]: Got 126508 bytes of data.
@@ -25,7 +25,7 @@
 [release_parser.py:jeffg__g]: Got 113657 bytes of data.
 [release_parser.py:jeffg__g]: Got 129472 bytes of data.
 [release_parser.py:jeffg__g]: Got 126279 bytes of data.
-[release_parser.py:jeffg__g]: Got 130163 bytes of data.
+[release_parser.py:jeffg__g]: Got 126340 bytes of data.
 [release_parser.py:jeffg__g]: Got 134568 bytes of data.
 [release_parser.py:jeffg__g]: Got 131492 bytes of data.
 [release_parser.py:jeffg__g]: Got 134263 bytes of data.
@@ -47,8 +47,8 @@
 [release_parser.py:jeffg__g]: Got 131792 bytes of data.
 [release_parser.py:jeffg__g]: Got 129656 bytes of data.
 [release_parser.py:jeffg__g]: Got 128227 bytes of data.
-[release_parser.py:jeffg__g]: Got 158446 bytes of data.
-[release_parser.py:jeffg__g]: Got 132355 bytes of data.
+[release_parser.py:jeffg__g]: Got 157731 bytes of data.
+[release_parser.py:jeffg__g]: Got 131646 bytes of data.
 [release_parser.py:jeffg__g]: Got 165489 bytes of data.
 [release_parser.py:jeffg__g]: Got 135566 bytes of data.
 [release_parser.py:jeffg__g]: Got 123908 bytes of data.
@@ -76,8 +76,8 @@
 [release_parser.py:jeffg__g]: Got 124225 bytes of data.
 [release_parser.py:jeffg__g]: Got 107036 bytes of data.
 [release_parser.py:jeffg__g]: Got 124829 bytes of data.
-[release_parser.py:jeffg__g]: Got 146184 bytes of data.
-[release_parser.py:jeffg__g]: Got 219109 bytes of data.
+[release_parser.py:jeffg__g]: Got 145463 bytes of data.
+[release_parser.py:jeffg__g]: Got 219137 bytes of data.
 [release_parser.py:jeffg__g]: Got 147903 bytes of data.
 [release_parser.py:jeffg__g]: Got 123507 bytes of data.
 [release_parser.py:jeffg__g]: Got 127709 bytes of data.
@@ -112,14 +112,14 @@
 [release_parser.py:jeffg__g]: Got 147953 bytes of data.
 [release_parser.py:jeffg__g]: Got 125241 bytes of data.
 [release_parser.py:jeffg__g]: Got 130477 bytes of data.
-[release_parser.py:jeffg__g]: Got 157322 bytes of data.
+[release_parser.py:jeffg__g]: Got 156609 bytes of data.
 [release_parser.py:jeffg__g]: Got 142396 bytes of data.
 [release_parser.py:jeffg__g]: Got 131849 bytes of data.
 [release_parser.py:jeffg__g]: Got 132377 bytes of data.
 [release_parser.py:jeffg__g]: Got 137535 bytes of data.
 [release_parser.py:jeffg__g]: Got 131341 bytes of data.
 [release_parser.py:jeffg__g]: Got 127489 bytes of data.
-[release_parser.py:jeffg__g]: Got 240605 bytes of data.
+[release_parser.py:jeffg__g]: Got 240652 bytes of data.
 [release_parser.py:jeffg__g]: Got 128346 bytes of data.
 [release_parser.py:jeffg__g]: Got 143639 bytes of data.
 [release_parser.py:jeffg__g]: Got 129758 bytes of data.
@@ -147,7 +147,7 @@
 [wishlist_parser.py:bsg__]: Found 0 new wishlist items
 [wishlist_parser.py:bsg__]: Exited successfully
 [release_parser.py:bsg__]: Pinging bandcamp release feed for user bsg__
-[release_parser.py:bsg__]: Got 134562 bytes of data.
+[release_parser.py:bsg__]: Got 133859 bytes of data.
 [release_parser.py:bsg__]: Got 122244 bytes of data.
 [release_parser.py:bsg__]: Got 124854 bytes of data.
 [release_parser.py:bsg__]: Got 127534 bytes of data.

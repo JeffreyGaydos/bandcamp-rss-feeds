@@ -4,27 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-05-10 11:48:38.042277</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2025-05-10_11:47:24.331963-jeffg__g</guid>
-<link>N/A</link>
-<description>https://qasimnaqvi.bandcamp.com/album/endling https://stateazure.bandcamp.com/album/modular-works-iv https://windows96.bandcamp.com/album/awkward-dance-music</description>
-<pubDate>2025-05-10 11:47:24.331963</pubDate>
-</item>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2025-05-10_11:47:22.320738-jeffg__g</guid>
-<link>N/A</link>
-<description>https://qasimnaqvi.bandcamp.com/music https://erasedtapes.bandcamp.com/music https://etrandelair.bandcamp.com/music</description>
-<pubDate>2025-05-10 11:47:22.320738</pubDate>
-</item>
+<lastBuildDate>2025-05-13 11:49:01.341061</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-05-10_11:48:09.071202-jeffg__g</guid>
+<guid>release-2025-05-13_11:48:28.283302-jeffg__g</guid>
 <link>N/A</link>
-<description>https://hellometeor.bandcamp.com/album/the-oahu-gp-3-factory-team</description>
-<pubDate>2025-05-10 11:48:09.071202</pubDate>
+<description>https://shook.bandcamp.com/track/tidal-single</description>
+<pubDate>2025-05-13 11:48:28.283302</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-05-13_11:49:01.113012-bsg__</guid>
+<link>N/A</link>
+<description>https://shook.bandcamp.com/track/tidal-single</description>
+<pubDate>2025-05-13 11:49:01.113012</pubDate>
 </item>
 
 </channel>

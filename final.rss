@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-06-11 11:49:22.617052</lastBuildDate>
+<lastBuildDate>2025-06-13 11:49:04.104001</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-06-11_11:48:46.936041-jeffg__g</guid>
+<guid>release-2025-06-13_11:48:29.985237-jeffg__g</guid>
 <link>N/A</link>
-<description>https://rivalconsoles.bandcamp.com/album/mindseye?label=3219881500&tab=music</description>
-<pubDate>2025-06-11 11:48:46.936041</pubDate>
+<description>https://sapphyre.bandcamp.com/track/moonveil https://turquoisedeath.bandcamp.com/album/voyager https://alisonsynths.bandcamp.com/track/gradient</description>
+<pubDate>2025-06-13 11:48:29.985237</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-06-13_11:49:03.775495-bsg__</guid>
+<link>N/A</link>
+<description>https://turquoisedeath.bandcamp.com/album/voyager</description>
+<pubDate>2025-06-13 11:49:03.775495</pubDate>
 </item>
 
 </channel>

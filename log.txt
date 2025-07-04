@@ -31,7 +31,7 @@
 [release_parser.py:jeffg__g]: Got 139330 bytes of data.
 [release_parser.py:jeffg__g]: Got 136254 bytes of data.
 [release_parser.py:jeffg__g]: Got 139025 bytes of data.
-[release_parser.py:jeffg__g]: Got 139143 bytes of data.
+[release_parser.py:jeffg__g]: Got 140589 bytes of data.
 [release_parser.py:jeffg__g]: Got 142868 bytes of data.
 [release_parser.py:jeffg__g]: Got 139418 bytes of data.
 [release_parser.py:jeffg__g]: Got 128541 bytes of data.
@@ -64,7 +64,7 @@
 [release_parser.py:jeffg__g]: Got 131025 bytes of data.
 [release_parser.py:jeffg__g]: Got 128850 bytes of data.
 [release_parser.py:jeffg__g]: Got 132075 bytes of data.
-[release_parser.py:jeffg__g]: Got 237031 bytes of data.
+[release_parser.py:jeffg__g]: Got 237104 bytes of data.
 [release_parser.py:jeffg__g]: Got 148193 bytes of data.
 [release_parser.py:jeffg__g]: Got 128514 bytes of data.
 [release_parser.py:jeffg__g]: Got 138961 bytes of data.
@@ -76,10 +76,10 @@
 [release_parser.py:jeffg__g]: Got 129734 bytes of data.
 [release_parser.py:jeffg__g]: Got 140028 bytes of data.
 [release_parser.py:jeffg__g]: Got 128986 bytes of data.
-[release_parser.py:jeffg__g]: Got 111797 bytes of data.
+[release_parser.py:jeffg__g]: Got 112450 bytes of data.
 [release_parser.py:jeffg__g]: Got 129591 bytes of data.
 [release_parser.py:jeffg__g]: Got 148430 bytes of data.
-[release_parser.py:jeffg__g]: Got 223404 bytes of data.
+[release_parser.py:jeffg__g]: Got 223427 bytes of data.
 [release_parser.py:jeffg__g]: Got 139078 bytes of data.
 [release_parser.py:jeffg__g]: Got 128269 bytes of data.
 [release_parser.py:jeffg__g]: Got 132209 bytes of data.
@@ -113,7 +113,7 @@
 [release_parser.py:jeffg__g]: Got 137220 bytes of data.
 [release_parser.py:jeffg__g]: Got 152154 bytes of data.
 [release_parser.py:jeffg__g]: Got 130003 bytes of data.
-[release_parser.py:jeffg__g]: Got 136661 bytes of data.
+[release_parser.py:jeffg__g]: Got 136671 bytes of data.
 [release_parser.py:jeffg__g]: Got 155593 bytes of data.
 [release_parser.py:jeffg__g]: Got 147372 bytes of data.
 [release_parser.py:jeffg__g]: Got 136610 bytes of data.
@@ -121,7 +121,7 @@
 [release_parser.py:jeffg__g]: Got 142296 bytes of data.
 [release_parser.py:jeffg__g]: Got 136103 bytes of data.
 [release_parser.py:jeffg__g]: Got 140381 bytes of data.
-[release_parser.py:jeffg__g]: Got 242771 bytes of data.
+[release_parser.py:jeffg__g]: Got 242842 bytes of data.
 [release_parser.py:jeffg__g]: Got 134616 bytes of data.
 [release_parser.py:jeffg__g]: Got 148400 bytes of data.
 [release_parser.py:jeffg__g]: Got 134519 bytes of data.
@@ -134,8 +134,8 @@
 [release_parser.py:jeffg__g]: Got 136824 bytes of data.
 [release_parser.py:jeffg__g]: Got 138604 bytes of data.
 [release_parser.py:jeffg__g]: Got 148621 bytes of data.
-[release_parser.py:jeffg__g]: Found 1321 links...
-[release_parser.py:jeffg__g]: Found 2 new release items
+[release_parser.py:jeffg__g]: Found 1322 links...
+[release_parser.py:jeffg__g]: Found 5 new release items
 [release_parser.py:jeffg__g]: Exited successfully
 [rss_aggregator.py:unknown user...]: Created item Release update for **jeffg__g**
 [rss_aggregator.py:jeffg__g]: updating items.rss with 1 updates for this user
@@ -146,7 +146,7 @@
 [collection_parser.py:bsg__]: Found 0 new collection items
 [collection_parser.py:bsg__]: Exited successfully
 [wishlist_parser.py:bsg__]: Found 400 links...
-[wishlist_parser.py:bsg__]: Found 1 new wishlist items
+[wishlist_parser.py:bsg__]: Found 0 new wishlist items
 [wishlist_parser.py:bsg__]: Exited successfully
 [release_parser.py:bsg__]: Pinging bandcamp release feed for user bsg__
 [release_parser.py:bsg__]: Got 146427 bytes of data.
@@ -166,7 +166,7 @@
 [release_parser.py:bsg__]: Got 132100 bytes of data.
 [release_parser.py:bsg__]: Got 136554 bytes of data.
 [release_parser.py:bsg__]: Got 236382 bytes of data.
-[release_parser.py:bsg__]: Got 161423 bytes of data.
+[release_parser.py:bsg__]: Got 161446 bytes of data.
 [release_parser.py:bsg__]: Got 134773 bytes of data.
 [release_parser.py:bsg__]: Got 133027 bytes of data.
 [release_parser.py:bsg__]: Got 131232 bytes of data.
@@ -176,18 +176,18 @@
 [release_parser.py:bsg__]: Got 131838 bytes of data.
 [release_parser.py:bsg__]: Got 111541 bytes of data.
 [release_parser.py:bsg__]: Got 140428 bytes of data.
-[release_parser.py:bsg__]: Got 174756 bytes of data.
+[release_parser.py:bsg__]: Got 174779 bytes of data.
 [release_parser.py:bsg__]: Got 128866 bytes of data.
 [release_parser.py:bsg__]: Got 131786 bytes of data.
 [release_parser.py:bsg__]: Got 136217 bytes of data.
 [release_parser.py:bsg__]: Got 139620 bytes of data.
-[release_parser.py:bsg__]: Got 198266 bytes of data.
+[release_parser.py:bsg__]: Got 198289 bytes of data.
 [release_parser.py:bsg__]: Got 128450 bytes of data.
 [release_parser.py:bsg__]: Got 136967 bytes of data.
 [release_parser.py:bsg__]: Got 140400 bytes of data.
 [release_parser.py:bsg__]: Got 139392 bytes of data.
 [release_parser.py:bsg__]: Got 128665 bytes of data.
-[release_parser.py:bsg__]: Got 140783 bytes of data.
+[release_parser.py:bsg__]: Got 140781 bytes of data.
 [release_parser.py:bsg__]: Got 127270 bytes of data.
 [release_parser.py:bsg__]: Got 130367 bytes of data.
 [release_parser.py:bsg__]: Got 140777 bytes of data.
@@ -240,12 +240,11 @@
 [release_parser.py:bsg__]: Got 0 bytes of data.
 [release_parser.py:bsg__]: Got 0 bytes of data.
 [release_parser.py:bsg__]: Found 406 links...
-[release_parser.py:bsg__]: Found 2 new release items
+[release_parser.py:bsg__]: Found 0 new release items
 [release_parser.py:bsg__]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Wishlist update for **bsg__**
-[rss_aggregator.py:unknown user...]: Created item Release update for **bsg__**
-[rss_aggregator.py:bsg__]: updating items.rss with 2 updates for this user
+[rss_aggregator.py:bsg__]: No updates detected for this user
+[rss_aggregator.py:bsg__]: Exited successfully
 Unable to find next bandcamp Friday. Recieved: b''
 Here's the raw HTML: b''
-[user_orchestrator.py]: Updating final.rss at 2025-07-03 11:48:59.710952
+[user_orchestrator.py]: Updating final.rss at 2025-07-04 11:49:05.197908
 [user_orchestrator.py]: Exited successfully

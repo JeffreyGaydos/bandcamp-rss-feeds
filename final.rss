@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-07-13 11:49:51.921206</lastBuildDate>
+<lastBuildDate>2025-07-16 11:50:14.376865</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-07-13_11:49:21.564999-jeffg__g</guid>
+<guid>release-2025-07-16_11:49:34.707401-jeffg__g</guid>
 <link>N/A</link>
-<description>https://sapphyre.bandcamp.com/track/oliver-francis-memory-loss-sapphyre-remix</description>
-<pubDate>2025-07-13 11:49:21.564999</pubDate>
+<description>https://mitchmurder.bandcamp.com/track/inertia</description>
+<pubDate>2025-07-16 11:49:34.707401</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-07-16_11:50:14.067302-bsg__</guid>
+<link>N/A</link>
+<description>https://surfcurse.bandcamp.com/album/heaven-surrounds-you https://surfcurse.bandcamp.com/album/nothing-yet https://surfcurse.bandcamp.com/track/last-train-come-and-gone-cindy-lee-cover https://surfcurse.bandcamp.com/album/sad-boys-ep https://surfcurse.bandcamp.com/album/buds https://surfcurse.bandcamp.com/album/demos</description>
+<pubDate>2025-07-16 11:50:14.067302</pubDate>
 </item>
 
 </channel>

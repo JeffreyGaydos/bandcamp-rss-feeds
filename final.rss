@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-07-18 11:52:20.744947</lastBuildDate>
+<lastBuildDate>2025-07-19 11:49:18.185460</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-07-18_11:51:42.374120-jeffg__g</guid>
+<guid>release-2025-07-19_11:48:42.518737-jeffg__g</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/album/felt-sentient-might-delete https://alisonsynths.bandcamp.com/track/satellite-61</description>
-<pubDate>2025-07-18 11:51:42.374120</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2025-07-18_11:52:20.466251-bsg__</guid>
-<link>N/A</link>
-<description>https://hyperborea32x.bandcamp.com/track/fauxstate https://cynthoni.bandcamp.com/album/felt-sentient-might-delete</description>
-<pubDate>2025-07-18 11:52:20.466251</pubDate>
+<description>https://micromecha.bandcamp.com/album/-</description>
+<pubDate>2025-07-19 11:48:42.518737</pubDate>
 </item>
 
 </channel>

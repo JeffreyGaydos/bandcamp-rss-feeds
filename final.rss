@@ -4,20 +4,34 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-08-07 11:51:45.182900</lastBuildDate>
+<lastBuildDate>2025-08-08 11:50:59.541051</lastBuildDate>
 <item>
 <title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2025-08-07_11:50:13.463198-jeffg__g</guid>
+<guid>wishlist-2025-08-08_11:49:33.877578-jeffg__g</guid>
 <link>N/A</link>
-<description>https://stateazure.bandcamp.com/album/paradise-star-ep</description>
-<pubDate>2025-08-07 11:50:13.463198</pubDate>
+<description>https://bukvasound.bandcamp.com/album/coral-future-forward-dubina-004</description>
+<pubDate>2025-08-08 11:49:33.877578</pubDate>
 </item>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-08-07_11:51:11.242945-jeffg__g</guid>
+<guid>release-2025-08-08_11:50:27.066657-jeffg__g</guid>
 <link>N/A</link>
-<description>https://bukvasound.bandcamp.com/album/coral-future-forward-dubina-004</description>
-<pubDate>2025-08-07 11:51:11.242945</pubDate>
+<description>https://sapphyre.bandcamp.com/track/vanish https://bayledges.bandcamp.com/track/hours-kim-tee-remix</description>
+<pubDate>2025-08-08 11:50:27.066657</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2025-08-08_11:50:30.738878-bsg__</guid>
+<link>N/A</link>
+<description>https://brighdechaimbeul.bandcamp.com/album/sunwise</description>
+<pubDate>2025-08-08 11:50:30.738878</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-08-08_11:50:59.225429-bsg__</guid>
+<link>N/A</link>
+<description>https://bayledges.bandcamp.com/track/hours-kim-tee-remix</description>
+<pubDate>2025-08-08 11:50:59.225429</pubDate>
 </item>
 
 </channel>

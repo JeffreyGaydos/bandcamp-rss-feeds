@@ -4,13 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-08-10 11:48:57.853105</lastBuildDate>
+<lastBuildDate>2025-08-12 11:48:44.841347</lastBuildDate>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2025-08-12_11:48:16.465668-jeffg__g</guid>
+<link>N/A</link>
+<description>https://hellometeor.bandcamp.com/album/darling-river</description>
+<pubDate>2025-08-12 11:48:16.465668</pubDate>
+</item>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2025-08-10_11:48:29.779745-bsg__</guid>
+<guid>wishlist-2025-08-12_11:48:18.579847-bsg__</guid>
 <link>N/A</link>
-<description>https://eviladeline.bandcamp.com/album/evil-baby-evil</description>
-<pubDate>2025-08-10 11:48:29.779745</pubDate>
+<description>https://ninajirachi.bandcamp.com/album/i-love-my-computer</description>
+<pubDate>2025-08-12 11:48:18.579847</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-08-12_11:48:44.635939-bsg__</guid>
+<link>N/A</link>
+<description>https://villagerrr.bandcamp.com/album/tear-your-heart-out-deluxe-edition https://saysueme.bandcamp.com/album/10 https://saysueme.bandcamp.com/album/the-last-thing-left</description>
+<pubDate>2025-08-12 11:48:44.635939</pubDate>
 </item>
 
 </channel>

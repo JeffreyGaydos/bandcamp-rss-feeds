@@ -4,34 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-08-14 11:49:49.435583</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2025-08-14_11:48:27.971669-jeffg__g</guid>
-<link>N/A</link>
-<description>https://ninajirachi.bandcamp.com/album/i-love-my-computer</description>
-<pubDate>2025-08-14 11:48:27.971669</pubDate>
-</item>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2025-08-14_11:48:25.889518-jeffg__g</guid>
-<link>N/A</link>
-<description>https://ninajirachi.bandcamp.com/music</description>
-<pubDate>2025-08-14 11:48:25.889518</pubDate>
-</item>
+<lastBuildDate>2025-08-15 11:49:00.040979</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-08-14_11:49:19.474770-jeffg__g</guid>
+<guid>release-2025-08-15_11:48:26.605167-jeffg__g</guid>
 <link>N/A</link>
-<description>https://radiohead.bandcamp.com/album/hail-to-the-thief-live-recordings-2003-2009 https://hotelpoolsmusic.bandcamp.com/track/cool</description>
-<pubDate>2025-08-14 11:49:19.474770</pubDate>
+<description>https://tineidae.bandcamp.com/track/all-is-vibrant-yet-not-real-slowed-vip https://machinegirl.bandcamp.com/track/come-on-baby-scrape-my-data https://hotelpoolsmusic.bandcamp.com/album/paradigms</description>
+<pubDate>2025-08-15 11:48:26.605167</pubDate>
 </item>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2025-08-14_11:49:23.283687-bsg__</guid>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-08-15_11:48:59.763591-bsg__</guid>
 <link>N/A</link>
-<description>https://thenecksau.bandcamp.com/album/disquiet</description>
-<pubDate>2025-08-14 11:49:23.283687</pubDate>
+<description>https://machinegirl.bandcamp.com/track/come-on-baby-scrape-my-data</description>
+<pubDate>2025-08-15 11:48:59.763591</pubDate>
 </item>
 
 </channel>

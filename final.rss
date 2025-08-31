@@ -4,34 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-08-29 11:49:21.089768</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2025-08-29_11:47:43.924774-jeffg__g</guid>
-<link>N/A</link>
-<description>https://mitchmurder.bandcamp.com/album/after-hours https://mitchmurder.bandcamp.com/album/burning-chrome</description>
-<pubDate>2025-08-29 11:47:43.924774</pubDate>
-</item>
+<lastBuildDate>2025-08-31 11:49:16.346841</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-08-29_11:48:46.788474-jeffg__g</guid>
+<guid>release-2025-08-31_11:48:41.516248-jeffg__g</guid>
 <link>N/A</link>
-<description>https://sapphyre.bandcamp.com/track/go-back</description>
-<pubDate>2025-08-29 11:48:46.788474</pubDate>
+<description>https://turquoisedeath.bandcamp.com/album/london-juke</description>
+<pubDate>2025-08-31 11:48:41.516248</pubDate>
 </item>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2025-08-29_11:48:50.394217-bsg__</guid>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-08-31_11:49:15.983829-bsg__</guid>
 <link>N/A</link>
-<description>https://zanias.bandcamp.com/album/ecdysis</description>
-<pubDate>2025-08-29 11:48:50.394217</pubDate>
-</item>
-<item>
-<title>Following update for **bsg__**</title>
-<guid>following-2025-08-29_11:48:47.150178-bsg__</guid>
-<link>N/A</link>
-<description>https://zanias.bandcamp.com/music</description>
-<pubDate>2025-08-29 11:48:47.150178</pubDate>
+<description>https://turquoisedeath.bandcamp.com/album/london-juke</description>
+<pubDate>2025-08-31 11:49:15.983829</pubDate>
 </item>
 
 </channel>

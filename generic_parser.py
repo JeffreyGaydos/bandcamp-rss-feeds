@@ -15,7 +15,7 @@ import json
 # TODO: Test idempotency
 # TODO: Test "newSource = True" whatever that is supposed to do
 # TODO: Automated tests??
-def udpateSsf(links, parserName, user, prefix, newSource = False):
+def updateSsf(links, parserName, user, prefix, newSource = False):
     print(f"{prefix} Found {len(links)} links...")
 
     existingLinks = []
@@ -126,9 +126,9 @@ def runGet(user, parserName, urlPostfix, querySelector, artists=[]):
             else:
                 links.extend(getLinks(f"{artist}/{urlPostfix}", prefix, querySelector, urlPostfix))
 
-    udpateSsf(links, parserName, user, prefix)
+    updateSsf(links, parserName, user, prefix)
     if len(newArtistLinks) > 0:
-        udpateSsf(newArtistLinks, parserName, user, prefix, True)
+        updateSsf(newArtistLinks, parserName, user, prefix, True)
 
 # user: the username of the bandcamp user we are pinging for
 # fanID: The internal ID bandcamp uses for a specific user, should be placed in users.ssf after each username with a space in between
@@ -154,4 +154,4 @@ def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields)
         else:
             links.append(drilldown)
     
-    udpateSsf(links, parserName, user, prefix)
+    updateSsf(links, parserName, user, prefix)

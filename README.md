@@ -23,7 +23,7 @@ Where username is the user name of the user according to the url of your profile
 ```
 The `"fan_id"` property is the ID that you need for the `users.ssf` file.
 
-Once you have these values in the `user.ssf` file, the `user_orchestrator.py` file will run daily via the GitHub action. All updates from runs are found in the `rss` branch, and not on the `main`, but the action itself can be found on the `main` branch. You can specify multiple users (one per-line) in the `user.ssf` file if you want to recieve updates for multiple users (this repo currently has 2 listed).
+Once you have these values in the `user.ssf` file, the `user_orchestrator.py` file will run daily via the GitHub action. All updates from runs are found in the `rss` branch and not on the `main` branch, but the action itself can be found on the `main` branch. Note that if you fork this repo, you will need to create your own `rss` branch, at which point the action should automatically run to update that branch. The final rss file can be viewed at `bandcamp-rss-feeds/rss/final.rss`. on the `rss` branch. It's recommended that you use the "raw" version of the RSS file, dependent on how your RSS reader of choice works. For Discord, I've used [MonitoRSS](https://github.com/synzen/monitorss). You can specify multiple users (one per-line) in the `user.ssf` file if you want to recieve updates for multiple users (this repo currently has 2 listed).
 
 # Features
 This tool creates an RSS feed for the following "actions" that can occur related to a users bandcamp account, scheduled daily through a github action.

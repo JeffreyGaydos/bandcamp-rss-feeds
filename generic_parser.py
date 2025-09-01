@@ -78,7 +78,16 @@ def getLinks(source, prefix, querySelector, urlPostfix):
     requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     rawContent = requestsResponse.content
 
-    print(f"{prefix} Got {len(rawContent)} bytes of data.")
+    retry = 1
+    while(len(rawContent) == 0 and retry < 33):
+        if(len(rawContent) == 0):
+            print(f"{prefix} Got {len(rawContent)} bytes of data. Retrying...")
+            time.sleep(retry)
+            retry *= 2
+            requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+            rawContent = requestsResponse.content
+        else:
+            print(f"{prefix} Got {len(rawContent)} bytes of data.")
 
     soup = BeautifulSoup(rawContent, 'html.parser')
     linkElements = soup.select(querySelector)

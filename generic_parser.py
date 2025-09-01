@@ -10,38 +10,36 @@ import json
 # parserName: the parserName from the calling function
 # user: the user from the calling function
 # prefix: the logging prefix from the calling function
+# TODO: Test that a new user will populate properly
+# TODO: Test that losing internet connection will retry and work properly
+# TODO: Test idempotency
+# TODO: Test "newSource = True" whatever that is supposed to do
+# TODO: Automated tests??
 def udpateSsf(links, parserName, user, prefix, newSource = False):
     print(f"{prefix} Found {len(links)} links...")
 
-    prefixedLinks = []
-    countNewLinks = 0
+    existingLinks = []
+    newLinks = []
     try:
         ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")
         ssfAll = ssfr.read()
         ssfr.close()
+        ssfAll = ssfAll.replace(const._newIndicator, "") #remove any "new" links from before
+        existingLinks = ssfAll.splitlines()
+
         for link in links:
-            if not ssfAll.__contains__(link):
-                if not newSource:
-                    prefixedLinks.append(f"{const._newIndicator}{link}")
-                else:
-                    prefixedLinks.append(f"{link.replace(const._newIndicator, '')}")
-                countNewLinks += 1
-            if ssfAll.__contains__(link):
-                prefixedLinks.append(f"{link}")
+            if(not existingLinks.__contains__(link)):
+                newLinks.append(link)
     except:
         print(f"{prefix} {parserName.capitalize()} SSF for this user DNE, must be a new user.")
-        for link in links:
-            prefixedLinks.append(f"NEW: {link}")
-            countNewLinks += 1
-    print(f"{prefix} Found {countNewLinks} new {parserName} items")
+        newLinks.append(links)
 
-    ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "a" if newSource else "w", -1, "utf-8")
-    if not newSource:
-        ssfw.write((str)(datetime.datetime.now()))
-        ssfw.write("\n")
+    print(f"{prefix} Found {len(newLinks)} new {parserName} items")
+
+    ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "a", -1, "utf-8")
     
-    for link in prefixedLinks:
-        ssfw.write(link)
+    for newLink in newLinks:
+        ssfw.write(f"{const._newIndicator}{newLink}")
         ssfw.write("\n")
     ssfw.close()
 

@@ -88,6 +88,9 @@ def getLinks(source, prefix, querySelector, urlPostfix):
             rawContent = requestsResponse.content
         else:
             print(f"{prefix} Got {len(rawContent)} bytes of data.")
+    
+    if(len(rawContent) == 0):
+        print(f"{prefix} [WARNING] Got {len(rawContent)} bytes of data and exhausted all retries.")
 
     soup = BeautifulSoup(rawContent, 'html.parser')
     linkElements = soup.select(querySelector)

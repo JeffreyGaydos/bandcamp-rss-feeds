@@ -10,3 +10,6 @@
 __pycache__
 
 images/
+
+# for internal testing, non-production code
+scratch.py

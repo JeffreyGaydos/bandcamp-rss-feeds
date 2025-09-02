@@ -19,16 +19,20 @@ update = False
 for userTuple in open("users.ssf").read().split("\n"):
     user = userTuple.split(" ")[0]
     fanId = userTuple.split(" ")[1]
+    generic_parser.unNewSsf("following", user)
     generic_parser.runPost(user, fanId, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"])
+    generic_parser.unNewSsf("collection", user)
     generic_parser.runPost(user, fanId, "collection", "collection_items", ":p::", "items", ["item_url"])
+    generic_parser.unNewSsf("wishlist", user)
     generic_parser.runPost(user, fanId, "wishlist", "wishlist_items", ":a::", "items", ["item_url"])
     followFile = open(f"{const._ssf_path}/following_{user}.ssf")
     followFile.readline()
     artists = followFile.read().splitlines()
     followFile.close()
+    generic_parser.unNewSsf("release", user)
     for artist in artists:
         # When you follow an artist, their current releases should NOT show up as new
-        generic_parser.runGet(user, "release", "music", "ol.music-grid li.music-grid-item a", artist.startswith(const._newIndicator), artist[:-len(const._musicPostfix)])
+        generic_parser.runGet(user, "release", "music", "ol.music-grid li.music-grid-item a", artist[:-len(const._musicPostfix)], artist.startswith(const._newIndicator))
     thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection", "release"])
     update = thisUpdate or update
 

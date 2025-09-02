@@ -32,7 +32,8 @@ for userTuple in open("users.ssf").read().split("\n"):
     generic_parser.unNewSsf("release", user)
     for artist in artists:
         # When you follow an artist, their current releases should NOT show up as new
-        generic_parser.runGet(user, "release", "music", "ol.music-grid li.music-grid-item a", artist[:-len(const._musicPostfix)], artist.startswith(const._newIndicator))
+        # this alternative query selector is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp
+        generic_parser.runGet(user, "release", "music", ["ol.music-grid li.music-grid-item a", ".ipCellLabel1 a"], artist[:-len(const._musicPostfix)], artist.startswith(const._newIndicator))
     thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection", "release"])
     update = thisUpdate or update
 

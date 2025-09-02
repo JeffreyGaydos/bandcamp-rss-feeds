@@ -73,7 +73,7 @@ def isItBandcampFriday():
         print("Here's the raw HTML: " + (str)(rawContent))
         return False
 
-def getLinks(source, prefix, querySelector, urlPostfix):
+def getLinks(source, prefix, querySelectors, urlPostfix):
     time.sleep(const._pingDelay)
     requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     rawContent = requestsResponse.content
@@ -93,7 +93,12 @@ def getLinks(source, prefix, querySelector, urlPostfix):
         print(f"{prefix} WARNING Got {len(rawContent)} bytes of data and exhausted all retries.")
 
     soup = BeautifulSoup(rawContent, 'html.parser')
-    linkElements = soup.select(querySelector)
+    # this loop is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp
+    for querySelector in querySelectors:
+        linkElements = soup.select(querySelector)
+        if(len(linkElements) > 0):
+            break
+
     if(len(linkElements) == 0):
         linkElements = soup.select('meta[property="og:url"]')
         try:
@@ -117,16 +122,17 @@ def getLinks(source, prefix, querySelector, urlPostfix):
 # user: the user of a bandcamp page, as dsiplayed in the URL for bandcamp
 # parserName: 1 word, suitable for use in logging and file names, lowercase
 # urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{user}/"
-# querySelector: a CSS query selector that points to a list of links that we want to update on
+# querySelectors: a list of CSS query selectors that point to a list of links that we want to update on. Will attempt each query in order until at least 1 link is found. Not a union.
 # baseUrl: the start base of the URL for which to find links in. For user collections & following, that's "https://bandcamp.com/{user}/"
 # forceNotNew: Tells the remaining methods to not treat all incoming links as NEW for this URL, used for newly followed artists' releases
-def runGet(user, parserName, urlPostfix, querySelector, baseUrl, forceNotNew = False):
+def runGet(user, parserName, urlPostfix, querySelectors, baseUrl, forceNotNew = False):
     process = f"{parserName}_parser"
     prefix = f"[{process}:{user}]:"
 
     print(f"{prefix} Pinging bandcamp {parserName} feed for user {user} [{baseUrl}/{urlPostfix}]")
 
-    links = getLinks(f"{baseUrl}/{urlPostfix}", prefix, querySelector, urlPostfix)
+    links = []
+    links = getLinks(f"{baseUrl}/{urlPostfix}", prefix, querySelectors, urlPostfix)
 
     if(len(links) == 0):
         # This is usually because the artist does not have any tralbums on bandcamp yet

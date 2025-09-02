@@ -35,3 +35,4 @@ This tool creates an RSS feed for the following "actions" that can occur related
 - Release Updates (from all artist hompages on bandcamp)
 -  Bandcamp Friday Notifications
    - User-independent and based on the official https://isitbandcampfriday.com/ website
+   - Note: Currently not working

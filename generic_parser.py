@@ -15,7 +15,8 @@ import json
 # TODO: Test idempotency
 # TODO: Test "newSource = True" whatever that is supposed to do
 # TODO: Automated tests??
-def updateSsf(links, parserName, user, prefix, newSource = False):
+# TODO: Refactor artists tracking what the heck dude
+def updateSsf(links, parserName, user, prefix, newIndicatorString):
     print(f"{prefix} Found {len(links)} links...")
 
     existingLinks = []
@@ -24,7 +25,7 @@ def updateSsf(links, parserName, user, prefix, newSource = False):
         ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")
         ssfAll = ssfr.read()
         ssfr.close()
-        ssfAll = ssfAll.replace(const._newIndicator, "") #remove any "new" links from before
+        ssfAll = ssfAll.replace(newIndicatorString, "") #remove any "new" links from before
         existingLinks = ssfAll.splitlines()
 
         for link in links:
@@ -39,7 +40,7 @@ def updateSsf(links, parserName, user, prefix, newSource = False):
     ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "a", -1, "utf-8")
     
     for newLink in newLinks:
-        ssfw.write(f"{const._newIndicator}{newLink}")
+        ssfw.write(f"{newIndicatorString}{newLink}")
         ssfw.write("\n")
     ssfw.close()
 
@@ -109,26 +110,19 @@ def getLinks(source, prefix, querySelector, urlPostfix):
 # parserName: 1 word, suitable for use in logging and file names, lowercase
 # urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{_user}/"
 # querySelector: a CSS query selector that points to a list of links that we want to update on
-def runGet(user, parserName, urlPostfix, querySelector, artists=[]):
+def runGet(user, parserName, urlPostfix, querySelector, forceNotNew = False, baseUrl = "https://bandcamp.com"):
     process = f"{parserName}_parser.py"
     prefix = f"[{process}:{user}]:"
 
     print(f"{prefix} Pinging bandcamp {parserName} feed for user {user}")
-    
-    links = []
-    newArtistLinks = []
-    if len(artists) == 0:
-        links.extend(getLinks(f"https://bandcamp.com/{user}/{urlPostfix}", prefix, querySelector, urlPostfix))
-    else:
-        for artist in artists:
-            if artist.startswith(const._newIndicator):
-                newArtistLinks.extend(getLinks(f"{artist}/{urlPostfix}", prefix, querySelector, urlPostfix))
-            else:
-                links.extend(getLinks(f"{artist}/{urlPostfix}", prefix, querySelector, urlPostfix))
 
-    updateSsf(links, parserName, user, prefix)
-    if len(newArtistLinks) > 0:
-        updateSsf(newArtistLinks, parserName, user, prefix, True)
+    links = getLinks(f"{baseUrl}/{user}/{urlPostfix}", prefix, querySelector, urlPostfix)
+
+    if(forceNotNew):
+        # When first following an artist, don't display all music as new releases. NOTE: any release that occurs on the same day you follow an artist will not be tracked
+        updateSsf(links, parserName, user, prefix, "")
+    else:
+        updateSsf(links, parserName, user, prefix, const._newIndicator)
 
 # user: the username of the bandcamp user we are pinging for
 # fanID: The internal ID bandcamp uses for a specific user, should be placed in users.ssf after each username with a space in between
@@ -154,4 +148,4 @@ def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields)
         else:
             links.append(drilldown)
     
-    updateSsf(links, parserName, user, prefix)
+    updateSsf(links, parserName, user, prefix, const._newIndicator)

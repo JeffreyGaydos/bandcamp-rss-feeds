@@ -25,7 +25,8 @@ def updateSsf(links, parserName, user, prefix, newIndicatorString):
         ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")
         ssfAll = ssfr.read()
         ssfr.close()
-        ssfAll = ssfAll.replace(newIndicatorString, "") #remove any "new" links from before
+        ssfAll = ssfAll.replace(newIndicatorString, "") #remove any "new" indicators for comparison
+
         existingLinks = ssfAll.splitlines()
 
         for link in links:
@@ -89,10 +90,17 @@ def getLinks(source, prefix, querySelector, urlPostfix):
             print(f"{prefix} Got {len(rawContent)} bytes of data.")
     
     if(len(rawContent) == 0):
-        print(f"{prefix} [WARNING] Got {len(rawContent)} bytes of data and exhausted all retries.")
+        print(f"{prefix} WARNING Got {len(rawContent)} bytes of data and exhausted all retries.")
 
     soup = BeautifulSoup(rawContent, 'html.parser')
     linkElements = soup.select(querySelector)
+    if(len(linkElements) == 0):
+        linkElements = soup.select('meta[property="og:url"]')
+        try:
+            return [linkElements[0].attrs["content"]] # the artist has exactly 1 tralbum on bandcamp
+        except:
+            return [] # the artist actually has no tralbums on bandcamp currently
+        
     links = []
 
     for link in linkElements:
@@ -108,15 +116,21 @@ def getLinks(source, prefix, querySelector, urlPostfix):
 
 # user: the user of a bandcamp page, as dsiplayed in the URL for bandcamp
 # parserName: 1 word, suitable for use in logging and file names, lowercase
-# urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{_user}/"
+# urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{user}/"
 # querySelector: a CSS query selector that points to a list of links that we want to update on
-def runGet(user, parserName, urlPostfix, querySelector, forceNotNew = False, baseUrl = "https://bandcamp.com"):
-    process = f"{parserName}_parser.py"
+# baseUrl: the start base of the URL for which to find links in. For user collections & following, that's "https://bandcamp.com/{user}/"
+# forceNotNew: Tells the remaining methods to not treat all incoming links as NEW for this URL, used for newly followed artists' releases
+def runGet(user, parserName, urlPostfix, querySelector, baseUrl, forceNotNew = False):
+    process = f"{parserName}_parser"
     prefix = f"[{process}:{user}]:"
 
-    print(f"{prefix} Pinging bandcamp {parserName} feed for user {user}")
+    print(f"{prefix} Pinging bandcamp {parserName} feed for user {user} [{baseUrl}/{urlPostfix}]")
 
-    links = getLinks(f"{baseUrl}/{user}/{urlPostfix}", prefix, querySelector, urlPostfix)
+    links = getLinks(f"{baseUrl}/{urlPostfix}", prefix, querySelector, urlPostfix)
+
+    if(len(links) == 0):
+        # This is usually because the artist does not have any tralbums on bandcamp yet
+        print(f"{prefix} WARNING - could not find any links for {baseUrl}/{urlPostfix}")
 
     if(forceNotNew):
         # When first following an artist, don't display all music as new releases. NOTE: any release that occurs on the same day you follow an artist will not be tracked
@@ -133,11 +147,20 @@ def runGet(user, parserName, urlPostfix, querySelector, forceNotNew = False, bas
 # subfields: an array of subfields on the objects we are looping through that leads to the field we want
 # raw: set to true if you want the raw data from whatever subfield you are accessing (i.e. no URL wrap)
 def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields):
-    process = f"{parserName}_parser.py"
+    process = f"{parserName}_parser"
     prefix = f"[{process}:{user}]:"
     time.sleep(const._pingDelay)
-    postResponse = requests.post(f"{const._bandcampCollectionAPI}/{urlPostfix}", f"{{\"fan_id\":{fanID},\"older_than_token\":\"9999999999:9999999999{tokenPostfix}\",\"count\":1000000}}")
-    jsondata = postResponse.json()[field]
+    jsondata = []
+    try:
+        postResponse = requests.post(f"{const._bandcampCollectionAPI}/{urlPostfix}", f"{{\"fan_id\":{fanID},\"older_than_token\":\"9999999999:9999999999{tokenPostfix}\",\"count\":1000000}}")
+        jsondata = postResponse.json()[field]
+    except:
+        time.sleep(30)
+        try:
+            postResponse = requests.post(f"{const._bandcampCollectionAPI}/{urlPostfix}", f"{{\"fan_id\":{fanID},\"older_than_token\":\"9999999999:9999999999{tokenPostfix}\",\"count\":1000000}}")
+            jsondata = postResponse.json()[field]
+        except:
+            print(f"{prefix} Could not post for {field} > {subfield}")
     links = []
     for data in jsondata:
         drilldown = data
@@ -149,3 +172,13 @@ def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields)
             links.append(drilldown)
     
     updateSsf(links, parserName, user, prefix, const._newIndicator)
+
+def unNewSsf(parserName, user):
+    ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")
+    ssfAll = ssfr.read()
+    ssfr.close()
+    ssfAll = ssfAll.replace(const._newIndicator, "") #remove any "new" links from before
+    # actually write to remove the new indicators
+    ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "w", -1, "utf-8")
+    ssfw.write(ssfAll)
+    ssfw.close()

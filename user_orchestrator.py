@@ -26,10 +26,9 @@ for userTuple in open("users.ssf").read().split("\n"):
     followFile.readline()
     artists = followFile.read().splitlines()
     followFile.close()
-    sanitizedArtists = []
     for artist in artists:
-        sanitizedArtists.append(artist[:-len(const._musicPostfix)])
-    generic_parser.runGet(user, "release", "music", "ol.music-grid li.music-grid-item a", sanitizedArtists)
+        # When you follow an artist, their current releases should NOT show up as new
+        generic_parser.runGet(user, "release", "music", "ol.music-grid li.music-grid-item a", artist.startswith(const._newIndicator), artist[:-len(const._musicPostfix)])
     thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection", "release"])
     update = thisUpdate or update
 

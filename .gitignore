@@ -1,4 +1,5 @@
 .vscode/*
+.vscode\settings.json
 
 # Local History for Visual Studio Code
 .history/

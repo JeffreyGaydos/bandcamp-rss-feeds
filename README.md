@@ -33,7 +33,5 @@ This tool creates an RSS feed for the following "actions" that can occur related
   - Does not track "un-followed" artists
 - Collection Updates (from https://bandcamp.com/{user})
 - Release Updates (from all artist hompages on bandcamp)
-  - Atists that only have 1 track will not have the correct link displayed in the release updates, but the update will still appear
-    - This would happen if you follow an artist with no releases, then that artist releases a track
 -  Bandcamp Friday Notifications
    - User-independent and based on the official https://isitbandcampfriday.com/ website

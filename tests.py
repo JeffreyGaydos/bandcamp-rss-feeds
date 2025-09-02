@@ -33,6 +33,8 @@ class GenericParserTests(unittest.TestCase):
                 ssfw.write(self.previousSsfs[i])
                 i += 1
                 
+    def AssertExpectedNewIndicators(self, numNewIndicators, contents):
+        self.assertEquals(len(contents.split(const._newIndicator)), numNewIndicators + 1, f"Expected {numNewIndicators} 'NEW: ' strings.")
 
     def test_generic_parser_new_user_1_collection_update(self):
         ssfw = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "w", -1, "utf-8")
@@ -50,7 +52,7 @@ class GenericParserTests(unittest.TestCase):
         generic_parser.updateSsf(["https://link1.com", "https://link2.com"], "collection", "jeffg__g", "", const._newIndicator)
         ssfr = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "r", -1, "utf-8")
         contents = ssfr.read()
-        self.assertEquals(len(contents.split(const._newIndicator)), 3, "Expected 2 'NEW: ' strings.")
+        self.AssertExpectedNewIndicators(2, contents)
 
     def test_generic_parser_existing_link(self):
         ssfw = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "w", -1, "utf-8")
@@ -59,35 +61,35 @@ class GenericParserTests(unittest.TestCase):
         generic_parser.updateSsf(["https://link1.com"], "collection", "jeffg__g", "", const._newIndicator)
         ssfr = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "r", -1, "utf-8")
         contents = ssfr.read()
-        self.assertEquals(len(contents.split(const._newIndicator)), 1, "Expected 0 'NEW: ' strings.")
+        self.AssertExpectedNewIndicators(0, contents)
 
     def test_generic_parser_2_existing_links(self):
         ssfw = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "w", -1, "utf-8")
-        ssfw.write("2025-04-04 00:00:00.000\nhttps://link1.com\nhttps://link2.com")
+        ssfw.write("2025-04-04 00:00:00.000\nhttps://link1.com\nhttps://link2.com\n")
         ssfw.close()
         generic_parser.updateSsf(["https://link1.com", "https://link2.com"], "collection", "jeffg__g", "", const._newIndicator)
         ssfr = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "r", -1, "utf-8")
         contents = ssfr.read()
-        self.assertEquals(len(contents.split(const._newIndicator)), 1, "Expected 0 'NEW: ' strings.")
+        self.AssertExpectedNewIndicators(0, contents)
 
     def test_generic_parser_existing_and_new_link(self):
         ssfw = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "w", -1, "utf-8")
-        ssfw.write("2025-04-04 00:00:00.000\nhttps://link1.com")
+        ssfw.write("2025-04-04 00:00:00.000\nhttps://link1.com\n")
         ssfw.close()
         generic_parser.updateSsf(["https://link1.com", "https://link2.com"], "collection", "jeffg__g", "", const._newIndicator)
         ssfr = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "r", -1, "utf-8")
         contents = ssfr.read()
-        self.assertEquals(len(contents.split(const._newIndicator)), 2, "Expected 1 'NEW: ' strings.")
+        self.AssertExpectedNewIndicators(1, contents)
 
     def test_generic_parser_0_links_returned_maintains(self):
         ssfw = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "w", -1, "utf-8")
-        ssfw.write("2025-04-04 00:00:00.000\nhttps://link1.com\nhttps://link2.com")
+        ssfw.write("2025-04-04 00:00:00.000\nhttps://link1.com\nhttps://link2.com\n")
         ssfw.close()
         generic_parser.updateSsf([], "collection", "jeffg__g", "", const._newIndicator)
         ssfr = open(f"{const._ssf_path}/collection_jeffg__g.ssf", "r", -1, "utf-8")
         contents = ssfr.read()
-        self.assertEquals(len(contents.split(const._newIndicator)), 1, "Expected 0 'NEW: ' strings.")
-        self.assertEquals(len(contents.split("\n")), 3, "Expected 3 lines.")
+        self.AssertExpectedNewIndicators(0, contents)
+        self.assertEquals(len(contents.split("\n")), 4, "Expected 4 lines.")
 
 if __name__ == '__main__': #starts the tests
     unittest.main()

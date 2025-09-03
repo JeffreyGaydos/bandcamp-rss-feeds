@@ -36,5 +36,5 @@ This tool creates an RSS feed for the following "actions" that can occur related
   - Only notifies for artists you follow
   - If you follow an artist, all releases on that day will not appear as new.
     - Any releases released after the day of following a new artist will appear
--  Bandcamp Friday Notifications [:no_entry: Currently not working]
+-  Bandcamp Friday Notifications [ :no_entry: Currently not working]
    - User-independent and based on the official https://isitbandcampfriday.com/ website

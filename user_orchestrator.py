@@ -25,14 +25,15 @@ for userTuple in open("users.ssf").read().split("\n"):
     generic_parser.unNewSsf("release", user)
     generic_parser.runPost(user, fanId, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"])
     generic_parser.unNewSsf("collection", user)
-    generic_parser.runPost(user, fanId, "collection", "collection_items", ":p::", "items", ["item_url"])
     generic_parser.unNewSsf("wishlist", user)
+    generic_parser.unNewSsf("release", user)
+    generic_parser.runPost(user, fanId, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"])
+    generic_parser.runPost(user, fanId, "collection", "collection_items", ":p::", "items", ["item_url"])
     generic_parser.runPost(user, fanId, "wishlist", "wishlist_items", ":a::", "items", ["item_url"])
     followFile = open(f"{const._ssf_path}/following_{user}.ssf")
     followFile.readline()
     artists = followFile.read().splitlines()
     followFile.close()
-    generic_parser.unNewSsf("release", user)
     for artist in artists:
         # When you follow an artist, their current releases should NOT show up as new
         # this alternative query selector is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp

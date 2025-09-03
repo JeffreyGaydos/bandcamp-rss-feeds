@@ -23,7 +23,7 @@ Where username is the user name of the user according to the url of your profile
 ```
 The `"fan_id"` property is the ID that you need for the `users.ssf` file.
 
-Once you have these values in the `user.ssf` file, the `user_orchestrator.py` file will run daily via the GitHub action. All updates from runs are found in the `rss` branch and not on the `main` branch, but the action itself can be found on the `main` branch. Note that if you fork this repo, you will need to create your own `rss` branch, at which point the action should automatically run to update that branch. The final rss file can be viewed at `bandcamp-rss-feeds/rss/final.rss`. on the `rss` branch. It's recommended that you use the "raw" version of the RSS file, dependent on how your RSS reader of choice works. For Discord, I've used [MonitoRSS](https://github.com/synzen/monitorss). You can specify multiple users (one per-line) in the `user.ssf` file if you want to recieve updates for multiple users (this repo currently has 2 listed).
+Once you have these values in the `user.ssf` file, the `user_orchestrator.py` file will run daily via the GitHub action. All updates from runs are found in the `rss` branch and not on the `main` branch, but the action itself can be found on the `main` branch. Note that if you fork this repo, you will need to create your own `rss` branch, at which point the action should automatically run to update that branch. The final rss file can be viewed at `bandcamp-rss-feeds/rss/final.rss`. It's recommended that you use the "raw" version of the RSS file, dependent on how your RSS reader of choice works. For Discord, I've used [MonitoRSS](https://github.com/synzen/monitorss). You can specify multiple users (one per-line) in the `user.ssf` file if you want to recieve updates for multiple users (this repo currently has 2 listed).
 
 # Features
 This tool creates an RSS feed for the following "actions" that can occur related to a users bandcamp account, scheduled daily through a github action.
@@ -33,6 +33,8 @@ This tool creates an RSS feed for the following "actions" that can occur related
   - Does not track "un-followed" artists
 - Collection Updates (from https://bandcamp.com/{user})
 - Release Updates (from all artist hompages on bandcamp)
--  Bandcamp Friday Notifications
+  - Only notifies for artists you follow
+  - If you follow an artist, all releases on that day will not appear as new.
+    - Any releases released after the day of following a new artist will appear
+-  Bandcamp Friday Notifications [:no_entry: Currently not working]
    - User-independent and based on the official https://isitbandcampfriday.com/ website
-   - Note: Currently not working

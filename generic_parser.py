@@ -10,12 +10,6 @@ import json
 # parserName: the parserName from the calling function
 # user: the user from the calling function
 # prefix: the logging prefix from the calling function
-# TODO: Test that a new user will populate properly
-# TODO: Test that losing internet connection will retry and work properly
-# TODO: Test idempotency
-# TODO: Test "newSource = True" whatever that is supposed to do
-# TODO: Automated tests??
-# TODO: Refactor artists tracking what the heck dude
 def updateSsf(links, parserName, user, prefix, newIndicatorString):
     print(f"{prefix} Found {len(links)} links...")
 
@@ -32,6 +26,22 @@ def updateSsf(links, parserName, user, prefix, newIndicatorString):
         for link in links:
             if(not existingLinks.__contains__(link)):
                 newLinks.append(link)
+        
+        # this is the only trackable object that should handle deletes. The releases for those that were followed will persist when you unfollow
+        if(parserName == "following"):
+            linksToKeep = []
+            for existingLink in existingLinks:
+                if(links.__contains__(existingLink)):
+                    linksToKeep.append(existingLink)
+
+            removedFollowsCount = len(existingLinks) - len(linksToKeep)
+            if(removedFollowsCount > 0):
+                print(f"{prefix} Removed {removedFollowsCount} artists that {user} no longer follows")
+            ssfw_follow = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "w", -1, "utf-8")
+            ssfw_follow.write('\n'.join(linksToKeep))
+            ssfw_follow.write('\n') # need a closing newline also
+            ssfw_follow.close()
+
     except:
         print(f"{prefix} {parserName.capitalize()} SSF for this user DNE, must be a new user.")
         newLinks.append(links)
@@ -46,6 +56,19 @@ def updateSsf(links, parserName, user, prefix, newIndicatorString):
     ssfw.close()
 
     print(f"{prefix} Exited successfully")
+
+def prependCurrentDateToSsfIfNecessary(parserName, user):
+    ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")
+    allContents = ssfr.read()
+    possibleDateString = allContents.splitlines()[0]
+    ssfr.close()
+    try:
+        datetime.datetime.fromisoformat(possibleDateString)
+    except:
+        ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "w", -1, "utf-8")
+        ssfw.write(f"{datetime.datetime.now()}\n{allContents}")
+        ssfw.close()
+
 
 def isItBandcampFriday():
     time.sleep(const._pingDelay)
@@ -111,6 +134,7 @@ def getLinks(source, prefix, querySelectors, urlPostfix):
     for link in linkElements:
         if link.get_attribute_list("href")[0].startswith("/"):
             sanitizedSource = re.sub(f"{urlPostfix}$", "", source) # only remove from the end
+            sanitizedSource = sanitizedSource.replace(const._newIndicator, "")
             if sanitizedSource.endswith("/"):
                 sanitizedSource = sanitizedSource[:-1]
             link = f"{sanitizedSource}{link.get_attribute_list('href')[0]}"

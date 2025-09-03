@@ -1,9 +1,5 @@
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+.vscode\settings.json
 
 # Local History for Visual Studio Code
 .history/
@@ -15,3 +11,6 @@
 __pycache__
 
 images/
+
+# for internal testing, non-production code
+scratch.py

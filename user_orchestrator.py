@@ -19,6 +19,10 @@ update = False
 for userTuple in open("users.ssf").read().split("\n"):
     user = userTuple.split(" ")[0]
     fanId = userTuple.split(" ")[1]
+    generic_parser.unNewSsf("following", user)
+    generic_parser.unNewSsf("collection", user)
+    generic_parser.unNewSsf("wishlist", user)
+    generic_parser.unNewSsf("release", user)
     generic_parser.runPost(user, fanId, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"])
     generic_parser.runPost(user, fanId, "collection", "collection_items", ":p::", "items", ["item_url"])
     generic_parser.runPost(user, fanId, "wishlist", "wishlist_items", ":a::", "items", ["item_url"])
@@ -26,10 +30,15 @@ for userTuple in open("users.ssf").read().split("\n"):
     followFile.readline()
     artists = followFile.read().splitlines()
     followFile.close()
-    sanitizedArtists = []
     for artist in artists:
-        sanitizedArtists.append(artist[:-len(const._musicPostfix)])
-    generic_parser.runGet(user, "release", "music", "ol.music-grid li.music-grid-item a", sanitizedArtists)
+        # When you follow an artist, their current releases should NOT show up as new
+        # this alternative query selector is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp
+        generic_parser.runGet(user, "release", "music", ["ol.music-grid li.music-grid-item a", ".ipCellLabel1 a"], artist[:-len(const._musicPostfix)], artist.startswith(const._newIndicator))
+    generic_parser.prependCurrentDateToSsfIfNecessary("following", user)
+    generic_parser.prependCurrentDateToSsfIfNecessary("collection", user)
+    generic_parser.prependCurrentDateToSsfIfNecessary("wishlist", user)
+    generic_parser.prependCurrentDateToSsfIfNecessary("release", user)
+
     thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection", "release"])
     update = thisUpdate or update
 

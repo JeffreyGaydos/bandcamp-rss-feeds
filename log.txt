@@ -1,253 +1,923 @@
 [user_orchestrator.py]: Starting
 [user_orchestrator.py]: Clearing existing items from items.rss
-[following_parser.py:jeffg__g]: Found 125 links...
-[following_parser.py:jeffg__g]: Found 0 new following items
-[following_parser.py:jeffg__g]: Exited successfully
-[collection_parser.py:jeffg__g]: Found 60 links...
-[collection_parser.py:jeffg__g]: Found 0 new collection items
-[collection_parser.py:jeffg__g]: Exited successfully
-[wishlist_parser.py:jeffg__g]: Found 185 links...
-[wishlist_parser.py:jeffg__g]: Found 0 new wishlist items
-[wishlist_parser.py:jeffg__g]: Exited successfully
-[release_parser.py:jeffg__g]: Pinging bandcamp release feed for user jeffg__g
-[release_parser.py:jeffg__g]: Got 131918 bytes of data.
-[release_parser.py:jeffg__g]: Got 168456 bytes of data.
-[release_parser.py:jeffg__g]: Got 148375 bytes of data.
-[release_parser.py:jeffg__g]: Got 156713 bytes of data.
-[release_parser.py:jeffg__g]: Got 137225 bytes of data.
-[release_parser.py:jeffg__g]: Got 134587 bytes of data.
-[release_parser.py:jeffg__g]: Got 212306 bytes of data.
-[release_parser.py:jeffg__g]: Got 134176 bytes of data.
-[release_parser.py:jeffg__g]: Got 133399 bytes of data.
-[release_parser.py:jeffg__g]: Got 130424 bytes of data.
-[release_parser.py:jeffg__g]: Got 134010 bytes of data.
-[release_parser.py:jeffg__g]: Got 154083 bytes of data.
-[release_parser.py:jeffg__g]: Got 145024 bytes of data.
-[release_parser.py:jeffg__g]: Got 131113 bytes of data.
-[release_parser.py:jeffg__g]: Got 131237 bytes of data.
-[release_parser.py:jeffg__g]: Got 166473 bytes of data.
-[release_parser.py:jeffg__g]: Got 139828 bytes of data.
-[release_parser.py:jeffg__g]: Got 136974 bytes of data.
-[release_parser.py:jeffg__g]: Got 133777 bytes of data.
-[release_parser.py:jeffg__g]: Got 133844 bytes of data.
-[release_parser.py:jeffg__g]: Got 141957 bytes of data.
-[release_parser.py:jeffg__g]: Got 139004 bytes of data.
-[release_parser.py:jeffg__g]: Got 141990 bytes of data.
-[release_parser.py:jeffg__g]: Got 143980 bytes of data.
-[release_parser.py:jeffg__g]: Got 145612 bytes of data.
-[release_parser.py:jeffg__g]: Got 144671 bytes of data.
-[release_parser.py:jeffg__g]: Got 131156 bytes of data.
-[release_parser.py:jeffg__g]: Got 131664 bytes of data.
-[release_parser.py:jeffg__g]: Got 138424 bytes of data.
-[release_parser.py:jeffg__g]: Got 143445 bytes of data.
-[release_parser.py:jeffg__g]: Got 136678 bytes of data.
-[release_parser.py:jeffg__g]: Got 137759 bytes of data.
-[release_parser.py:jeffg__g]: Got 133966 bytes of data.
-[release_parser.py:jeffg__g]: Got 161006 bytes of data.
-[release_parser.py:jeffg__g]: Got 129480 bytes of data.
-[release_parser.py:jeffg__g]: Got 136180 bytes of data.
-[release_parser.py:jeffg__g]: Got 144836 bytes of data.
-[release_parser.py:jeffg__g]: Got 139499 bytes of data.
-[release_parser.py:jeffg__g]: Got 137637 bytes of data.
-[release_parser.py:jeffg__g]: Got 135202 bytes of data.
-[release_parser.py:jeffg__g]: Got 161377 bytes of data.
-[release_parser.py:jeffg__g]: Got 132060 bytes of data.
-[release_parser.py:jeffg__g]: Got 173956 bytes of data.
-[release_parser.py:jeffg__g]: Got 149536 bytes of data.
-[release_parser.py:jeffg__g]: Got 131410 bytes of data.
-[release_parser.py:jeffg__g]: Got 131701 bytes of data.
-[release_parser.py:jeffg__g]: Got 135961 bytes of data.
-[release_parser.py:jeffg__g]: Got 132410 bytes of data.
-[release_parser.py:jeffg__g]: Got 139666 bytes of data.
-[release_parser.py:jeffg__g]: Got 139774 bytes of data.
-[release_parser.py:jeffg__g]: Got 155353 bytes of data.
-[release_parser.py:jeffg__g]: Got 137392 bytes of data.
-[release_parser.py:jeffg__g]: Got 133760 bytes of data.
-[release_parser.py:jeffg__g]: Got 131469 bytes of data.
-[release_parser.py:jeffg__g]: Got 135399 bytes of data.
-[release_parser.py:jeffg__g]: Got 236093 bytes of data.
-[release_parser.py:jeffg__g]: Got 151142 bytes of data.
-[release_parser.py:jeffg__g]: Got 131262 bytes of data.
-[release_parser.py:jeffg__g]: Got 141691 bytes of data.
-[release_parser.py:jeffg__g]: Got 141997 bytes of data.
-[release_parser.py:jeffg__g]: Got 131190 bytes of data.
-[release_parser.py:jeffg__g]: Got 140273 bytes of data.
-[release_parser.py:jeffg__g]: Got 141944 bytes of data.
-[release_parser.py:jeffg__g]: Got 131755 bytes of data.
-[release_parser.py:jeffg__g]: Got 132357 bytes of data.
-[release_parser.py:jeffg__g]: Got 145554 bytes of data.
-[release_parser.py:jeffg__g]: Got 131612 bytes of data.
-[release_parser.py:jeffg__g]: Got 114059 bytes of data.
-[release_parser.py:jeffg__g]: Got 132339 bytes of data.
-[release_parser.py:jeffg__g]: Got 166531 bytes of data.
-[release_parser.py:jeffg__g]: Got 223561 bytes of data.
-[release_parser.py:jeffg__g]: Got 134070 bytes of data.
-[release_parser.py:jeffg__g]: Got 131017 bytes of data.
-[release_parser.py:jeffg__g]: Got 134949 bytes of data.
-[release_parser.py:jeffg__g]: Got 142653 bytes of data.
-[release_parser.py:jeffg__g]: Got 139912 bytes of data.
-[release_parser.py:jeffg__g]: Got 131689 bytes of data.
-[release_parser.py:jeffg__g]: Got 133545 bytes of data.
-[release_parser.py:jeffg__g]: Got 131946 bytes of data.
-[release_parser.py:jeffg__g]: Got 131472 bytes of data.
-[release_parser.py:jeffg__g]: Got 109791 bytes of data.
-[release_parser.py:jeffg__g]: Got 146226 bytes of data.
-[release_parser.py:jeffg__g]: Got 130584 bytes of data.
-[release_parser.py:jeffg__g]: Got 137591 bytes of data.
-[release_parser.py:jeffg__g]: Got 149114 bytes of data.
-[release_parser.py:jeffg__g]: Got 137948 bytes of data.
-[release_parser.py:jeffg__g]: Got 144477 bytes of data.
-[release_parser.py:jeffg__g]: Got 134143 bytes of data.
-[release_parser.py:jeffg__g]: Got 131923 bytes of data.
-[release_parser.py:jeffg__g]: Got 132742 bytes of data.
-[release_parser.py:jeffg__g]: Got 132806 bytes of data.
-[release_parser.py:jeffg__g]: Got 129652 bytes of data.
-[release_parser.py:jeffg__g]: Got 141690 bytes of data.
-[release_parser.py:jeffg__g]: Got 133504 bytes of data.
-[release_parser.py:jeffg__g]: Got 158021 bytes of data.
-[release_parser.py:jeffg__g]: Got 133000 bytes of data.
-[release_parser.py:jeffg__g]: Got 144820 bytes of data.
-[release_parser.py:jeffg__g]: Got 132086 bytes of data.
-[release_parser.py:jeffg__g]: Got 134533 bytes of data.
-[release_parser.py:jeffg__g]: Got 131200 bytes of data.
-[release_parser.py:jeffg__g]: Got 130064 bytes of data.
-[release_parser.py:jeffg__g]: Got 140549 bytes of data.
-[release_parser.py:jeffg__g]: Got 155348 bytes of data.
-[release_parser.py:jeffg__g]: Got 132739 bytes of data.
-[release_parser.py:jeffg__g]: Got 137937 bytes of data.
-[release_parser.py:jeffg__g]: Got 138754 bytes of data.
-[release_parser.py:jeffg__g]: Got 150119 bytes of data.
-[release_parser.py:jeffg__g]: Got 139357 bytes of data.
-[release_parser.py:jeffg__g]: Got 139889 bytes of data.
-[release_parser.py:jeffg__g]: Got 145373 bytes of data.
-[release_parser.py:jeffg__g]: Got 138843 bytes of data.
-[release_parser.py:jeffg__g]: Got 143121 bytes of data.
-[release_parser.py:jeffg__g]: Got 241032 bytes of data.
-[release_parser.py:jeffg__g]: Got 135844 bytes of data.
-[release_parser.py:jeffg__g]: Got 151869 bytes of data.
-[release_parser.py:jeffg__g]: Got 137266 bytes of data.
-[release_parser.py:jeffg__g]: Got 143982 bytes of data.
-[release_parser.py:jeffg__g]: Got 149939 bytes of data.
-[release_parser.py:jeffg__g]: Got 138892 bytes of data.
-[release_parser.py:jeffg__g]: Got 139533 bytes of data.
-[release_parser.py:jeffg__g]: Got 178963 bytes of data.
-[release_parser.py:jeffg__g]: Got 147238 bytes of data.
-[release_parser.py:jeffg__g]: Got 139451 bytes of data.
-[release_parser.py:jeffg__g]: Got 141227 bytes of data.
-[release_parser.py:jeffg__g]: Got 151244 bytes of data.
-[release_parser.py:jeffg__g]: Found 1346 links...
-[release_parser.py:jeffg__g]: Found 0 new release items
-[release_parser.py:jeffg__g]: Exited successfully
+[following_parser:jeffg__g]: Found 125 links...
+[following_parser:jeffg__g]: Removed 1 artists that jeffg__g no longer follows
+[following_parser:jeffg__g]: Found 0 new following items
+[following_parser:jeffg__g]: Exited successfully
+[following_parser:jeffg__g]: Found 125 links...
+[following_parser:jeffg__g]: Found 0 new following items
+[following_parser:jeffg__g]: Exited successfully
+[collection_parser:jeffg__g]: Found 60 links...
+[collection_parser:jeffg__g]: Found 0 new collection items
+[collection_parser:jeffg__g]: Exited successfully
+[wishlist_parser:jeffg__g]: Found 185 links...
+[wishlist_parser:jeffg__g]: Found 0 new wishlist items
+[wishlist_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://ninajirachi.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://andorgm.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://blumarten.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://bukvasound.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 12 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://qasimnaqvi.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 8 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://erasedtapes.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://etrandelair.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://wishy.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 4 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://kenjiueda.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 2 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://lizardies.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 8 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://stateazure.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://sapphyre.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://persica3.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 2 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://hiroshi-yoshimura.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 2 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://menitrust.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://trevorsomething.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://fmskyline.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 11 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://stevereich.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://christopherlarkin.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 8 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://radicaldreamland.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://davz.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 17 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://datarebel.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://tineidae.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://robinguthrie.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://machinegirl.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://midairthief.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 4 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://glixen.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 7 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://dynatron.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 14 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://turquoisedeath.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://tkdpll.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 12 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://klausschulze.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 13 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://everythingeverything.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 10 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://mogwai.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://synthwavecompilations.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 2 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://cynthoni.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 12 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://catsystemcorp.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://femtanyl.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://radiohead.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 15 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://cuts.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 11 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://mommaband.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 11 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://slowdive.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://thebethsnz.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 13 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://narrowheadtx.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 11 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://superheavenband.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 4 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://thuslove.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://americanfootball.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 10 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://sungazermusic.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 7 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://substan.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://pizzahotline.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://bigthief.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 17 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://physicslab.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 14 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://espritfantasy.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 6 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://sebastianzawadzkimusic.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 3 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://bayledges.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 11 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://arcadesummer.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 1 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://mitchmurder.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://chaconne.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 6 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://argonautwasp.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 19 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://alisonsynths.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://dusqk.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 6 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://douglasholmquist.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://micromecha.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://solemassif.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 6 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://minervacorp.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 7 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://charlieparrmusic.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://kipptune.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 6 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://melonadem.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 15 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://lazerhawk.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://deafheavens.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 11 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://iamlights.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 1 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://kinggizzard.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://beginagainband.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 4 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://pacificcoliseum.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 10 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://eagleeyedtiger.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://iamoneheart.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 19 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://crypt1k.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://thevillaintinos.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 6 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://miaminights1984.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://fm84.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://jeremysoule.bandcamp.com/music]
+[release_parser:jeffg__g]: WARNING - could not find any links for https://jeremysoule.bandcamp.com/music
+[release_parser:jeffg__g]: Found 0 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://hellometeor.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://henrypullan.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 2 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://miamihorror.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 8 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://flamingosis1.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 14 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://pinback.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 10 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://askii.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://kavinsky.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 7 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://heavenwardband.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 7 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://sistervoid.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://powergloveaudio.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 5 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://tomcardy.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 3 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://starfucker.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://rjraffa.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 6 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://klauswiese.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://girlfriendsandboyfriends.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 4 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://shook.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://jonnynash.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 6 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://usedcvnt.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 9 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://psychoangel.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 2 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://hiroshiyoshimura.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 3 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://gunshipmusic.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 18 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://softcult.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 10 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://abeaconschool.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 6 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://washedout.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 14 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://ghost.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 15 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://solarfields.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://system96.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://windows96.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://desertsand.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://badsunsmusic.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://grizzlybearbrooklyn.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 12 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://oldworldunderground.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 1 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://comtruise.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 12 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://farcaspian.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 10 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://teenagewrist.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 14 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://saulstokes.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://ironandwine.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 15 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://demin.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://electronicvisions.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://woob.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 60 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://hotelpoolsmusic.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://voyage95.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://c418.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://nightlighttapes.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 16 links...
+[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Exited successfully
 [rss_aggregator.py:jeffg__g]: No updates detected for this user
 [rss_aggregator.py:jeffg__g]: Exited successfully
-[following_parser.py:bsg__]: Found 92 links...
-[following_parser.py:bsg__]: Found 0 new following items
-[following_parser.py:bsg__]: Exited successfully
-[collection_parser.py:bsg__]: Found 19 links...
-[collection_parser.py:bsg__]: Found 0 new collection items
-[collection_parser.py:bsg__]: Exited successfully
-[wishlist_parser.py:bsg__]: Found 413 links...
-[wishlist_parser.py:bsg__]: Found 0 new wishlist items
-[wishlist_parser.py:bsg__]: Exited successfully
-[release_parser.py:bsg__]: Pinging bandcamp release feed for user bsg__
-[release_parser.py:bsg__]: Got 143572 bytes of data.
-[release_parser.py:bsg__]: Got 136678 bytes of data.
-[release_parser.py:bsg__]: Got 134180 bytes of data.
-[release_parser.py:bsg__]: Got 130285 bytes of data.
-[release_parser.py:bsg__]: Got 133402 bytes of data.
-[release_parser.py:bsg__]: Got 135042 bytes of data.
-[release_parser.py:bsg__]: Got 143121 bytes of data.
-[release_parser.py:bsg__]: Got 144820 bytes of data.
-[release_parser.py:bsg__]: Got 131701 bytes of data.
-[release_parser.py:bsg__]: Got 135961 bytes of data.
-[release_parser.py:bsg__]: Got 135395 bytes of data.
-[release_parser.py:bsg__]: Got 136662 bytes of data.
-[release_parser.py:bsg__]: Got 136324 bytes of data.
-[release_parser.py:bsg__]: Got 144675 bytes of data.
-[release_parser.py:bsg__]: Got 133825 bytes of data.
-[release_parser.py:bsg__]: Got 129571 bytes of data.
-[release_parser.py:bsg__]: Got 136176 bytes of data.
-[release_parser.py:bsg__]: Got 139503 bytes of data.
-[release_parser.py:bsg__]: Got 239468 bytes of data.
-[release_parser.py:bsg__]: Got 160950 bytes of data.
-[release_parser.py:bsg__]: Got 137395 bytes of data.
-[release_parser.py:bsg__]: Got 135795 bytes of data.
-[release_parser.py:bsg__]: Got 133980 bytes of data.
-[release_parser.py:bsg__]: Got 132964 bytes of data.
-[release_parser.py:bsg__]: Got 130320 bytes of data.
-[release_parser.py:bsg__]: Got 139049 bytes of data.
-[release_parser.py:bsg__]: Got 134465 bytes of data.
-[release_parser.py:bsg__]: Got 113737 bytes of data.
-[release_parser.py:bsg__]: Got 143167 bytes of data.
-[release_parser.py:bsg__]: Got 173935 bytes of data.
-[release_parser.py:bsg__]: Got 131606 bytes of data.
-[release_parser.py:bsg__]: Got 134408 bytes of data.
-[release_parser.py:bsg__]: Got 138844 bytes of data.
-[release_parser.py:bsg__]: Got 142368 bytes of data.
-[release_parser.py:bsg__]: Got 197409 bytes of data.
-[release_parser.py:bsg__]: Got 131200 bytes of data.
-[release_parser.py:bsg__]: Got 139590 bytes of data.
-[release_parser.py:bsg__]: Got 143441 bytes of data.
-[release_parser.py:bsg__]: Got 142134 bytes of data.
-[release_parser.py:bsg__]: Got 131405 bytes of data.
-[release_parser.py:bsg__]: Got 144214 bytes of data.
-[release_parser.py:bsg__]: Got 130010 bytes of data.
-[release_parser.py:bsg__]: Got 132986 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Got 0 bytes of data.
-[release_parser.py:bsg__]: Found 416 links...
-[release_parser.py:bsg__]: Found 0 new release items
-[release_parser.py:bsg__]: Exited successfully
+[following_parser:bsg__]: Found 92 links...
+[following_parser:bsg__]: Removed 1 artists that bsg__ no longer follows
+[following_parser:bsg__]: Found 0 new following items
+[following_parser:bsg__]: Exited successfully
+[following_parser:bsg__]: Found 92 links...
+[following_parser:bsg__]: Found 0 new following items
+[following_parser:bsg__]: Exited successfully
+[collection_parser:bsg__]: Found 19 links...
+[collection_parser:bsg__]: Found 0 new collection items
+[collection_parser:bsg__]: Exited successfully
+[wishlist_parser:bsg__]: Found 413 links...
+[wishlist_parser:bsg__]: Found 0 new wishlist items
+[wishlist_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://tkdpll.bandcamp.com/music]
+[release_parser:bsg__]: Found 12 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://etrandelair.bandcamp.com/music]
+[release_parser:bsg__]: Found 5 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://intra1.bandcamp.com/music]
+[release_parser:bsg__]: Found 3 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://devilscrosscountry.bandcamp.com/music]
+[release_parser:bsg__]: Found 8 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://taffy.bandcamp.com/music]
+[release_parser:bsg__]: Found 7 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://grizzlybearbrooklyn.bandcamp.com/music]
+[release_parser:bsg__]: Found 12 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://shook.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://thuslove.bandcamp.com/music]
+[release_parser:bsg__]: Found 5 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://americanfootball.bandcamp.com/music]
+[release_parser:bsg__]: Found 10 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://bayledges.bandcamp.com/music]
+[release_parser:bsg__]: Found 11 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://elephant-gym.bandcamp.com/music]
+[release_parser:bsg__]: Found 12 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://hyperborea32x.bandcamp.com/music]
+[release_parser:bsg__]: Found 12 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://machinegirl.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://highvis.bandcamp.com/music]
+[release_parser:bsg__]: Found 9 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://hardreality.bandcamp.com/music]
+[release_parser:bsg__]: Found 2 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://cynthoni.bandcamp.com/music]
+[release_parser:bsg__]: Found 12 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://femtanyl.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://topshelfrecords.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://serverband.bandcamp.com/music]
+[release_parser:bsg__]: Found 1 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://komit.bandcamp.com/music]
+[release_parser:bsg__]: Found 14 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://villagerrr.bandcamp.com/music]
+[release_parser:bsg__]: Found 10 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://snarlsband.bandcamp.com/music]
+[release_parser:bsg__]: Found 8 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://sunglaciers.bandcamp.com/music]
+[release_parser:bsg__]: Found 7 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://goolinc.bandcamp.com/music]
+[release_parser:bsg__]: Found 4 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://connectionsband.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://waspfactory.bandcamp.com/music]
+[release_parser:bsg__]: Found 9 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://davebuker.bandcamp.com/music]
+[release_parser:bsg__]: Found 10 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://happychichester.bandcamp.com/music]
+[release_parser:bsg__]: Found 18 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://sweetfrancis.bandcamp.com/music]
+[release_parser:bsg__]: Found 1 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://earwig.bandcamp.com/music]
+[release_parser:bsg__]: Found 2 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://radattack.bandcamp.com/music]
+[release_parser:bsg__]: Found 9 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://colinstetson.bandcamp.com/music]
+[release_parser:bsg__]: Found 17 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://rosentwig.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://amandaglasser.bandcamp.com/music]
+[release_parser:bsg__]: Found 1 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://psychoangel.bandcamp.com/music]
+[release_parser:bsg__]: Found 2 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://golemm.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://turquoisedeath.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://andybell.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://maroulitadekol.bandcamp.com/music]
+[release_parser:bsg__]: Found 2 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://bdrmm.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://schntzl.bandcamp.com/music]
+[release_parser:bsg__]: Found 2 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://flasherdc.bandcamp.com/music]
+[release_parser:bsg__]: Found 6 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://saysueme.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: WARNING Got 0 bytes of data and exhausted all retries.
+[release_parser:bsg__]: WARNING - could not find any links for https://saysueme.bandcamp.com/music
+[release_parser:bsg__]: Found 0 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://jadedjuiceriders.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 5 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://carolineloveglow.bandcamp.com/music]
+[release_parser:bsg__]: Found 2 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://surfcurse.bandcamp.com/music]
+[release_parser:bsg__]: Found 6 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://knowermusic.bandcamp.com/music]
+[release_parser:bsg__]: Found 11 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://thebethsnz.bandcamp.com/music]
+[release_parser:bsg__]: Found 13 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://susumuhirasawa.bandcamp.com/music]
+[release_parser:bsg__]: Found 9 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://farbik.bandcamp.com/music]
+[release_parser:bsg__]: Found 7 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://swissportrait.bandcamp.com/music]
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://madelinegoldstein.bandcamp.com/music]
+[release_parser:bsg__]: Found 7 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://paleblueeyesmusic.bandcamp.com/music]
+[release_parser:bsg__]: Found 13 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://tinyruins.bandcamp.com/music]
+[release_parser:bsg__]: Found 9 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://cathedralbellsmusic.bandcamp.com/music]
+[release_parser:bsg__]: Found 14 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://lettingup.bandcamp.com/music]
+[release_parser:bsg__]: Found 12 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://wetleg.bandcamp.com/music]
+[release_parser:bsg__]: Found 5 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://illuminatihotties.bandcamp.com/music]
+[release_parser:bsg__]: Found 19 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://okcool.bandcamp.com/music]
+[release_parser:bsg__]: Found 11 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://geeteeband.bandcamp.com/music]
+[release_parser:bsg__]: Found 13 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://smilingbroadly.bandcamp.com/music]
+[release_parser:bsg__]: Found 6 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://mdoumoctar.bandcamp.com/music]
+[release_parser:bsg__]: Found 18 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://theshapiros.bandcamp.com/music]
+[release_parser:bsg__]: Found 1 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://hoorayforearth.bandcamp.com/music]
+[release_parser:bsg__]: Found 14 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://thethroes.bandcamp.com/music]
+[release_parser:bsg__]: Found 2 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://rjraffa.bandcamp.com/music]
+[release_parser:bsg__]: Found 6 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://kerokerobonito.bandcamp.com/music]
+[release_parser:bsg__]: Found 14 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://dee-parts.bandcamp.com/music]
+[release_parser:bsg__]: Found 3 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://vacation.bandcamp.com/music]
+[release_parser:bsg__]: Found 20 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://thedrin.bandcamp.com/music]
+[release_parser:bsg__]: Found 7 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://habitualnourishment.bandcamp.com/music]
+[release_parser:bsg__]: Found 4 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://jaguarsun.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 14 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://jessemaranger.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 5 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://persica3.bandcamp.com/music]
+[release_parser:bsg__]: Found 2 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://vansire.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://sandy.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 19 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://sleepingwitchandsaturn.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 3 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://tvpriest.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 6 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://girlfriendsandboyfriends.bandcamp.com/music]
+[release_parser:bsg__]: Found 4 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://klauswiese.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://arewenothomefront.bandcamp.com/music]
+[release_parser:bsg__]: Found 3 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://ruahruahruah.bandcamp.com/music]
+[release_parser:bsg__]: Found 7 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://imorgana.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 6 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://ppowerplant.bandcamp.com/music]
+[release_parser:bsg__]: Found 14 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://sweepingpromises.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 3 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://abeaconschool.bandcamp.com/music]
+[release_parser:bsg__]: Found 6 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://windows96.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 16 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://theserfsmusic.bandcamp.com/music]
+[release_parser:bsg__]: Found 7 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://crimeofpassing.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 5 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://greenbluempls.bandcamp.com/music]
+[release_parser:bsg__]: Found 5 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
+[release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://taqbir.bandcamp.com/music]
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Found 1 links...
+[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Exited successfully
 [rss_aggregator.py:bsg__]: No updates detected for this user
 [rss_aggregator.py:bsg__]: Exited successfully
-Unable to find next bandcamp Friday. Recieved: 
-Here's the raw HTML: b''
 [user_orchestrator.py]: No updates found for final.rss
 [user_orchestrator.py]: Exited successfully

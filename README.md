@@ -1,5 +1,5 @@
 # bandcamp-rss-feeds
-A repo that generates personalized RSS feeds pointing to Bandcamp featuring aggregated updates on releases from those you are following, Wishlist updates, and Collection updates (purchases) with a reach goal of following updates, all compounded daily into 1 RSS feed with a summary of daily updates.
+A repo that generates personalized RSS feeds pointing to Bandcamp featuring aggregated updates on releases from those you are following, Wishlist updates, following updates and Collection updates (purchases), all compounded daily into 1 RSS feed with a summary of daily updates.
 
 # Setup
 This generator looks at bandcamp users listed in the `users.ssf`, with the following format:

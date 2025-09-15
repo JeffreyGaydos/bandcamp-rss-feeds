@@ -527,7 +527,7 @@
 [collection_parser:bsg__]: Found 0 new collection items
 [collection_parser:bsg__]: Exited successfully
 [wishlist_parser:bsg__]: Found 417 links...
-[wishlist_parser:bsg__]: Found 1 new wishlist items
+[wishlist_parser:bsg__]: Found 0 new wishlist items
 [wishlist_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://tkdpll.bandcamp.com/music]
 [release_parser:bsg__]: Found 12 links...
@@ -876,18 +876,14 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://ppowerplant.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 14 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://sweepingpromises.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 3 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://abeaconschool.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 6 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
@@ -900,7 +896,6 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://crimeofpassing.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 5 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
@@ -909,9 +904,6 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://taqbir.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 1 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
@@ -923,7 +915,7 @@
 [release_parser:bsg__]: Found 5 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Wishlist update for **bsg__**
-[rss_aggregator.py:bsg__]: updating items.rss with 1 updates for this user
-[user_orchestrator.py]: Updating final.rss at 2025-09-14 11:51:41.591836
+[rss_aggregator.py:bsg__]: No updates detected for this user
+[rss_aggregator.py:bsg__]: Exited successfully
+[user_orchestrator.py]: No updates found for final.rss
 [user_orchestrator.py]: Exited successfully

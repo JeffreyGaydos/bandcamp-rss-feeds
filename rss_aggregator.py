@@ -29,14 +29,13 @@ def run(user, parsers):
     items = []
     for parser in parsers:
         ssf = open(f"{const._ssf_path}/{parser}_{_user}.ssf")
-        ssfDate = datetime.datetime.fromisoformat((ssf.readline())[0:-1])
         ssfLinks = ssf.read().splitlines()
         newSsfLinks = []
         for link in ssfLinks:
             if link.startswith(const._newIndicator):
                     newSsfLinks.append(link.replace(const._newIndicator, ""))
         if len(newSsfLinks) > 0:
-            items.append(createItem(f"{parser.capitalize()} update for ", parser, ssfDate, " ".join(newSsfLinks), _user))
+            items.append(createItem(f"{parser.capitalize()} update for ", parser, datetime.datetime.now(), " ".join(newSsfLinks), _user))
 
     #update RSS file
     if len(items) > 0:

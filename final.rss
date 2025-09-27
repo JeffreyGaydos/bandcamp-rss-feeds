@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-09-26 11:51:33.242742</lastBuildDate>
+<lastBuildDate>2025-09-27 11:51:30.159908</lastBuildDate>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2025-09-26_11:51:32.872858-bsg__</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2025-09-27_11:48:32.100857-jeffg__g</guid>
 <link>N/A</link>
-<description>https://adrianrew.bandcamp.com/album/slot-machine-music-3 https://brendaneder.bandcamp.com/album/-</description>
-<pubDate>2025-09-26 11:51:32.872858</pubDate>
+<description>https://turquoisedeath.bandcamp.com/album/the-univa-trilogy https://cynthoni.bandcamp.com/album/lost-in-her-virtual-eyes</description>
+<pubDate>2025-09-27 11:48:32.100857</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2025-09-27_11:51:29.899246-bsg__</guid>
+<link>N/A</link>
+<description>https://cynthoni.bandcamp.com/album/lost-in-her-virtual-eyes https://turquoisedeath.bandcamp.com/album/the-univa-trilogy</description>
+<pubDate>2025-09-27 11:51:29.899246</pubDate>
 </item>
 
 </channel>

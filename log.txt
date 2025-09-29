@@ -124,7 +124,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://turquoisedeath.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 13 links...
-[release_parser:jeffg__g]: Found 3 new release items
+[release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://tkdpll.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 12 links...
@@ -515,8 +515,8 @@
 [release_parser:jeffg__g]: Found 12 links...
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Release update for **jeffg__g**
-[rss_aggregator.py:jeffg__g]: updating items.rss with 1 updates for this user
+[rss_aggregator.py:jeffg__g]: No updates detected for this user
+[rss_aggregator.py:jeffg__g]: Exited successfully
 [following_parser:bsg__]: Found 94 links...
 [following_parser:bsg__]: Removed 1 artists that bsg__ no longer follows
 [following_parser:bsg__]: Found 0 new following items
@@ -673,7 +673,7 @@
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://turquoisedeath.bandcamp.com/music]
 [release_parser:bsg__]: Found 13 links...
-[release_parser:bsg__]: Found 3 new release items
+[release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://andybell.bandcamp.com/music]
 [release_parser:bsg__]: Found 16 links...
@@ -854,7 +854,6 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://girlfriendsandboyfriends.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 4 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
@@ -863,12 +862,10 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://arewenothomefront.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 4 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://ruahruahruah.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 7 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
@@ -877,7 +874,6 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://ppowerplant.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 14 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
@@ -886,7 +882,6 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://abeaconschool.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 6 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
@@ -895,12 +890,10 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://theserfsmusic.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 7 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://crimeofpassing.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 5 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
@@ -910,11 +903,11 @@
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://taqbir.bandcamp.com/music]
 [release_parser:bsg__]: Got 0 bytes of data. Retrying...
+[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 1 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://hkmori.bandcamp.com/music]
-[release_parser:bsg__]: Got 0 bytes of data. Retrying...
 [release_parser:bsg__]: Found 5 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
@@ -922,9 +915,9 @@
 [release_parser:bsg__]: Found 12 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Release update for **bsg__**
-[rss_aggregator.py:bsg__]: updating items.rss with 1 updates for this user
+[rss_aggregator.py:bsg__]: No updates detected for this user
+[rss_aggregator.py:bsg__]: Exited successfully
 Unable to find next bandcamp Friday. Recieved: 
 Here's the raw HTML: b''
-[user_orchestrator.py]: Updating final.rss at 2025-09-28 11:51:30.576166
+[user_orchestrator.py]: No updates found for final.rss
 [user_orchestrator.py]: Exited successfully

@@ -19,6 +19,9 @@ def getUsers():
     usersReadFile = open("users.ssf", "r")
     needsRewrite = False
     for userTuple in usersReadFile.read().split("\n"):
+        if(len(userTuple) == 0):
+            #empty line, ignore
+            continue
         if(len(userTuple.split(" ")) == 1):
             username = userTuple.split(" ")[0]
             print(f"{_prefix} user.sff missing fan_id for user {username}. Finding automatically...")

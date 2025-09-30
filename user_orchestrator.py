@@ -14,11 +14,34 @@ items = open("items.rss", "w", -1, "utf-8")
 items.write("")
 items.close()
 
-update = False
+def getUsers():
+    users = []
+    usersReadFile = open("users.ssf", "r")
+    needsRewrite = False
+    for userTuple in usersReadFile.read().split("\n"):
+        if(len(userTuple.split(" ")) == 1):
+            print(f"{_prefix} user.sff missing fan_id for user {userTuple.split(" ")[0]}. Finding automatically...")
+            fanId = generic_parser.getFanIdFromUsername(userTuple.split(" ")[0])
+            users.append([userTuple.split(" ")[0], fanId])
+            needsRewrite = True
+        else:
+            users.append([userTuple.split(" ")[0], userTuple.split(" ")[1]])
+    usersReadFile.close()
 
-for userTuple in open("users.ssf").read().split("\n"):
-    user = userTuple.split(" ")[0]
-    fanId = userTuple.split(" ")[1]
+    if(needsRewrite):
+        print(f"{_prefix} writing fan_ids to user.ssf for all users")
+        usersWriteFile = open("users.ssf", "w")
+        for userTuple in users:
+            usersWriteFile.write(f"{userTuple[0]} {userTuple[1]}\n")
+        usersWriteFile.close()
+    return users
+
+update = False
+users = getUsers()
+
+for userTuple in users:    
+    user = userTuple[0]
+    fanId = userTuple[1]
     generic_parser.unNewSsf("following", user)
     generic_parser.unNewSsf("collection", user)
     generic_parser.unNewSsf("wishlist", user)

@@ -20,9 +20,10 @@ def getUsers():
     needsRewrite = False
     for userTuple in usersReadFile.read().split("\n"):
         if(len(userTuple.split(" ")) == 1):
-            print(f"{_prefix} user.sff missing fan_id for user {userTuple.split(" ")[0]}. Finding automatically...")
+            username = userTuple.split(" ")[0]
+            print(f"{_prefix} user.sff missing fan_id for user {username}. Finding automatically...")
             fanId = generic_parser.getFanIdFromUsername(userTuple.split(" ")[0])
-            users.append([userTuple.split(" ")[0], fanId])
+            users.append([username, fanId])
             needsRewrite = True
         else:
             users.append([userTuple.split(" ")[0], userTuple.split(" ")[1]])

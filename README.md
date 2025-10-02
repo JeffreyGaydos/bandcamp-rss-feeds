@@ -30,3 +30,4 @@ This tool creates an RSS feed for the following "actions" that can occur related
     - Any releases released after the day of following a new artist will appear
 -  Bandcamp Friday Notifications [ :warning: Not consistently working]
    - User-independent and based on the official https://isitbandcampfriday.com/ website
+

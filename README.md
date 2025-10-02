@@ -8,22 +8,11 @@ This generator looks at bandcamp users listed in the `users.ssf`, with the follo
 {username} {fan_id}
 ```
 
-Where username is the user name of the user according to the url of your profile's homepage: `https://bandcamp.com/username`(the former example's username is "username"). The `fan_id` can be found by examining the network requests bandcamp sends when loading pages. First, load your collection (via the normal `https://bandcamp.com/username`) and press the F12 key to open the dev tools in your browser. Navigate to the network tab in your browser, then refresh the page. Look for a request called `collection_summary`, click on it, then navigate to the `Preview` tab for this request. You should see something like the following in that tab:
+Where username is the user's slug according to the url of your profile's homepage: `https://bandcamp.com/username` (the former example's username is "username"). The `fan_id` is the internal ID that bandcamp assigns to each user. The `fan_id` is optional and this project will automatically find it for you and write it in the `users.ssf` file after the first run. You can specify multiple users (one per-line) in the `user.ssf` file if you want to recieve updates for multiple users (this repo currently has 2 listed).
 
-```json
-{
-  "fan_id": 827391,
-  "collection_summary": {
-    "fan_id": 827391,
-    "username": "username",
-    "url": "https://bandcamp.com/username",
-    ...
-  }
-}
-```
-The `"fan_id"` property is the ID that you need for the `users.ssf` file.
+Once you have at least the username value in the `users.ssf` file, the `user_orchestrator.py` file will run daily via the GitHub action. All updates from runs are found in the `rss` branch and not on the `main` branch, but the action itself can be found on the `main` branch. Note that if you fork this repo, you will need to ensure that the `rss` branch still exists, at which point the action should automatically run to update that `rss` branch.
 
-Once you have these values in the `user.ssf` file, the `user_orchestrator.py` file will run daily via the GitHub action. All updates from runs are found in the `rss` branch and not on the `main` branch, but the action itself can be found on the `main` branch. Note that if you fork this repo, you will need to create your own `rss` branch, at which point the action should automatically run to update that branch. The final rss file can be viewed at `bandcamp-rss-feeds/rss/final.rss`. It's recommended that you use the "raw" version of the RSS file, dependent on how your RSS reader of choice works. For Discord, I've used [MonitoRSS](https://github.com/synzen/monitorss). You can specify multiple users (one per-line) in the `user.ssf` file if you want to recieve updates for multiple users (this repo currently has 2 listed).
+The final rss file can be viewed at `bandcamp-rss-feeds/rss/final.rss`. It's recommended that you use the "raw" version of the RSS file, dependent on how your RSS reader of choice works. For Discord, I've used [MonitoRSS](https://github.com/synzen/monitorss).
 
 # Features
 This tool creates an RSS feed for the following "actions" that can occur related to a users bandcamp account, scheduled daily through a github action.

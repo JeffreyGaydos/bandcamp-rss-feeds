@@ -57,7 +57,7 @@ def prepSSFs(usersArray):
         if(not matchesUser):
            os.remove(f"SSF/{fileName}")
 
-    # add any files (empty) that are not present
+    # add any files that are not present for an users in the users.ssf file
     for userTuple in usersArray:
         username = userTuple[0]
         for type in supportedSSFTypes:

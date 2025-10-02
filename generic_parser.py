@@ -214,7 +214,6 @@ def unNewSsf(parserName, user):
     ssfw.close()
 
 def getFanIdFromUsername(username):
-    #https://bandcamp.com/{username}
     requestsResponse = requests.get(f"https://bandcamp.com/{username}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     rawContent = requestsResponse.content
 

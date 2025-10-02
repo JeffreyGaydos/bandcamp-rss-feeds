@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-10-01 11:51:30.586765</lastBuildDate>
+<lastBuildDate>2025-10-02 11:51:25.140975</lastBuildDate>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2025-10-02_11:48:39.686390-jeffg__g</guid>
+<link>N/A</link>
+<description>https://mommaband.bandcamp.com/album/welcome-to-my-blue-sky-deluxe</description>
+<pubDate>2025-10-02 11:48:39.686390</pubDate>
+</item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2025-10-01_11:51:30.226510-bsg__</guid>
+<guid>release-2025-10-02_11:51:24.820760-bsg__</guid>
 <link>N/A</link>
-<description>https://paleblueeyesmusic.bandcamp.com/album/the-park</description>
-<pubDate>2025-10-01 11:51:30.226510</pubDate>
+<description>https://jaguarsun.bandcamp.com/album/blossom</description>
+<pubDate>2025-10-02 11:51:24.820760</pubDate>
 </item>
 
 </channel>

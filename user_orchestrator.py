@@ -4,6 +4,7 @@ import datetime
 import re
 import rss_aggregator
 import generic_parser
+import os
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)
 _prefix = f"[{_process}]:"
@@ -13,6 +14,8 @@ print(f"{_prefix} Clearing existing items from items.rss")
 items = open("items.rss", "w", -1, "utf-8")
 items.write("")
 items.close()
+
+supportedSSFTypes = ["collection", "following", "release", "wishlist"]
 
 def getUsers():
     users = []
@@ -40,16 +43,40 @@ def getUsers():
         usersWriteFile.close()
     return users
 
+def prepSSFs(usersArray):
+    print(f"{_prefix} Prepping SSF files based on current users...")
+    fileList = os.listdir('SSF')
+    # delete any existing files that are not for a user found in the users.ssf file
+    for fileName in fileList:
+        matchesUser = False
+        for userTuple in usersArray:
+            username = userTuple[0]
+            if(fileName.endswith(f"{username}.ssf")):
+                matchesUser = True
+                break
+        if(not matchesUser):
+           os.remove(f"SSF/{fileName}")
+
+    # add any files (empty) that are not present
+    for userTuple in usersArray:
+        username = userTuple[0]
+        for type in supportedSSFTypes:
+            try:
+                fileList.index(f"{type}_{username}.ssf")
+            except:
+                newStubFile = open(f"SSF/{type}_{username}.ssf", "w")
+                newStubFile.write(f"{datetime.datetime.now()}\n")
+                newStubFile.close()
+
 update = False
 users = getUsers()
+prepSSFs(users)
 
 for userTuple in users:    
     user = userTuple[0]
     fanId = userTuple[1]
-    generic_parser.unNewSsf("following", user)
-    generic_parser.unNewSsf("collection", user)
-    generic_parser.unNewSsf("wishlist", user)
-    generic_parser.unNewSsf("release", user)
+    for type in supportedSSFTypes:
+        generic_parser.unNewSsf(type, user)
     generic_parser.runPost(user, fanId, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"])
     generic_parser.runPost(user, fanId, "collection", "collection_items", ":p::", "items", ["item_url"])
     generic_parser.runPost(user, fanId, "wishlist", "wishlist_items", ":a::", "items", ["item_url"])
@@ -61,12 +88,10 @@ for userTuple in users:
         # When you follow an artist, their current releases should NOT show up as new
         # this alternative query selector is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp
         generic_parser.runGet(user, "release", "music", ["ol.music-grid li.music-grid-item a", ".ipCellLabel1 a"], artist[:-len(const._musicPostfix)], artist.startswith(const._newIndicator))
-    generic_parser.prependCurrentDateToSsfIfNecessary("following", user)
-    generic_parser.prependCurrentDateToSsfIfNecessary("collection", user)
-    generic_parser.prependCurrentDateToSsfIfNecessary("wishlist", user)
-    generic_parser.prependCurrentDateToSsfIfNecessary("release", user)
+    for type in supportedSSFTypes:
+        generic_parser.prependCurrentDateToSsfIfNecessary(type, user)
 
-    thisUpdate = rss_aggregator.run(user, ["wishlist", "following", "collection", "release"])
+    thisUpdate = rss_aggregator.run(user, ["collection", "following", "wishlist", "release"])
     update = thisUpdate or update
 
 _process = re.compile(r"[^\\\/]+$").search(sys.argv[0]).group(0)

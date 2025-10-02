@@ -212,3 +212,17 @@ def unNewSsf(parserName, user):
     ssfw = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "w", -1, "utf-8")
     ssfw.write(ssfAll)
     ssfw.close()
+
+def getFanIdFromUsername(username):
+    requestsResponse = requests.get(f"https://bandcamp.com/{username}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+    rawContent = requestsResponse.content
+
+    soup = BeautifulSoup(rawContent, 'html.parser')
+    
+    if(len(soup.select('div#pagedata')) > 0 and soup.select('div#pagedata')[0].has_attr("data-blob")):
+        allData = soup.select('div#pagedata')[0]["data-blob"]
+        fanId = json.loads(allData)["fan_data"]["fan_id"]
+        return fanId
+    else:
+        print("Unable to find user page. Make sure your bandcamp profile is set to be \"public\"!")
+        return None

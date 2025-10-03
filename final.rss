@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2025-10-02 11:51:25.140975</lastBuildDate>
+<lastBuildDate>2025-10-03 11:51:35.356678</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2025-10-02_11:48:39.686390-jeffg__g</guid>
+<guid>release-2025-10-03_11:48:24.098755-jeffg__g</guid>
 <link>N/A</link>
-<description>https://mommaband.bandcamp.com/album/welcome-to-my-blue-sky-deluxe</description>
-<pubDate>2025-10-02 11:48:39.686390</pubDate>
+<description>https://kenjiueda.bandcamp.com/track/terrazzo-floor https://sapphyre.bandcamp.com/track/eyes-low https://tineidae.bandcamp.com/track/hollow-light https://catsystemcorp.bandcamp.com/album/hiraeth-the-remixes-ep https://douglasholmquist.bandcamp.com/album/truer-than-you-original-game-soundtrack https://miamihorror.bandcamp.com/album/still-glowin https://psychoangel.bandcamp.com/album/sounds-of-future-breakbeat https://saulstokes.bandcamp.com/album/wetlands-frequensea-episode-8</description>
+<pubDate>2025-10-03 11:48:24.098755</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2025-10-02_11:51:24.820760-bsg__</guid>
+<guid>release-2025-10-03_11:51:35.087957-bsg__</guid>
 <link>N/A</link>
-<description>https://jaguarsun.bandcamp.com/album/blossom</description>
-<pubDate>2025-10-02 11:51:24.820760</pubDate>
+<description>https://psychoangel.bandcamp.com/album/sounds-of-future-breakbeat</description>
+<pubDate>2025-10-03 11:51:35.087957</pubDate>
+</item>
+<item>
+<title>**It's Bandcamp Friday!**</title>
+<guid>bandcamp-friday-2025-10-03_11:51:35.356598</guid>
+<link>N/A</link>
+<description>https://media.discordapp.net/attachments/971520732544766002/1221323444453376112/BandcampFriday1.gif?ex=66122918&is=65ffb418&hm=80ded9ee523c51ace839fe231cf5079294e9badeca9f714046016cd139d93588&=</description>
+<pubDate>2025-10-03 11:51:35.356598</pubDate>
 </item>
 
 </channel>

@@ -4,27 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-01-07 11:53:52.993374</lastBuildDate>
-<item>
-<title>Collection update for **jeffg__g**</title>
-<guid>collection-2026-01-07_11:50:25.198242-jeffg__g</guid>
-<link>N/A</link>
-<description>https://thebethsnz.bandcamp.com/album/have-yourself-a-merry-little-christmas https://boardsofcanada.bandcamp.com/album/the-campfire-headphase</description>
-<pubDate>2026-01-07 11:50:25.198242</pubDate>
-</item>
+<lastBuildDate>2026-01-09 11:53:22.478448</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-01-07_11:50:25.198722-jeffg__g</guid>
+<guid>release-2026-01-09_11:49:54.850668-jeffg__g</guid>
 <link>N/A</link>
-<description>https://ironandwine.bandcamp.com/album/hens-teeth</description>
-<pubDate>2026-01-07 11:50:25.198722</pubDate>
+<description>https://sapphyre.bandcamp.com/track/without-you https://after95.bandcamp.com/album/cold</description>
+<pubDate>2026-01-09 11:49:54.850668</pubDate>
 </item>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-01-07_11:53:52.714047-bsg__</guid>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-01-09_11:53:22.286731-bsg__</guid>
 <link>N/A</link>
-<description>https://autocamper.bandcamp.com/album/what-do-you-do-all-day https://thecordsband.bandcamp.com/album/the-cords-2</description>
-<pubDate>2026-01-07 11:53:52.714047</pubDate>
+<description>https://elephant-gym.bandcamp.com/album/live-in-the-world https://elephant-gym.bandcamp.com/album/live-in-the-world?label=672087633&tab=music</description>
+<pubDate>2026-01-09 11:53:22.286731</pubDate>
 </item>
 
 </channel>

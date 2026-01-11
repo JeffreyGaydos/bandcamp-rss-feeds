@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-01-09 11:53:22.478448</lastBuildDate>
+<lastBuildDate>2026-01-11 11:51:48.568031</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2026-01-09_11:49:54.850668-jeffg__g</guid>
+<title>Collection update for **jeffg__g**</title>
+<guid>collection-2026-01-11_11:48:23.230719-jeffg__g</guid>
 <link>N/A</link>
-<description>https://sapphyre.bandcamp.com/track/without-you https://after95.bandcamp.com/album/cold</description>
-<pubDate>2026-01-09 11:49:54.850668</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-01-09_11:53:22.286731-bsg__</guid>
-<link>N/A</link>
-<description>https://elephant-gym.bandcamp.com/album/live-in-the-world https://elephant-gym.bandcamp.com/album/live-in-the-world?label=672087633&tab=music</description>
-<pubDate>2026-01-09 11:53:22.286731</pubDate>
+<description>https://deathbrain.bandcamp.com/track/emotion-engine</description>
+<pubDate>2026-01-11 11:48:23.230719</pubDate>
 </item>
 
 </channel>

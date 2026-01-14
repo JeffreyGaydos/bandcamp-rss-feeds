@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-01-12 11:54:53.042294</lastBuildDate>
+<lastBuildDate>2026-01-14 11:55:21.955702</lastBuildDate>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-01-12_11:54:52.723143-bsg__</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-01-14_11:52:06.530536-jeffg__g</guid>
 <link>N/A</link>
-<description>https://oklou.bandcamp.com/album/choke-enough</description>
-<pubDate>2026-01-12 11:54:52.723143</pubDate>
+<description>https://uppermost.bandcamp.com/track/altitude-higher-purpose</description>
+<pubDate>2026-01-14 11:52:06.530536</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-01-14_11:55:21.675822-bsg__</guid>
+<link>N/A</link>
+<description>https://colinstetson.bandcamp.com/album/nethering https://schntzl.bandcamp.com/album/fata-morgana https://lettingup.bandcamp.com/track/hearts-and-flowers https://ppowerplant.bandcamp.com/album/bridge-of-sacrifice</description>
+<pubDate>2026-01-14 11:55:21.675822</pubDate>
 </item>
 
 </channel>

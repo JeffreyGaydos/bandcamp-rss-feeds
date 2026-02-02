@@ -4,27 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-01-31 11:56:07.136875</lastBuildDate>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2026-01-31_11:52:32.183344-jeffg__g</guid>
-<link>N/A</link>
-<description>https://jasongraves.bandcamp.com/music</description>
-<pubDate>2026-01-31 11:52:32.183344</pubDate>
-</item>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2026-01-31_11:52:32.183439-jeffg__g</guid>
-<link>N/A</link>
-<description>https://jasongraves.bandcamp.com/album/limited-run-retail-jams-vaporwave https://jasongraves.bandcamp.com/album/limited-run-retail-jams-songs-to-shop-to https://jasongraves.bandcamp.com/album/farlands</description>
-<pubDate>2026-01-31 11:52:32.183439</pubDate>
-</item>
+<lastBuildDate>2026-02-02 12:04:31.046813</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-01-31_11:52:32.183794-jeffg__g</guid>
+<guid>release-2026-02-02_12:00:57.957748-jeffg__g</guid>
 <link>N/A</link>
-<description>https://uppermost.bandcamp.com/track/go-with-the-flow-against-the-current https://oneheartisok.bandcamp.com/album/broken https://oneheartisok.bandcamp.com/album/tapeloops</description>
-<pubDate>2026-01-31 11:52:32.183794</pubDate>
+<description>https://softcult.bandcamp.com/album/when-a-flower-doesnt-grow https://oneheartisok.bandcamp.com/album/tales https://oneheartisok.bandcamp.com/album/wasted https://oneheartisok.bandcamp.com/track/apathy</description>
+<pubDate>2026-02-02 12:00:57.957748</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2026-02-02_12:04:30.710347-bsg__</guid>
+<link>N/A</link>
+<description>https://haruhikobayashi.bandcamp.com/album/maybe-you-should-talk-to-someone</description>
+<pubDate>2026-02-02 12:04:30.710347</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-02-02_12:04:30.710667-bsg__</guid>
+<link>N/A</link>
+<description>https://theserfsmusic.bandcamp.com/album/rarities-vol-2</description>
+<pubDate>2026-02-02 12:04:30.710667</pubDate>
 </item>
 
 </channel>

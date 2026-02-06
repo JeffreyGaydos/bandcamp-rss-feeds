@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-02-05 12:05:42.355409</lastBuildDate>
+<lastBuildDate>2026-02-06 12:03:50.920722</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-02-05_12:02:21.519410-jeffg__g</guid>
+<guid>release-2026-02-06_12:00:34.163381-jeffg__g</guid>
 <link>N/A</link>
-<description>https://sebastianzawadzkimusic.bandcamp.com/album/altair https://sebastianzawadzkimusic.bandcamp.com/album/piano-works-vol-2 https://sebastianzawadzkimusic.bandcamp.com/album/songs-about-time https://sebastianzawadzkimusic.bandcamp.com/album/palette https://sebastianzawadzkimusic.bandcamp.com/album/monochrome https://sebastianzawadzkimusic.bandcamp.com/album/pax-elysium https://sebastianzawadzkimusic.bandcamp.com/album/vibrations https://sebastianzawadzkimusic.bandcamp.com/album/entropy https://sebastianzawadzkimusic.bandcamp.com/album/far-away https://sebastianzawadzkimusic.bandcamp.com/album/spirituality https://sebastianzawadzkimusic.bandcamp.com/album/piano-works-vol-1 https://sebastianzawadzkimusic.bandcamp.com/album/norn</description>
-<pubDate>2026-02-05 12:02:21.519410</pubDate>
+<description>https://tineidae.bandcamp.com/track/redshift https://mogwai.bandcamp.com/album/earth-division-ep https://pizzahotline.bandcamp.com/album/pizza-hotline-demo-disc-1</description>
+<pubDate>2026-02-06 12:00:34.163381</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-02-06_12:03:50.699721-bsg__</guid>
+<link>N/A</link>
+<description>https://madelinegoldstein.bandcamp.com/album/speaking-to-the-body https://cathedralbellsmusic.bandcamp.com/album/parallel-dreams</description>
+<pubDate>2026-02-06 12:03:50.699721</pubDate>
 </item>
 
 </channel>

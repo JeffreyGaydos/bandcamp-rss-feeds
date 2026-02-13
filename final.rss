@@ -4,13 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-02-12 12:09:16.893023</lastBuildDate>
+<lastBuildDate>2026-02-13 12:04:15.423624</lastBuildDate>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-02-12_12:09:16.587057-bsg__</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2026-02-13_12:00:41.016366-jeffg__g</guid>
 <link>N/A</link>
-<description>https://joshuachuquimiacrampton.bandcamp.com/album/anata</description>
-<pubDate>2026-02-12 12:09:16.587057</pubDate>
+<description>https://datarebel.bandcamp.com/album/inert</description>
+<pubDate>2026-02-13 12:00:41.016366</pubDate>
+</item>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-02-13_12:00:41.016840-jeffg__g</guid>
+<link>N/A</link>
+<description>https://sapphyre.bandcamp.com/track/naits-glory-sapphyre-vision https://philipglass.bandcamp.com/album/philip-glass-songs-poems</description>
+<pubDate>2026-02-13 12:00:41.016840</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-02-13_12:04:15.188487-bsg__</guid>
+<link>N/A</link>
+<description>https://tompkinssquare.bandcamp.com/album/samba-in-seattle-live-at-the-penthouse-1966-1968 https://tompkinssquare.bandcamp.com/album/i-kept-these-old-blues</description>
+<pubDate>2026-02-13 12:04:15.188487</pubDate>
 </item>
 
 </channel>

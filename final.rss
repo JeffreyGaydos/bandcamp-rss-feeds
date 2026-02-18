@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-02-14 11:58:07.693823</lastBuildDate>
+<lastBuildDate>2026-02-18 12:08:10.845934</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-02-14_11:54:43.765675-jeffg__g</guid>
+<guid>release-2026-02-18_12:04:46.919774-jeffg__g</guid>
 <link>N/A</link>
-<description>https://femtanyl.bandcamp.com/album/man-bites-dog https://desertsand.bandcamp.com/album/foresti-traxxendenti</description>
-<pubDate>2026-02-14 11:54:43.765675</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-02-14_11:58:07.359922-bsg__</guid>
-<link>N/A</link>
-<description>https://femtanyl.bandcamp.com/album/man-bites-dog</description>
-<pubDate>2026-02-14 11:58:07.359922</pubDate>
+<description>https://ninajirachi.bandcamp.com/album/its-you-underscores-it-s-u-remix</description>
+<pubDate>2026-02-18 12:04:46.919774</pubDate>
 </item>
 
 </channel>

@@ -30,3 +30,9 @@ This tool creates an RSS feed for the following "actions" that can occur related
     - Any releases released after the day of following a new artist will appear
 -  Bandcamp Friday Notifications [ :warning: Not consistently working]
    - User-independent and based on the official https://isitbandcampfriday.com/ website
+
+# Contribution Guidelines
+
+This repository was created without the assistance of generative AI (where possible of course since Google/GitHub have added features) for increased reliability and security. Considering that this repository has no real monetary benefits or deadlines, I find it unethical to use generative AI for such a project. As such, this repo will not accept PRs created by generative AI, even if the code appears to be correct. If I wanted to use an LLM for this project, I would have done so myself, I don't need someone else to do that for me.
+
+That said, if you are a human and want to learn, I will be happy to assit you! PRs don't need to be perfect if you have ethical significance!

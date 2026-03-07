@@ -4,27 +4,34 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-03-06 12:01:50.522568</lastBuildDate>
+<lastBuildDate>2026-03-07 11:56:04.546645</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-03-06_11:58:21.881421-jeffg__g</guid>
+<guid>release-2026-03-07_11:52:32.463644-jeffg__g</guid>
 <link>N/A</link>
-<description>https://tineidae.bandcamp.com/track/spaced-out https://cuts.bandcamp.com/album/archive-01 https://cuts.bandcamp.com/album/archive-02 https://jonnynash.bandcamp.com/album/smoke-rings https://philipglass.bandcamp.com/album/philip-glass-1000-airplanes-on-the-roof-feat-m https://philipglass.bandcamp.com/album/philip-glass-1000-airplanes-on-the-roof-instrumental</description>
-<pubDate>2026-03-06 11:58:21.881421</pubDate>
+<description>https://cassetter.bandcamp.com/track/fall-back</description>
+<pubDate>2026-03-07 11:52:32.463644</pubDate>
+</item>
+<item>
+<title>Collection update for **bsg__**</title>
+<guid>collection-2026-03-07_11:56:04.180282-bsg__</guid>
+<link>N/A</link>
+<description>https://digital.susumuhirasawa.com/album/unzip https://vai5000.bandcamp.com/album/there-is-a-you-that-remains https://haruhikobayashi.bandcamp.com/album/maybe-you-should-talk-to-someone</description>
+<pubDate>2026-03-07 11:56:04.180282</pubDate>
+</item>
+<item>
+<title>Following update for **bsg__**</title>
+<guid>following-2026-03-07_11:56:04.180385-bsg__</guid>
+<link>N/A</link>
+<description>https://vai5000.bandcamp.com/music https://haruhikobayashi.bandcamp.com/music</description>
+<pubDate>2026-03-07 11:56:04.180385</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2026-03-06_12:01:50.118237-bsg__</guid>
+<guid>release-2026-03-07_11:56:04.180835-bsg__</guid>
 <link>N/A</link>
-<description>https://truegreen.bandcamp.com/track/bindi-sue-2</description>
-<pubDate>2026-03-06 12:01:50.118237</pubDate>
-</item>
-<item>
-<title>**It's Bandcamp Friday!**</title>
-<guid>bandcamp-friday-2026-03-06_12:01:50.522485</guid>
-<link>N/A</link>
-<description>https://media.discordapp.net/attachments/971520732544766002/1221323444453376112/BandcampFriday1.gif?ex=66122918&is=65ffb418&hm=80ded9ee523c51ace839fe231cf5079294e9badeca9f714046016cd139d93588&=</description>
-<pubDate>2026-03-06 12:01:50.522485</pubDate>
+<description>https://tompkinssquare.bandcamp.com/album/8cd-mystery-bundle-50 https://tompkinssquare.bandcamp.com/album/sailors-dream</description>
+<pubDate>2026-03-07 11:56:04.180835</pubDate>
 </item>
 
 </channel>

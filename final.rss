@@ -4,34 +4,55 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-03-07 11:56:04.546645</lastBuildDate>
+<lastBuildDate>2026-03-21 11:58:47.554323</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2026-03-07_11:52:32.463644-jeffg__g</guid>
+<title>Collection update for **jeffg__g**</title>
+<guid>collection-2026-03-21_11:55:02.881762-jeffg__g</guid>
 <link>N/A</link>
-<description>https://cassetter.bandcamp.com/track/fall-back</description>
-<pubDate>2026-03-07 11:52:32.463644</pubDate>
+<description>https://shook.bandcamp.com/album/continuum</description>
+<pubDate>2026-03-21 11:55:02.881762</pubDate>
 </item>
 <item>
-<title>Collection update for **bsg__**</title>
-<guid>collection-2026-03-07_11:56:04.180282-bsg__</guid>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2026-03-21_11:55:02.881891-jeffg__g</guid>
 <link>N/A</link>
-<description>https://digital.susumuhirasawa.com/album/unzip https://vai5000.bandcamp.com/album/there-is-a-you-that-remains https://haruhikobayashi.bandcamp.com/album/maybe-you-should-talk-to-someone</description>
-<pubDate>2026-03-07 11:56:04.180282</pubDate>
+<description>https://stroomtv.bandcamp.com/music https://somewherepress.bandcamp.com/music https://bingruth.bandcamp.com/music https://theorytherapy.bandcamp.com/music https://junkflex.bandcamp.com/music</description>
+<pubDate>2026-03-21 11:55:02.881891</pubDate>
+</item>
+<item>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2026-03-21_11:55:02.882012-jeffg__g</guid>
+<link>N/A</link>
+<description>https://bingruth.bandcamp.com/album/graze-the-bell https://theorytherapy.bandcamp.com/album/were-here-all-the-time https://theorytherapy.bandcamp.com/album/home-is-everywhere-and-nowhere-at-once</description>
+<pubDate>2026-03-21 11:55:02.882012</pubDate>
+</item>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-03-21_11:55:02.882549-jeffg__g</guid>
+<link>N/A</link>
+<description>https://trevorsomething.bandcamp.com/track/electricity https://tineidae.bandcamp.com/track/midnight-escape https://tineidae.bandcamp.com/track/silent-radience https://machinegirl.bandcamp.com/track/come-on-baby-scrape-my-data-dj-smokey-remix https://americanfootball.bandcamp.com/album/american-football-lp4 https://dusqk.bandcamp.com/album/lost-sanctuary https://gulfaudiocompany.bandcamp.com/album/oud https://marcmatthews.bandcamp.com/album/alone</description>
+<pubDate>2026-03-21 11:55:02.882549</pubDate>
 </item>
 <item>
 <title>Following update for **bsg__**</title>
-<guid>following-2026-03-07_11:56:04.180385-bsg__</guid>
+<guid>following-2026-03-21_11:58:47.161591-bsg__</guid>
 <link>N/A</link>
-<description>https://vai5000.bandcamp.com/music https://haruhikobayashi.bandcamp.com/music</description>
-<pubDate>2026-03-07 11:56:04.180385</pubDate>
+<description>https://themantecas.bandcamp.com/music https://meatobselisk.bandcamp.com/music</description>
+<pubDate>2026-03-21 11:58:47.161591</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2026-03-21_11:58:47.161759-bsg__</guid>
+<link>N/A</link>
+<description>https://blednost.bandcamp.com/album/close-your-windows-chain-yourself https://vampisoul.bandcamp.com/album/el-nuevo-montuno-lleg https://vai5000.bandcamp.com/album/system-bios https://fabianodonascimento.bandcamp.com/album/vila</description>
+<pubDate>2026-03-21 11:58:47.161759</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2026-03-07_11:56:04.180835-bsg__</guid>
+<guid>release-2026-03-21_11:58:47.162082-bsg__</guid>
 <link>N/A</link>
-<description>https://tompkinssquare.bandcamp.com/album/8cd-mystery-bundle-50 https://tompkinssquare.bandcamp.com/album/sailors-dream</description>
-<pubDate>2026-03-07 11:56:04.180835</pubDate>
+<description>https://americanfootball.bandcamp.com/album/american-football-lp4 https://machinegirl.bandcamp.com/track/come-on-baby-scrape-my-data-dj-smokey-remix https://vai5000.bandcamp.com/track/de-ign</description>
+<pubDate>2026-03-21 11:58:47.162082</pubDate>
 </item>
 
 </channel>

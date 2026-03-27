@@ -4,13 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-03-25 12:35:27.201101</lastBuildDate>
+<lastBuildDate>2026-03-27 12:32:31.921154</lastBuildDate>
+<item>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2026-03-27_12:28:59.898166-jeffg__g</guid>
+<link>N/A</link>
+<description>https://tineidae.bandcamp.com/track/silent-radiance</description>
+<pubDate>2026-03-27 12:28:59.898166</pubDate>
+</item>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-03-25_12:31:50.682673-jeffg__g</guid>
+<guid>release-2026-03-27_12:28:59.898650-jeffg__g</guid>
 <link>N/A</link>
-<description>https://slowerpace.bandcamp.com/album/marvellus</description>
-<pubDate>2026-03-25 12:31:50.682673</pubDate>
+<description>https://davz.bandcamp.com/album/null-directive-game-ost https://tineidae.bandcamp.com/track/silent-radiance https://bayledges.bandcamp.com/track/ghost https://shook.bandcamp.com/album/origins https://slowerpace.bandcamp.com/album/time-machine https://slowerpace.bandcamp.com/album/pyromaniacs https://slowerpace.bandcamp.com/album/space-cowboys</description>
+<pubDate>2026-03-27 12:28:59.898650</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-03-27_12:32:31.674438-bsg__</guid>
+<link>N/A</link>
+<description>https://shook.bandcamp.com/album/origins https://bayledges.bandcamp.com/track/ghost https://vai5000.bandcamp.com/album/katamari</description>
+<pubDate>2026-03-27 12:32:31.674438</pubDate>
 </item>
 
 </channel>

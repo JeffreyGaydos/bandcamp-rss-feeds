@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-04-03 12:09:00.743426</lastBuildDate>
-<item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2026-04-03_12:05:18.058206-jeffg__g</guid>
-<link>N/A</link>
-<description>https://tineidae.bandcamp.com/track/memory-rewind https://machinegirl.bandcamp.com/album/psychowarrior-mg-ultra-x-the-remixes-minus-one https://alisonsynths.bandcamp.com/album/a-e-r-o</description>
-<pubDate>2026-04-03 12:05:18.058206</pubDate>
-</item>
+<lastBuildDate>2026-04-04 12:02:26.968380</lastBuildDate>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2026-04-03_12:09:00.392646-bsg__</guid>
+<guid>release-2026-04-04_12:02:26.659013-bsg__</guid>
 <link>N/A</link>
-<description>https://machinegirl.bandcamp.com/album/psychowarrior-mg-ultra-x-the-remixes-minus-one</description>
-<pubDate>2026-04-03 12:09:00.392646</pubDate>
+<description>https://tompkinssquare.bandcamp.com/album/dark-on-a-sunny-day</description>
+<pubDate>2026-04-04 12:02:26.659013</pubDate>
 </item>
 
 </channel>

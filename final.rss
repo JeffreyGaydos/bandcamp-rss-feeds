@@ -4,27 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-04-19 12:07:07.114257</lastBuildDate>
-<item>
-<title>Collection update for **jeffg__g**</title>
-<guid>collection-2026-04-19_12:03:25.145076-jeffg__g</guid>
-<link>N/A</link>
-<description>https://dynatron.bandcamp.com/album/origins</description>
-<pubDate>2026-04-19 12:03:25.145076</pubDate>
-</item>
+<lastBuildDate>2026-04-20 12:53:03.393377</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-04-19_12:03:25.145712-jeffg__g</guid>
+<guid>release-2026-04-20_12:49:33.982570-jeffg__g</guid>
 <link>N/A</link>
-<description>https://fmskyline.bandcamp.com/album/magical-thinking https://vai5000.bandcamp.com/album/protocol-lynxxxcero-a</description>
-<pubDate>2026-04-19 12:03:25.145712</pubDate>
+<description>https://vai5000.bandcamp.com/track/aside-dani-kiyoko-p-5v-isla-irene</description>
+<pubDate>2026-04-20 12:49:33.982570</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2026-04-19_12:07:06.793597-bsg__</guid>
+<guid>release-2026-04-20_12:53:03.080994-bsg__</guid>
 <link>N/A</link>
-<description>https://vai5000.bandcamp.com/album/protocol-lynxxxcero-a</description>
-<pubDate>2026-04-19 12:07:06.793597</pubDate>
+<description>https://vai5000.bandcamp.com/track/aside-dani-kiyoko-p-5v-isla-irene</description>
+<pubDate>2026-04-20 12:53:03.080994</pubDate>
 </item>
 
 </channel>

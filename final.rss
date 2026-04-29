@@ -4,27 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-04-28 13:22:46.207994</lastBuildDate>
+<lastBuildDate>2026-04-29 13:14:18.707628</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-04-28_13:19:13.875677-jeffg__g</guid>
+<guid>release-2026-04-29_13:10:41.092443-jeffg__g</guid>
 <link>N/A</link>
-<description>https://flamingosis1.bandcamp.com/album/mood-provider-4</description>
-<pubDate>2026-04-28 13:19:13.875677</pubDate>
-</item>
-<item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-04-28_13:22:45.735736-bsg__</guid>
-<link>N/A</link>
-<description>https://fazerdaze.bandcamp.com/album/soft-power https://fibplayinginstruments.bandcamp.com/album/heavy-lifting</description>
-<pubDate>2026-04-28 13:22:45.735736</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-04-28_13:22:45.736081-bsg__</guid>
-<link>N/A</link>
-<description>https://jaguarsun.bandcamp.com/album/home-slow</description>
-<pubDate>2026-04-28 13:22:45.736081</pubDate>
+<description>https://mitchmurder.bandcamp.com/track/aurora https://somewherepress.bandcamp.com/track/olympus</description>
+<pubDate>2026-04-29 13:10:41.092443</pubDate>
 </item>
 
 </channel>

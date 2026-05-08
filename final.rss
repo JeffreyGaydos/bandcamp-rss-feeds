@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-05-07 13:23:46.214039</lastBuildDate>
+<lastBuildDate>2026-05-08 13:02:57.740957</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-05-07_13:20:02.608291-jeffg__g</guid>
+<guid>release-2026-05-08_12:59:05.350188-jeffg__g</guid>
 <link>N/A</link>
-<description>https://jonnynash.bandcamp.com/album/at-the-emerald-pool</description>
-<pubDate>2026-05-07 13:20:02.608291</pubDate>
+<description>https://pizzahotline.bandcamp.com/album/motorslice-ost https://bayledges.bandcamp.com/track/deepest-blue</description>
+<pubDate>2026-05-08 12:59:05.350188</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-05-08_13:02:57.422737-bsg__</guid>
+<link>N/A</link>
+<description>https://bayledges.bandcamp.com/track/deepest-blue</description>
+<pubDate>2026-05-08 13:02:57.422737</pubDate>
 </item>
 
 </channel>

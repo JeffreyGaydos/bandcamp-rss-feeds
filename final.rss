@@ -4,20 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-05-08 13:02:57.740957</lastBuildDate>
+<lastBuildDate>2026-05-09 12:44:44.762803</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2026-05-08_12:59:05.350188-jeffg__g</guid>
+<title>Collection update for **jeffg__g**</title>
+<guid>collection-2026-05-09_12:40:57.036745-jeffg__g</guid>
 <link>N/A</link>
-<description>https://pizzahotline.bandcamp.com/album/motorslice-ost https://bayledges.bandcamp.com/track/deepest-blue</description>
-<pubDate>2026-05-08 12:59:05.350188</pubDate>
+<description>https://davecowen.bandcamp.com/track/twin-shot</description>
+<pubDate>2026-05-09 12:40:57.036745</pubDate>
 </item>
 <item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-05-08_13:02:57.422737-bsg__</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2026-05-09_12:40:57.036962-jeffg__g</guid>
 <link>N/A</link>
-<description>https://bayledges.bandcamp.com/track/deepest-blue</description>
-<pubDate>2026-05-08 13:02:57.422737</pubDate>
+<description>https://gunshipmusic.bandcamp.com/track/tell-me-when-the-world-stops-ending</description>
+<pubDate>2026-05-09 12:40:57.036962</pubDate>
 </item>
 
 </channel>

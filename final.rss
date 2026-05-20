@@ -4,13 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-05-19 14:19:13.533296</lastBuildDate>
+<lastBuildDate>2026-05-20 14:20:27.071518</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-05-19_14:15:28.894902-jeffg__g</guid>
+<guid>release-2026-05-20_14:16:38.380441-jeffg__g</guid>
 <link>N/A</link>
-<description>https://tyondai.bandcamp.com/album/splayed-werks?label=3219881500&tab=music</description>
-<pubDate>2026-05-19 14:15:28.894902</pubDate>
+<description>https://farcaspian.bandcamp.com/album/turn</description>
+<pubDate>2026-05-20 14:16:38.380441</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2026-05-20_14:20:26.642617-bsg__</guid>
+<link>N/A</link>
+<description>https://thefield.bandcamp.com/album/now-you-exist https://heatcrimes.bandcamp.com/album/paradise-metal https://feeblelittlehorse.bandcamp.com/album/girl-with-fish</description>
+<pubDate>2026-05-20 14:20:26.642617</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-05-20_14:20:26.642946-bsg__</guid>
+<link>N/A</link>
+<description>https://ninepens.bandcamp.com/album/recordings-2008-09?label=672087633&tab=music https://sweepingpromises.bandcamp.com/album/you-say-i-romanticize https://tompkinssquare.bandcamp.com/album/dick-spottswood-tompkins-square-present-1925-songs</description>
+<pubDate>2026-05-20 14:20:26.642946</pubDate>
 </item>
 
 </channel>

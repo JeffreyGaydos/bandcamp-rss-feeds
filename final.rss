@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-05-30 12:52:52.875646</lastBuildDate>
+<lastBuildDate>2026-05-31 13:05:54.102465</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2026-05-30_12:48:59.733125-jeffg__g</guid>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2026-05-31_13:01:56.460823-jeffg__g</guid>
 <link>N/A</link>
-<description>https://pizzahotline.bandcamp.com/album/low-poly-breaks-mixes https://hotelpoolsmusic.bandcamp.com/album/controller</description>
-<pubDate>2026-05-30 12:48:59.733125</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-05-30_12:52:52.528587-bsg__</guid>
-<link>N/A</link>
-<description>https://thedrin.bandcamp.com/track/the-pigs-of-silver-linings</description>
-<pubDate>2026-05-30 12:52:52.528587</pubDate>
+<description>https://joshdaremusic.bandcamp.com/music</description>
+<pubDate>2026-05-31 13:01:56.460823</pubDate>
 </item>
 
 </channel>

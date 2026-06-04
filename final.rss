@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-06-03 16:08:45.500861</lastBuildDate>
+<lastBuildDate>2026-06-04 14:21:32.911297</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-06-03_16:04:54.884593-jeffg__g</guid>
+<guid>release-2026-06-04_14:17:45.267319-jeffg__g</guid>
 <link>N/A</link>
-<description>https://gunshipmusic.bandcamp.com/track/core-breach-built-to-destroy</description>
-<pubDate>2026-06-03 16:04:54.884593</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-06-03_16:08:45.068595-bsg__</guid>
-<link>N/A</link>
-<description>https://happychichester.bandcamp.com/album/test-time-2026-new-album-full-digital-download</description>
-<pubDate>2026-06-03 16:08:45.068595</pubDate>
+<description>https://davz.bandcamp.com/track/light-pollution</description>
+<pubDate>2026-06-04 14:17:45.267319</pubDate>
 </item>
 
 </channel>

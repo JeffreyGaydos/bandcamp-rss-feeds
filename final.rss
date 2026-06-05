@@ -4,13 +4,34 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-06-04 14:21:32.911297</lastBuildDate>
+<lastBuildDate>2026-06-05 14:13:01.737972</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-06-04_14:17:45.267319-jeffg__g</guid>
+<guid>release-2026-06-05_14:09:17.047185-jeffg__g</guid>
 <link>N/A</link>
-<description>https://davz.bandcamp.com/track/light-pollution</description>
-<pubDate>2026-06-04 14:17:45.267319</pubDate>
+<description>https://tineidae.bandcamp.com/track/fleeting-moments https://cynthoni.bandcamp.com/album/skvllcrvsh-ep https://pizzahotline.bandcamp.com/album/motorslice-ost-ambient-mixes</description>
+<pubDate>2026-06-05 14:09:17.047185</pubDate>
+</item>
+<item>
+<title>Following update for **bsg__**</title>
+<guid>following-2026-06-05_14:13:01.318260-bsg__</guid>
+<link>N/A</link>
+<description>https://estherjo.bandcamp.com/music</description>
+<pubDate>2026-06-05 14:13:01.318260</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2026-06-05_14:13:01.318424-bsg__</guid>
+<link>N/A</link>
+<description>https://estherjo.bandcamp.com/album/breakthrough https://estherjo.bandcamp.com/album/being</description>
+<pubDate>2026-06-05 14:13:01.318424</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-06-05_14:13:01.318753-bsg__</guid>
+<link>N/A</link>
+<description>https://cynthoni.bandcamp.com/album/skvllcrvsh-ep https://vansire.bandcamp.com/album/taking-solace</description>
+<pubDate>2026-06-05 14:13:01.318753</pubDate>
 </item>
 
 </channel>

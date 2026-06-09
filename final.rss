@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-06-08 15:05:19.531217</lastBuildDate>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2026-06-08_15:01:37.051509-jeffg__g</guid>
-<link>N/A</link>
-<description>https://solsynth.bandcamp.com/music</description>
-<pubDate>2026-06-08 15:01:37.051509</pubDate>
-</item>
+<lastBuildDate>2026-06-09 14:07:14.808889</lastBuildDate>
 <item>
 <title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2026-06-08_15:01:37.051644-jeffg__g</guid>
+<guid>wishlist-2026-06-09_14:03:18.204573-jeffg__g</guid>
 <link>N/A</link>
-<description>https://solsynth.bandcamp.com/album/reflections</description>
-<pubDate>2026-06-08 15:01:37.051644</pubDate>
+<description>https://solsynth.bandcamp.com/track/breathe</description>
+<pubDate>2026-06-09 14:03:18.204573</pubDate>
+</item>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-06-09_14:03:18.205121-jeffg__g</guid>
+<link>N/A</link>
+<description>https://wishy.bandcamp.com/album/natures-pill https://vai5000.bandcamp.com/album/neither-of-us-ilypvc</description>
+<pubDate>2026-06-09 14:03:18.205121</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-06-09_14:07:14.536931-bsg__</guid>
+<link>N/A</link>
+<description>https://vai5000.bandcamp.com/album/neither-of-us-ilypvc</description>
+<pubDate>2026-06-09 14:07:14.536931</pubDate>
 </item>
 
 </channel>

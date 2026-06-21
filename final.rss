@@ -4,34 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-06-19 14:31:52.709752</lastBuildDate>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2026-06-19_14:28:06.926697-jeffg__g</guid>
-<link>N/A</link>
-<description>https://solarfields.bandcamp.com/track/a-new-window-origin-2013-2 https://solarfields.bandcamp.com/track/the-missing-origin-2006-3</description>
-<pubDate>2026-06-19 14:28:06.926697</pubDate>
-</item>
-<item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2026-06-19_14:28:06.927239-jeffg__g</guid>
-<link>N/A</link>
-<description>https://blumarten.bandcamp.com/album/you-wont-find-your-way-from-here https://philipglass.bandcamp.com/track/philip-glass-strung-out</description>
-<pubDate>2026-06-19 14:28:06.927239</pubDate>
-</item>
+<lastBuildDate>2026-06-21 13:29:36.913455</lastBuildDate>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-06-19_14:31:52.503276-bsg__</guid>
+<guid>wishlist-2026-06-21_13:29:36.642751-bsg__</guid>
 <link>N/A</link>
-<description>https://fulgeance.bandcamp.com/album/fulgeance-et-la-mer</description>
-<pubDate>2026-06-19 14:31:52.503276</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-06-19_14:31:52.503614-bsg__</guid>
-<link>N/A</link>
-<description>https://tvpriest.bandcamp.com/track/the-mud-never-dries</description>
-<pubDate>2026-06-19 14:31:52.503614</pubDate>
+<description>https://drgabba.bandcamp.com/album/blue-potion-album</description>
+<pubDate>2026-06-21 13:29:36.642751</pubDate>
 </item>
 
 </channel>

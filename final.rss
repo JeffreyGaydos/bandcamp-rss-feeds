@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-06-21 13:29:36.913455</lastBuildDate>
+<lastBuildDate>2026-06-22 16:21:31.664236</lastBuildDate>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-06-21_13:29:36.642751-bsg__</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-06-22_16:17:37.893338-jeffg__g</guid>
 <link>N/A</link>
-<description>https://drgabba.bandcamp.com/album/blue-potion-album</description>
-<pubDate>2026-06-21 13:29:36.642751</pubDate>
+<description>https://turquoisedeath.bandcamp.com/album/dj-professional-presents-the-r-a-w</description>
+<pubDate>2026-06-22 16:17:37.893338</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-06-22_16:21:31.352979-bsg__</guid>
+<link>N/A</link>
+<description>https://elephant-gym.bandcamp.com/track/highway https://elephant-gym.bandcamp.com/track/highway?label=672087633&tab=music https://turquoisedeath.bandcamp.com/album/dj-professional-presents-the-r-a-w</description>
+<pubDate>2026-06-22 16:21:31.352979</pubDate>
 </item>
 
 </channel>

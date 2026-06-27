@@ -4,20 +4,34 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-06-26 13:40:17.479753</lastBuildDate>
+<lastBuildDate>2026-06-27 12:59:35.580539</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2026-06-26_13:36:23.566143-jeffg__g</guid>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2026-06-27_12:55:43.600583-jeffg__g</guid>
 <link>N/A</link>
-<description>https://rivalconsoles.bandcamp.com/track/coda-loraine-james-remix?label=3219881500&tab=music https://cynthoni.bandcamp.com/track/monolithic-cyan-tsunami-current-value-remix https://voyage95.bandcamp.com/track/ascend https://cassetter.bandcamp.com/track/moonlight-feat-sleepless-nights</description>
-<pubDate>2026-06-26 13:36:23.566143</pubDate>
+<description>https://jacketsynthwave.bandcamp.com/music https://lorainejames.bandcamp.com/music</description>
+<pubDate>2026-06-27 12:55:43.600583</pubDate>
 </item>
 <item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-06-26_13:40:17.180612-bsg__</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2026-06-27_12:55:43.600688-jeffg__g</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/track/monolithic-cyan-tsunami-current-value-remix</description>
-<pubDate>2026-06-26 13:40:17.180612</pubDate>
+<description>https://marcmatthews.bandcamp.com/album/alone https://marcmatthews.bandcamp.com/track/4-minute-warning-instrumental https://marcmatthews.bandcamp.com/track/half-life</description>
+<pubDate>2026-06-27 12:55:43.600688</pubDate>
+</item>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-06-27_12:55:43.601150-jeffg__g</guid>
+<link>N/A</link>
+<description>https://hotelpoolsmusic.bandcamp.com/album/billie-2</description>
+<pubDate>2026-06-27 12:55:43.601150</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2026-06-27_12:59:35.225929-bsg__</guid>
+<link>N/A</link>
+<description>https://saysueme.bandcamp.com/album/the-last-thing-left https://saysueme.bandcamp.com/album/where-we-were-together</description>
+<pubDate>2026-06-27 12:59:35.225929</pubDate>
 </item>
 
 </channel>

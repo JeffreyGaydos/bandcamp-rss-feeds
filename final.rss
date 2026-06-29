@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-06-28 13:08:19.833363</lastBuildDate>
+<lastBuildDate>2026-06-29 15:07:36.512617</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-06-28_13:04:23.575907-jeffg__g</guid>
+<guid>release-2026-06-29_15:03:30.808841-jeffg__g</guid>
 <link>N/A</link>
-<description>https://gulfaudiocompany.bandcamp.com/album/--23</description>
-<pubDate>2026-06-28 13:04:23.575907</pubDate>
+<description>https://vai5000.bandcamp.com/track/how-to-pretend</description>
+<pubDate>2026-06-29 15:03:30.808841</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-06-29_15:07:36.237588-bsg__</guid>
+<link>N/A</link>
+<description>https://paleblueeyesmusic.bandcamp.com/album/bbc-radio-6-music-sessions https://vai5000.bandcamp.com/track/how-to-pretend</description>
+<pubDate>2026-06-29 15:07:36.237588</pubDate>
 </item>
 
 </channel>

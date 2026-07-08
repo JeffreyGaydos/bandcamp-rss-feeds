@@ -3,6 +3,7 @@ name: RSS Update
 on:
   schedule:
   - cron: '43 11 * * *'
+  workflow_dispatch: 
 
 jobs:
   rss-update:

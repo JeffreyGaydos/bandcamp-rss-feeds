@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout main code
-      uses: actions/checkout@v7
+      uses: actions/checkout@v6
       with:
         ref: main
     - name: Set up Python
-      uses: actions/setup-python@v7
+      uses: actions/setup-python@v6
       with:
         python-version: 3.8
     - name: Install dependencies
@@ -27,7 +27,7 @@ jobs:
       run: |
         python ./user_orchestrator.py > ./log.txt
     - name: Checkout rss code
-      uses: actions/checkout@v7
+      uses: actions/checkout@v6
       with:
         ref: rss
         clean: 'false'

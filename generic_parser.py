@@ -190,7 +190,7 @@ def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields)
             postResponse = requests.post(f"{const._bandcampCollectionAPI}/{urlPostfix}", f"{{\"fan_id\":{fanID},\"older_than_token\":\"9999999999:9999999999{tokenPostfix}\",\"count\":1000000}}")
             jsondata = postResponse.json()[field]
         except:
-            print(f"{prefix} Could not post for {field} > {subfield}")
+            print(f"{prefix} Could not post for {field}")
     links = []
     for data in jsondata:
         drilldown = data

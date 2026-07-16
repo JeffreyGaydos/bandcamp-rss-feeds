@@ -13,7 +13,7 @@ jobs:
     - name: Checkout main code
       uses: actions/checkout@v6
       with:
-        ref: main
+        ref: rss
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
@@ -26,11 +26,6 @@ jobs:
     - name: Update RSS Feed
       run: |
         python ./user_orchestrator.py > ./log.txt
-    - name: Checkout rss code
-      uses: actions/checkout@v6
-      with:
-        ref: rss
-        clean: false
     - name: Commit Changes
       run: |
         git config --global user.email "actions@github.com"

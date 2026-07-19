@@ -1,6 +1,7 @@
 import datetime
 import const
 import random
+import generic_parser
 
 _process = "rss_aggregator.py"
 _user = "unknown user..."
@@ -35,7 +36,21 @@ def run(user, parsers):
             if link.startswith(const._newIndicator):
                     newSsfLinks.append(link.replace(const._newIndicator, ""))
         if len(newSsfLinks) > 0:
-            items.append(createItem(f"{parser.capitalize()} update for ", parser, datetime.datetime.now(), " ".join(newSsfLinks), _user))
+            if(parser == "release"):
+                #since releases are all BC internal item_ids, we need to convert the new ones to links
+                newLinks = []
+                for newItem in newSsfLinks:
+                    artist_id = newItem.split(":")[0]
+                    tralbum_id = newItem.split(":")[1]
+                    albumLink = generic_parser.runGet(f"{const._bandcampTralbumDetailsEndpoint}?band_id={artist_id}&tralbum_id={tralbum_id}&tralbum_type=a", "bandcamp_url", [], _prefix)
+                    if(len(albumLink) == 0):
+                        trackLink = generic_parser.runGet(f"{const._bandcampTralbumDetailsEndpoint}?band_id={artist_id}&tralbum_id={tralbum_id}&tralbum_type=t", "bandcamp_url", [], _prefix)
+                        newLinks.append(trackLink)
+                    else:
+                        newLinks.append(albumLink)
+                items.append(createItem(f"{parser.capitalize()} update for ", parser, datetime.datetime.now(), " ".join(newLinks), _user))
+            else:
+                items.append(createItem(f"{parser.capitalize()} update for ", parser, datetime.datetime.now(), " ".join(newSsfLinks), _user))
 
     #update RSS file
     if len(items) > 0:

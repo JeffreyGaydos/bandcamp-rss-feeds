@@ -77,17 +77,24 @@ for userTuple in users:
     fanId = userTuple[1]
     for type in supportedSSFTypes:
         generic_parser.unNewSsf(type, user)
-    generic_parser.runPost(user, fanId, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"])
+    allArtists = generic_parser.runPost(user, fanId, "following", "following_bands", "", "followeers", ["url_hints", "subdomain"])
+    existingArtists = allArtists[0]
+    newArtists = allArtists[1]
     generic_parser.runPost(user, fanId, "collection", "collection_items", ":p::", "items", ["item_url"])
     generic_parser.runPost(user, fanId, "wishlist", "wishlist_items", ":a::", "items", ["item_url"])
     followFile = open(f"{const._ssf_path}/following_{user}.ssf")
     followFile.readline()
     artists = followFile.read().splitlines()
     followFile.close()
-    for artist in artists:
-        # When you follow an artist, their current releases should NOT show up as new
-        # this alternative query selector is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp
-        generic_parser.runGet(user, "release", "music", ["ol.music-grid li.music-grid-item a", ".ipCellLabel1 a"], artist[:-len(const._musicPostfix)], artist.startswith(const._newIndicator))
+
+    for artist in existingArtists:
+        generic_parser.runGetReleases(user, fanId, "release", artist, "discography", ["item_id"])
+    for artist in newArtists:
+        generic_parser.runGetReleases(user, fanId, "release", artist, "discography", ["item_id"], True)
+    # for artist in artists:
+    #     # When you follow an artist, their current releases should NOT show up as new
+    #     # this alternative query selector is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp
+    #     generic_parser.runGetScrape(user, "release", "music", ["ol.music-grid li.music-grid-item a", ".ipCellLabel1 a"], artist[:-len(const._musicPostfix)], artist.startswith(const._newIndicator))
     for type in supportedSSFTypes:
         generic_parser.prependCurrentDateToSsfIfNecessary(type, user)
 

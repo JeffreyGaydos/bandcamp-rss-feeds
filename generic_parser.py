@@ -24,7 +24,7 @@ def updateSsf(links, parserName, user, prefix, newIndicatorString):
         existingLinks = ssfAll.splitlines()
 
         for link in links:
-            if(not existingLinks.__contains__(link)):
+            if(not existingLinks.__contains__(str(link))): # str required when comparing string to int
                 newLinks.append(link)
         
         # this is the only trackable object that should handle deletes. The releases for those that were followed will persist when you unfollow
@@ -56,6 +56,38 @@ def updateSsf(links, parserName, user, prefix, newIndicatorString):
     ssfw.close()
 
     print(f"{prefix} Exited successfully")
+
+# returns any data that was not already found in the internal SSF. This is essentially pre-removing all existing data so we can minimize API calls
+def updateInternalSsf(data, fileName, user, prefix):
+    print(f"{prefix} Updating Internal File with {len(data)} items...")
+
+    existingData = []
+    newData = []
+    try:
+        ssfr = open(f"{const._ssf_path}/{fileName}_{user}.ssf", "r", -1, "utf-8")
+        ssfAll = ssfr.read()
+        ssfr.close()
+
+        existingData = ssfAll.splitlines()
+
+        for datum in data:
+            if(not existingData.__contains__(str(datum))):
+                newData.append(datum)
+
+    except:
+        print(f"{prefix} {fileName.capitalize()} SSF for this user DNE, must be a new user.")
+        newData = data #if it didn't exist before, it's all new!
+    
+    print(f"{prefix} Found {len(newData)} new {fileName} items")
+
+    ssfw = open(f"{const._ssf_path}/{fileName}_{user}.ssf", "a", -1, "utf-8")
+    
+    for newDatum in newData:
+        ssfw.write(f"{newDatum}")
+        ssfw.write("\n")
+    ssfw.close()
+
+    return newData
 
 def prependCurrentDateToSsfIfNecessary(parserName, user):
     ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")
@@ -149,7 +181,7 @@ def getLinks(source, prefix, querySelectors, urlPostfix):
 # querySelectors: a list of CSS query selectors that point to a list of links that we want to update on. Will attempt each query in order until at least 1 link is found. Not a union.
 # baseUrl: the start base of the URL for which to find links in. For user collections & following, that's "https://bandcamp.com/{user}/"
 # forceNotNew: Tells the remaining methods to not treat all incoming links as NEW for this URL, used for newly followed artists' releases
-def runGet(user, parserName, urlPostfix, querySelectors, baseUrl, forceNotNew = False):
+def runGetScrape(user, parserName, urlPostfix, querySelectors, baseUrl, forceNotNew = False):
     process = f"{parserName}_parser"
     prefix = f"[{process}:{user}]:"
 
@@ -167,6 +199,62 @@ def runGet(user, parserName, urlPostfix, querySelectors, baseUrl, forceNotNew = 
         updateSsf(links, parserName, user, prefix, "")
     else:
         updateSsf(links, parserName, user, prefix, const._newIndicator)
+
+def runGet(url, field, subfields, prefix):
+    time.sleep(const._pingDelay)
+    jsondata = [] #array just so error handling can check length only
+    getResponse = {}
+    try:
+        getResponse = requests.get(url)
+    except:
+        time.sleep(30)
+        try:
+            getResponse = requests.get(url)
+        except:
+            print(f"{prefix} Could not GET {url}")
+    try:
+        jsondata = getResponse.json()[field]
+    except:
+        wee = 1
+        #print(f"{prefix} (possibly expected) Could not find {field} field in GET {url}")
+    if(len(subfields) > 0):
+        items = []
+        try:
+            for data in jsondata:
+                drilldown = data
+                for subfield in subfields:
+                    drilldown = drilldown[subfield]
+                else:
+                    items.append(drilldown)
+        except:
+            print(f"{prefix} Could not find one or more subfields for {field}")
+        return items
+    else:
+        return jsondata
+
+# user: the username of the bandcamp user we are pinging for
+# fanID: The internal ID bandcamp uses for a specific user, should be placed in users.ssf after each username with a space in between
+# parserName: 1 word, suitable for use in logging and file names, lowercase
+# urlPostfix: The endpoint you want to ping. Known endpoints include: "collection_items", "wishlist_items", "following_bands"
+# tokenPostfix: Some of the bandcamp endpoints require a special postfix on the end of the older_than_token
+# field: the top level field that we will loop through
+# subfields: an array of subfields on the objects we are looping through that leads to the field we want
+# raw: set to true if you want the raw data from whatever subfield you are accessing (i.e. no URL wrap)
+def runGetReleases(user, fanID, parserName, artist_id, field, subfields, newArtist=False):
+    process = f"{parserName}_parser"
+    prefix = f"[{process}:{user}]:"
+    items = runGet(f"{const._bandcampReleasesEndpoint}?band_id={artist_id}", field, subfields, prefix)
+    finalItems = [f"{artist_id}:{x}" for x in items]
+    # newItems = updateInternalSsf(items, "discography_item_ids", user, prefix)
+    # newLinks = []
+    # for newItem in newItems:
+    #     albumLink = runGet(f"{const._bandcampTralbumDetailsEndpoint}?band_id={artist_id}&tralbum_id={newItem}&tralbum_type=a", "bandcamp_url", [], prefix)
+    #     if(len(albumLink) == 0):
+    #         trackLink = runGet(f"{const._bandcampTralbumDetailsEndpoint}?band_id={artist_id}&tralbum_id={newItem}&tralbum_type=t", "bandcamp_url", [], prefix)
+    #         newLinks.append(trackLink)
+    #     else:
+    #         newLinks.append(albumLink)
+    updateSsf(finalItems, parserName, user, prefix, "" if newArtist else const._newIndicator)
 
 # user: the username of the bandcamp user we are pinging for
 # fanID: The internal ID bandcamp uses for a specific user, should be placed in users.ssf after each username with a space in between
@@ -200,8 +288,16 @@ def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields)
             links.append(f"https://{drilldown}.bandcamp.com{const._musicPostfix}")
         else:
             links.append(drilldown)
-    
+
     updateSsf(links, parserName, user, prefix, const._newIndicator)
+    
+    if(parserName == "following"):
+        artists = []
+        for data in jsondata:
+            artists.append(data['band_id'])
+        newArtists = updateInternalSsf(artists, "band_ids", user, prefix)
+        # we need to know both the existing artists and the new artists to avoid notifying all tracks when you follow
+        return [[existingArtists for existingArtists in artists if existingArtists not in newArtists], newArtists]
 
 def unNewSsf(parserName, user):
     ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")

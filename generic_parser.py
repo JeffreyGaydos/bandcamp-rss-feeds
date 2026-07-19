@@ -144,8 +144,7 @@ def runGet(url, field, subfields, prefix):
     try:
         jsondata = getResponse.json()[field]
     except:
-        wee = 1
-        #print(f"{prefix} (possibly expected) Could not find {field} field in GET {url}")
+        print(f"{prefix} (possibly expected) Could not find {field} field in GET {url}")
     if(len(subfields) > 0):
         items = []
         try:

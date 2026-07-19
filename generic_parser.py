@@ -3,7 +3,6 @@ import datetime
 import requests
 import const
 from bs4 import BeautifulSoup
-import re
 import json
 
 # links: the array of links output from the calling function; a list of links we want to update on
@@ -128,78 +127,8 @@ def isItBandcampFriday():
         print("Here's the raw HTML: " + (str)(rawContent))
         return False
 
-def getLinks(source, prefix, querySelectors, urlPostfix):
-    time.sleep(const._pingDelay)
-    requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
-    rawContent = requestsResponse.content
-
-    retry = 1
-    while(len(rawContent) == 0 and retry < 33):
-        if(len(rawContent) == 0):
-            print(f"{prefix} Got {len(rawContent)} bytes of data. Retrying...")
-            time.sleep(retry)
-            retry *= 2
-            requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
-            rawContent = requestsResponse.content
-        else:
-            print(f"{prefix} Got {len(rawContent)} bytes of data.")
-    
-    if(len(rawContent) == 0):
-        print(f"{prefix} WARNING Got {len(rawContent)} bytes of data and exhausted all retries.")
-
-    soup = BeautifulSoup(rawContent, 'html.parser')
-    # this loop is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp
-    for querySelector in querySelectors:
-        linkElements = soup.select(querySelector)
-        if(len(linkElements) > 0):
-            break
-
-    if(len(linkElements) == 0):
-        linkElements = soup.select('meta[property="og:url"]')
-        try:
-            return [linkElements[0].attrs["content"]] # the artist has exactly 1 tralbum on bandcamp
-        except:
-            return [] # the artist actually has no tralbums on bandcamp currently
-        
-    links = []
-
-    for link in linkElements:
-        if link.get_attribute_list("href")[0].startswith("/"):
-            sanitizedSource = re.sub(f"{urlPostfix}$", "", source) # only remove from the end
-            sanitizedSource = sanitizedSource.replace(const._newIndicator, "")
-            if sanitizedSource.endswith("/"):
-                sanitizedSource = sanitizedSource[:-1]
-            link = f"{sanitizedSource}{link.get_attribute_list('href')[0]}"
-            links.append(link)
-        else:
-            links.append(link.get_attribute_list("href")[0])
-    return links
-
-# user: the user of a bandcamp page, as dsiplayed in the URL for bandcamp
-# parserName: 1 word, suitable for use in logging and file names, lowercase
-# urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{user}/"
-# querySelectors: a list of CSS query selectors that point to a list of links that we want to update on. Will attempt each query in order until at least 1 link is found. Not a union.
-# baseUrl: the start base of the URL for which to find links in. For user collections & following, that's "https://bandcamp.com/{user}/"
-# forceNotNew: Tells the remaining methods to not treat all incoming links as NEW for this URL, used for newly followed artists' releases
-def runGetScrape(user, parserName, urlPostfix, querySelectors, baseUrl, forceNotNew = False):
-    process = f"{parserName}_parser"
-    prefix = f"[{process}:{user}]:"
-
-    print(f"{prefix} Pinging bandcamp {parserName} feed for user {user} [{baseUrl}/{urlPostfix}]")
-
-    links = []
-    links = getLinks(f"{baseUrl}/{urlPostfix}", prefix, querySelectors, urlPostfix)
-
-    if(len(links) == 0):
-        # This is usually because the artist does not have any tralbums on bandcamp yet
-        print(f"{prefix} WARNING - could not find any links for {baseUrl}/{urlPostfix}")
-
-    if(forceNotNew):
-        # When first following an artist, don't display all music as new releases. NOTE: any release that occurs on the same day you follow an artist will not be tracked
-        updateSsf(links, parserName, user, prefix, "")
-    else:
-        updateSsf(links, parserName, user, prefix, const._newIndicator)
-
+# Gets a piece of data (or pieces if you specify a subfield)
+# It gets the JSON value of data at url -> response.field.subfields[0].subfields[1].subfields[2] etc.
 def runGet(url, field, subfields, prefix):
     time.sleep(const._pingDelay)
     jsondata = [] #array just so error handling can check length only
@@ -233,27 +162,15 @@ def runGet(url, field, subfields, prefix):
         return jsondata
 
 # user: the username of the bandcamp user we are pinging for
-# fanID: The internal ID bandcamp uses for a specific user, should be placed in users.ssf after each username with a space in between
-# parserName: 1 word, suitable for use in logging and file names, lowercase
-# urlPostfix: The endpoint you want to ping. Known endpoints include: "collection_items", "wishlist_items", "following_bands"
-# tokenPostfix: Some of the bandcamp endpoints require a special postfix on the end of the older_than_token
 # field: the top level field that we will loop through
 # subfields: an array of subfields on the objects we are looping through that leads to the field we want
-# raw: set to true if you want the raw data from whatever subfield you are accessing (i.e. no URL wrap)
-def runGetReleases(user, fanID, parserName, artist_id, field, subfields, newArtist=False):
+# newArtist: determines if we should aim to notify about this released tralbum if it is new or not
+def runGetReleases(user, artist_id, field, subfields, newArtist=False):
+    parserName = "release"
     process = f"{parserName}_parser"
     prefix = f"[{process}:{user}]:"
     items = runGet(f"{const._bandcampReleasesEndpoint}?band_id={artist_id}", field, subfields, prefix)
     finalItems = [f"{artist_id}:{x}" for x in items]
-    # newItems = updateInternalSsf(items, "discography_item_ids", user, prefix)
-    # newLinks = []
-    # for newItem in newItems:
-    #     albumLink = runGet(f"{const._bandcampTralbumDetailsEndpoint}?band_id={artist_id}&tralbum_id={newItem}&tralbum_type=a", "bandcamp_url", [], prefix)
-    #     if(len(albumLink) == 0):
-    #         trackLink = runGet(f"{const._bandcampTralbumDetailsEndpoint}?band_id={artist_id}&tralbum_id={newItem}&tralbum_type=t", "bandcamp_url", [], prefix)
-    #         newLinks.append(trackLink)
-    #     else:
-    #         newLinks.append(albumLink)
     updateSsf(finalItems, parserName, user, prefix, "" if newArtist else const._newIndicator)
 
 # user: the username of the bandcamp user we are pinging for

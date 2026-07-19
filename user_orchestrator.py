@@ -88,13 +88,10 @@ for userTuple in users:
     followFile.close()
 
     for artist in existingArtists:
-        generic_parser.runGetReleases(user, fanId, "release", artist, "discography", ["item_id"])
+        generic_parser.runGetReleases(user, artist, "discography", ["item_id"])
     for artist in newArtists:
-        generic_parser.runGetReleases(user, fanId, "release", artist, "discography", ["item_id"], True)
-    # for artist in artists:
-    #     # When you follow an artist, their current releases should NOT show up as new
-    #     # this alternative query selector is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp
-    #     generic_parser.runGetScrape(user, "release", "music", ["ol.music-grid li.music-grid-item a", ".ipCellLabel1 a"], artist[:-len(const._musicPostfix)], artist.startswith(const._newIndicator))
+        generic_parser.runGetReleases(user, artist, "discography", ["item_id"], True)
+
     for type in supportedSSFTypes:
         generic_parser.prependCurrentDateToSsfIfNecessary(type, user)
 

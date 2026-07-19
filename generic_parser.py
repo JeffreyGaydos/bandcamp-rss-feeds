@@ -3,7 +3,6 @@ import datetime
 import requests
 import const
 from bs4 import BeautifulSoup
-import re
 import json
 
 # links: the array of links output from the calling function; a list of links we want to update on
@@ -24,7 +23,7 @@ def updateSsf(links, parserName, user, prefix, newIndicatorString):
         existingLinks = ssfAll.splitlines()
 
         for link in links:
-            if(not existingLinks.__contains__(link)):
+            if(not existingLinks.__contains__(str(link))): # str required when comparing string to int
                 newLinks.append(link)
         
         # this is the only trackable object that should handle deletes. The releases for those that were followed will persist when you unfollow
@@ -56,6 +55,38 @@ def updateSsf(links, parserName, user, prefix, newIndicatorString):
     ssfw.close()
 
     print(f"{prefix} Exited successfully")
+
+# returns any data that was not already found in the internal SSF. This is essentially pre-removing all existing data so we can minimize API calls
+def updateInternalSsf(data, fileName, user, prefix):
+    print(f"{prefix} Updating Internal File with {len(data)} items...")
+
+    existingData = []
+    newData = []
+    try:
+        ssfr = open(f"{const._ssf_path}/{fileName}_{user}.ssf", "r", -1, "utf-8")
+        ssfAll = ssfr.read()
+        ssfr.close()
+
+        existingData = ssfAll.splitlines()
+
+        for datum in data:
+            if(not existingData.__contains__(str(datum))):
+                newData.append(datum)
+
+    except:
+        print(f"{prefix} {fileName.capitalize()} SSF for this user DNE, must be a new user.")
+        newData = data #if it didn't exist before, it's all new!
+    
+    print(f"{prefix} Found {len(newData)} new {fileName} items")
+
+    ssfw = open(f"{const._ssf_path}/{fileName}_{user}.ssf", "a", -1, "utf-8")
+    
+    for newDatum in newData:
+        ssfw.write(f"{newDatum}")
+        ssfw.write("\n")
+    ssfw.close()
+
+    return newData
 
 def prependCurrentDateToSsfIfNecessary(parserName, user):
     ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")
@@ -96,77 +127,50 @@ def isItBandcampFriday():
         print("Here's the raw HTML: " + (str)(rawContent))
         return False
 
-def getLinks(source, prefix, querySelectors, urlPostfix):
+# Gets a piece of data (or pieces if you specify a subfield)
+# It gets the JSON value of data at url -> response.field.subfields[0].subfields[1].subfields[2] etc.
+def runGet(url, field, subfields, prefix):
     time.sleep(const._pingDelay)
-    requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
-    rawContent = requestsResponse.content
-
-    retry = 1
-    while(len(rawContent) == 0 and retry < 33):
-        if(len(rawContent) == 0):
-            print(f"{prefix} Got {len(rawContent)} bytes of data. Retrying...")
-            time.sleep(retry)
-            retry *= 2
-            requestsResponse = requests.get(f"{source.replace(const._newIndicator, '')}", headers={'user-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
-            rawContent = requestsResponse.content
-        else:
-            print(f"{prefix} Got {len(rawContent)} bytes of data.")
-    
-    if(len(rawContent) == 0):
-        print(f"{prefix} WARNING Got {len(rawContent)} bytes of data and exhausted all retries.")
-
-    soup = BeautifulSoup(rawContent, 'html.parser')
-    # this loop is for the artist "woob" and likely other legacy artists that have a different "music" page than nearly every other artist on bandcamp
-    for querySelector in querySelectors:
-        linkElements = soup.select(querySelector)
-        if(len(linkElements) > 0):
-            break
-
-    if(len(linkElements) == 0):
-        linkElements = soup.select('meta[property="og:url"]')
+    jsondata = [] #array just so error handling can check length only
+    getResponse = {}
+    try:
+        getResponse = requests.get(url)
+    except:
+        time.sleep(30)
         try:
-            return [linkElements[0].attrs["content"]] # the artist has exactly 1 tralbum on bandcamp
+            getResponse = requests.get(url)
         except:
-            return [] # the artist actually has no tralbums on bandcamp currently
-        
-    links = []
+            print(f"{prefix} Could not GET {url}")
+    try:
+        jsondata = getResponse.json()[field]
+    except:
+        print(f"{prefix} (possibly expected) Could not find {field} field in GET {url}")
+    if(len(subfields) > 0):
+        items = []
+        try:
+            for data in jsondata:
+                drilldown = data
+                for subfield in subfields:
+                    drilldown = drilldown[subfield]
+                else:
+                    items.append(drilldown)
+        except:
+            print(f"{prefix} Could not find one or more subfields for {field}")
+        return items
+    else:
+        return jsondata
 
-    for link in linkElements:
-        if link.get_attribute_list("href")[0].startswith("/"):
-            sanitizedSource = re.sub(f"{urlPostfix}$", "", source) # only remove from the end
-            sanitizedSource = sanitizedSource.replace(const._newIndicator, "")
-            if sanitizedSource.endswith("/"):
-                sanitizedSource = sanitizedSource[:-1]
-            link = f"{sanitizedSource}{link.get_attribute_list('href')[0]}"
-            links.append(link)
-        else:
-            links.append(link.get_attribute_list("href")[0])
-    return links
-
-# user: the user of a bandcamp page, as dsiplayed in the URL for bandcamp
-# parserName: 1 word, suitable for use in logging and file names, lowercase
-# urlPostfix: the path to the webpage we are trying to scrape, coming after "https://bandcamp.com/{user}/"
-# querySelectors: a list of CSS query selectors that point to a list of links that we want to update on. Will attempt each query in order until at least 1 link is found. Not a union.
-# baseUrl: the start base of the URL for which to find links in. For user collections & following, that's "https://bandcamp.com/{user}/"
-# forceNotNew: Tells the remaining methods to not treat all incoming links as NEW for this URL, used for newly followed artists' releases
-def runGet(user, parserName, urlPostfix, querySelectors, baseUrl, forceNotNew = False):
+# user: the username of the bandcamp user we are pinging for
+# field: the top level field that we will loop through
+# subfields: an array of subfields on the objects we are looping through that leads to the field we want
+# newArtist: determines if we should aim to notify about this released tralbum if it is new or not
+def runGetReleases(user, artist_id, field, subfields, newArtist=False):
+    parserName = "release"
     process = f"{parserName}_parser"
     prefix = f"[{process}:{user}]:"
-
-    print(f"{prefix} Pinging bandcamp {parserName} feed for user {user} [{baseUrl}/{urlPostfix}]")
-
-    links = []
-    links = getLinks(f"{baseUrl}/{urlPostfix}", prefix, querySelectors, urlPostfix)
-
-    if(len(links) == 0):
-        # This is usually because the artist does not have any tralbums on bandcamp yet
-        print(f"{prefix} WARNING - could not find any links for {baseUrl}/{urlPostfix}")
-
-    if(forceNotNew):
-        # When first following an artist, don't display all music as new releases. NOTE: any release that occurs on the same day you follow an artist will not be tracked
-        updateSsf(links, parserName, user, prefix, "")
-    else:
-        updateSsf(links, parserName, user, prefix, const._newIndicator)
+    items = runGet(f"{const._bandcampReleasesEndpoint}?band_id={artist_id}", field, subfields, prefix)
+    finalItems = [f"{artist_id}:{x}" for x in items]
+    updateSsf(finalItems, parserName, user, prefix, "" if newArtist else const._newIndicator)
 
 # user: the username of the bandcamp user we are pinging for
 # fanID: The internal ID bandcamp uses for a specific user, should be placed in users.ssf after each username with a space in between
@@ -200,8 +204,16 @@ def runPost(user, fanID, parserName, urlPostfix, tokenPostfix, field, subfields)
             links.append(f"https://{drilldown}.bandcamp.com{const._musicPostfix}")
         else:
             links.append(drilldown)
-    
+
     updateSsf(links, parserName, user, prefix, const._newIndicator)
+    
+    if(parserName == "following"):
+        artists = []
+        for data in jsondata:
+            artists.append(data['band_id'])
+        newArtists = updateInternalSsf(artists, "band_ids", user, prefix)
+        # we need to know both the existing artists and the new artists to avoid notifying all tracks when you follow
+        return [[existingArtists for existingArtists in artists if existingArtists not in newArtists], newArtists]
 
 def unNewSsf(parserName, user):
     ssfr = open(f"{const._ssf_path}/{parserName}_{user}.ssf", "r", -1, "utf-8")

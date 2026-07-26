@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-07-25 12:49:44.766166</lastBuildDate>
+<lastBuildDate>2026-07-26 12:49:22.654670</lastBuildDate>
+<item>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2026-07-26_12:46:46.922223-jeffg__g</guid>
+<link>N/A</link>
+<description>https://cynthoni.bandcamp.com/album/lexapro-doesnt-work</description>
+<pubDate>2026-07-26 12:46:46.922223</pubDate>
+</item>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-07-25_12:47:10.081791-jeffg__g</guid>
+<guid>release-2026-07-26_12:46:46.922507-jeffg__g</guid>
 <link>N/A</link>
-<description>https://sapphyre.bandcamp.com/track/give-everything https://cynthoni.bandcamp.com/track/hold-your-colour</description>
-<pubDate>2026-07-25 12:47:10.081791</pubDate>
+<description>https://cynthoni.bandcamp.com/album/even-further-down-the-drain https://cynthoni.bandcamp.com/album/lexapro-doesnt-work https://cynthoni.bandcamp.com/album/lvstlove https://cynthoni.bandcamp.com/album/cynthoni-of-flames https://vai5000.bandcamp.com/album/self https://vai5000.bandcamp.com/album/neither-ilypvc</description>
+<pubDate>2026-07-26 12:46:46.922507</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2026-07-25_12:49:43.563124-bsg__</guid>
+<guid>release-2026-07-26_12:49:21.319028-bsg__</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/track/hold-your-colour</description>
-<pubDate>2026-07-25 12:49:43.563124</pubDate>
+<description>https://cynthoni.bandcamp.com/album/even-further-down-the-drain https://cynthoni.bandcamp.com/album/lexapro-doesnt-work https://cynthoni.bandcamp.com/album/lvstlove https://cynthoni.bandcamp.com/album/cynthoni-of-flames https://vai5000.bandcamp.com/album/self https://vai5000.bandcamp.com/album/neither-ilypvc</description>
+<pubDate>2026-07-26 12:49:21.319028</pubDate>
 </item>
 
 </channel>

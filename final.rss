@@ -4,27 +4,41 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-07-26 12:49:22.654670</lastBuildDate>
+<lastBuildDate>2026-07-28 13:23:51.429637</lastBuildDate>
+<item>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2026-07-28_13:21:12.065772-jeffg__g</guid>
+<link>N/A</link>
+<description>https://makou.bandcamp.com/music</description>
+<pubDate>2026-07-28 13:21:12.065772</pubDate>
+</item>
 <item>
 <title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2026-07-26_12:46:46.922223-jeffg__g</guid>
+<guid>wishlist-2026-07-28_13:21:12.065926-jeffg__g</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/album/lexapro-doesnt-work</description>
-<pubDate>2026-07-26 12:46:46.922223</pubDate>
+<description>https://makou.bandcamp.com/album/the-outer-side-of-circulation</description>
+<pubDate>2026-07-28 13:21:12.065926</pubDate>
 </item>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-07-26_12:46:46.922507-jeffg__g</guid>
+<guid>release-2026-07-28_13:21:12.066459-jeffg__g</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/album/even-further-down-the-drain https://cynthoni.bandcamp.com/album/lexapro-doesnt-work https://cynthoni.bandcamp.com/album/lvstlove https://cynthoni.bandcamp.com/album/cynthoni-of-flames https://vai5000.bandcamp.com/album/self https://vai5000.bandcamp.com/album/neither-ilypvc</description>
-<pubDate>2026-07-26 12:46:46.922507</pubDate>
+<description>https://turquoisedeath.bandcamp.com/album/soundsystem-breathe-2 https://flamingosis1.bandcamp.com/album/mood-provider-7</description>
+<pubDate>2026-07-28 13:21:12.066459</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2026-07-28_13:23:50.186797-bsg__</guid>
+<link>N/A</link>
+<description>https://fresca.bandcamp.com/album/3k</description>
+<pubDate>2026-07-28 13:23:50.186797</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2026-07-26_12:49:21.319028-bsg__</guid>
+<guid>release-2026-07-28_13:23:50.187169-bsg__</guid>
 <link>N/A</link>
-<description>https://cynthoni.bandcamp.com/album/even-further-down-the-drain https://cynthoni.bandcamp.com/album/lexapro-doesnt-work https://cynthoni.bandcamp.com/album/lvstlove https://cynthoni.bandcamp.com/album/cynthoni-of-flames https://vai5000.bandcamp.com/album/self https://vai5000.bandcamp.com/album/neither-ilypvc</description>
-<pubDate>2026-07-26 12:49:21.319028</pubDate>
+<description>https://turquoisedeath.bandcamp.com/album/soundsystem-breathe-2</description>
+<pubDate>2026-07-28 13:23:50.187169</pubDate>
 </item>
 
 </channel>

@@ -3,13 +3,13 @@
 [user_orchestrator.py]: Prepping SSF files based on current users...
 [following_parser:jeffg__g]: Found 176 links...
 [following_parser:jeffg__g]: Removed 1 artists that jeffg__g no longer follows
-[following_parser:jeffg__g]: Found 2 new following items
+[following_parser:jeffg__g]: Found 0 new following items
 [following_parser:jeffg__g]: Exited successfully
 [collection_parser:jeffg__g]: Found 134 links...
 [collection_parser:jeffg__g]: Found 0 new collection items
 [collection_parser:jeffg__g]: Exited successfully
 [wishlist_parser:jeffg__g]: Found 233 links...
-[wishlist_parser:jeffg__g]: Found 2 new wishlist items
+[wishlist_parser:jeffg__g]: Found 0 new wishlist items
 [wishlist_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://ninajirachi.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
@@ -704,17 +704,16 @@
 [release_parser:jeffg__g]: Found 5 links...
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
-[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [NEW: https://nothing.bandcamp.com/music]
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://nothing.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 16 new release items
+[release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
-[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [NEW: https://frescaaa.bandcamp.com/music]
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://frescaaa.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 11 links...
-[release_parser:jeffg__g]: Found 11 new release items
+[release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Following update for **jeffg__g**
-[rss_aggregator.py:unknown user...]: Created item Wishlist update for **jeffg__g**
-[rss_aggregator.py:jeffg__g]: updating items.rss with 2 updates for this user
+[rss_aggregator.py:jeffg__g]: No updates detected for this user
+[rss_aggregator.py:jeffg__g]: Exited successfully
 [following_parser:bsg__]: Found 113 links...
 [following_parser:bsg__]: Removed 1 artists that bsg__ no longer follows
 [following_parser:bsg__]: Found 0 new following items
@@ -1175,5 +1174,5 @@
 [release_parser:bsg__]: Exited successfully
 [rss_aggregator.py:bsg__]: No updates detected for this user
 [rss_aggregator.py:bsg__]: Exited successfully
-[user_orchestrator.py]: Updating final.rss at 2026-08-01 12:43:38.106804
+[user_orchestrator.py]: No updates found for final.rss
 [user_orchestrator.py]: Exited successfully

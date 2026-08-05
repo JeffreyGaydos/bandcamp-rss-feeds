@@ -721,8 +721,8 @@
 [collection_parser:bsg__]: Found 32 links...
 [collection_parser:bsg__]: Found 0 new collection items
 [collection_parser:bsg__]: Exited successfully
-[wishlist_parser:bsg__]: Found 456 links...
-[wishlist_parser:bsg__]: Found 0 new wishlist items
+[wishlist_parser:bsg__]: Found 458 links...
+[wishlist_parser:bsg__]: Found 2 new wishlist items
 [wishlist_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://tkdpll.bandcamp.com/music]
 [release_parser:bsg__]: Found 14 links...
@@ -1001,8 +1001,8 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://thedrin.bandcamp.com/music]
-[release_parser:bsg__]: Found 9 links...
-[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Found 10 links...
+[release_parser:bsg__]: Found 1 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://habitualnourishment.bandcamp.com/music]
 [release_parser:bsg__]: Found 4 links...
@@ -1172,7 +1172,8 @@
 [release_parser:bsg__]: Found 2 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
-[rss_aggregator.py:bsg__]: No updates detected for this user
-[rss_aggregator.py:bsg__]: Exited successfully
-[user_orchestrator.py]: No updates found for final.rss
+[rss_aggregator.py:unknown user...]: Created item Wishlist update for **bsg__**
+[rss_aggregator.py:unknown user...]: Created item Release update for **bsg__**
+[rss_aggregator.py:bsg__]: updating items.rss with 2 updates for this user
+[user_orchestrator.py]: Updating final.rss at 2026-08-05 13:26:14.058822
 [user_orchestrator.py]: Exited successfully

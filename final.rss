@@ -4,34 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-08-08 12:06:47.978687</lastBuildDate>
+<lastBuildDate>2026-08-11 12:33:42.713837</lastBuildDate>
 <item>
-<title>Collection update for **jeffg__g**</title>
-<guid>collection-2026-08-08_12:04:08.279074-jeffg__g</guid>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2026-08-11_12:31:05.482603-jeffg__g</guid>
 <link>N/A</link>
-<description>https://nothing.bandcamp.com/album/whirr-nothing https://lawrenceschwedler.bandcamp.com/album/crisis-journey https://after95.bandcamp.com/album/fell-asleep-in-the-sun</description>
-<pubDate>2026-08-08 12:04:08.279074</pubDate>
+<description>https://foofighters.bandcamp.com/music https://qotsa.bandcamp.com/music</description>
+<pubDate>2026-08-11 12:31:05.482603</pubDate>
 </item>
 <item>
-<title>Collection update for **bsg__**</title>
-<guid>collection-2026-08-08_12:06:46.671959-bsg__</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-08-11_12:31:05.483337-jeffg__g</guid>
 <link>N/A</link>
-<description>https://whitelabrecs.bandcamp.com/album/where-the-light-enters https://lettingup.bandcamp.com/album/iv https://sweepingpromises.bandcamp.com/album/you-say-i-romanticize</description>
-<pubDate>2026-08-08 12:06:46.671959</pubDate>
-</item>
-<item>
-<title>Following update for **bsg__**</title>
-<guid>following-2026-08-08_12:06:46.672030-bsg__</guid>
-<link>N/A</link>
-<description>https://whitelabrecs.bandcamp.com/music</description>
-<pubDate>2026-08-08 12:06:46.672030</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-08-08_12:06:46.672334-bsg__</guid>
-<link>N/A</link>
-<description>https://tompkinssquare.bandcamp.com/album/i-can-go-with-you-2 https://sink4u.bandcamp.com/track/some-of-the-time</description>
-<pubDate>2026-08-08 12:06:46.672334</pubDate>
+<description>https://rivalconsoles.bandcamp.com/track/in-a-trance-schwefelgelb-remix?label=3219881500&tab=music https://swervedriver.bandcamp.com/album/raise-demos</description>
+<pubDate>2026-08-11 12:31:05.483337</pubDate>
 </item>
 
 </channel>

@@ -4,13 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-08-13 12:36:56.272112</lastBuildDate>
+<lastBuildDate>2026-08-14 12:33:48.887079</lastBuildDate>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-08-14_12:31:10.388665-jeffg__g</guid>
+<link>N/A</link>
+<description>https://kinggizzard.bandcamp.com/album/alien-metal</description>
+<pubDate>2026-08-14 12:31:10.388665</pubDate>
+</item>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-08-13_12:36:54.992770-bsg__</guid>
+<guid>wishlist-2026-08-14_12:33:47.597759-bsg__</guid>
 <link>N/A</link>
-<description>https://godofwar.bandcamp.com/album/molly-picture https://viviennestyg.bandcamp.com/album/rose-of-texas-ep https://carolabaer.bandcamp.com/album/the-story-of-valerie https://vazzmusic.bandcamp.com/album/your-lungs-and-your-tongues-2025 https://snarlsband.bandcamp.com/album/in-heaven-theres-rainbows https://suitor.bandcamp.com/album/saw-you-out-with-the-weeds-2</description>
-<pubDate>2026-08-13 12:36:54.992770</pubDate>
+<description>https://thistownneedsguns.bandcamp.com/album/juggling-moves-beginner</description>
+<pubDate>2026-08-14 12:33:47.597759</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-08-14_12:33:47.598113-bsg__</guid>
+<link>N/A</link>
+<description>https://notdummy.bandcamp.com/album/do-you-love-the-color-of-the-sky</description>
+<pubDate>2026-08-14 12:33:47.598113</pubDate>
 </item>
 
 </channel>

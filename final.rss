@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-08-21 12:06:25.893043</lastBuildDate>
+<lastBuildDate>2026-08-22 12:02:01.197671</lastBuildDate>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-08-21_12:06:24.578242-bsg__</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2026-08-22_11:59:23.659222-jeffg__g</guid>
 <link>N/A</link>
-<description>https://mahagonny-label.bandcamp.com/album/musical-attack-communist-anarchist-friendship</description>
-<pubDate>2026-08-21 12:06:24.578242</pubDate>
+<description>https://windows96.bandcamp.com/album/glass-prism https://hotelpoolsmusic.bandcamp.com/track/lynx https://hotelpoolsmusic.bandcamp.com/album/nothing</description>
+<pubDate>2026-08-22 11:59:23.659222</pubDate>
+</item>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-08-22_11:59:23.659833-jeffg__g</guid>
+<link>N/A</link>
+<description>https://sapphyre.bandcamp.com/track/on-the-grind https://mamfy.bandcamp.com/track/such-great-heights</description>
+<pubDate>2026-08-22 11:59:23.659833</pubDate>
 </item>
 
 </channel>

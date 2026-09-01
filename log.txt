@@ -29,7 +29,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://erasedtapes.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://etrandelair.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 5 links...
@@ -630,7 +630,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://theorytherapy.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://junkflex.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 2 links...
@@ -728,8 +728,8 @@
 [release_parser:jeffg__g]: Found 1 links...
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
-[rss_aggregator.py:jeffg__g]: No updates detected for this user
-[rss_aggregator.py:jeffg__g]: Exited successfully
+[rss_aggregator.py:unknown user...]: Created item Release update for **jeffg__g**
+[rss_aggregator.py:jeffg__g]: updating items.rss with 1 updates for this user
 [following_parser:bsg__]: Found 114 links...
 [following_parser:bsg__]: Removed 1 artists that bsg__ no longer follows
 [following_parser:bsg__]: Found 0 new following items
@@ -1194,5 +1194,5 @@
 [release_parser:bsg__]: Exited successfully
 [rss_aggregator.py:bsg__]: No updates detected for this user
 [rss_aggregator.py:bsg__]: Exited successfully
-[user_orchestrator.py]: No updates found for final.rss
+[user_orchestrator.py]: Updating final.rss at 2026-09-01 15:39:15.405679
 [user_orchestrator.py]: Exited successfully

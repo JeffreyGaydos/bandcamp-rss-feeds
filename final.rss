@@ -4,13 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-09-15 15:48:05.418611</lastBuildDate>
+<lastBuildDate>2026-09-16 15:39:05.912620</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-09-15_15:45:01.208804-jeffg__g</guid>
+<guid>release-2026-09-16_15:36:11.940019-jeffg__g</guid>
 <link>N/A</link>
-<description>https://masayoshifujita.bandcamp.com/album/forest-of-tranquility?label=3219881500&tab=music https://deafheavens.bandcamp.com/album/deafheaven-bosse-de-nage-2026-mix https://stroomtv.bandcamp.com/album/good-luck</description>
-<pubDate>2026-09-15 15:45:01.208804</pubDate>
+<description>https://thebethsnz.bandcamp.com/album/metal-nik-brinkman-remix</description>
+<pubDate>2026-09-16 15:36:11.940019</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2026-09-16_15:39:04.655448-bsg__</guid>
+<link>N/A</link>
+<description>https://ambivalent.online/album/unbekannte-w-sten-ep</description>
+<pubDate>2026-09-16 15:39:04.655448</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-09-16_15:39:04.655809-bsg__</guid>
+<link>N/A</link>
+<description>https://thebethsnz.bandcamp.com/album/metal-nik-brinkman-remix</description>
+<pubDate>2026-09-16 15:39:04.655809</pubDate>
 </item>
 
 </channel>

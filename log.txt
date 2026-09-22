@@ -65,7 +65,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://trevorsomething.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://fmskyline.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 13 links...
@@ -618,7 +618,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://stroomtv.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://somewherepress.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 19 links...
@@ -740,8 +740,8 @@
 [release_parser:jeffg__g]: Found 19 links...
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
-[rss_aggregator.py:jeffg__g]: No updates detected for this user
-[rss_aggregator.py:jeffg__g]: Exited successfully
+[rss_aggregator.py:unknown user...]: Created item Release update for **jeffg__g**
+[rss_aggregator.py:jeffg__g]: updating items.rss with 1 updates for this user
 [following_parser:bsg__]: Found 115 links...
 [following_parser:bsg__]: Removed 1 artists that bsg__ no longer follows
 [following_parser:bsg__]: Found 0 new following items
@@ -749,7 +749,7 @@
 [collection_parser:bsg__]: Found 37 links...
 [collection_parser:bsg__]: Found 0 new collection items
 [collection_parser:bsg__]: Exited successfully
-[wishlist_parser:bsg__]: Found 468 links...
+[wishlist_parser:bsg__]: Found 469 links...
 [wishlist_parser:bsg__]: Found 1 new wishlist items
 [wishlist_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://tkdpll.bandcamp.com/music]
@@ -1210,5 +1210,5 @@
 [release_parser:bsg__]: Exited successfully
 [rss_aggregator.py:unknown user...]: Created item Wishlist update for **bsg__**
 [rss_aggregator.py:bsg__]: updating items.rss with 1 updates for this user
-[user_orchestrator.py]: Updating final.rss at 2026-09-21 17:17:46.671419
+[user_orchestrator.py]: Updating final.rss at 2026-09-22 15:47:58.562712
 [user_orchestrator.py]: Exited successfully

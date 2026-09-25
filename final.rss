@@ -4,20 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-09-24 16:01:27.786597</lastBuildDate>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2026-09-24_15:58:45.992390-jeffg__g</guid>
-<link>N/A</link>
-<description>https://mgnacrrrta.bandcamp.com/music</description>
-<pubDate>2026-09-24 15:58:45.992390</pubDate>
-</item>
+<lastBuildDate>2026-09-25 16:02:17.653821</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-09-24_15:58:45.993164-jeffg__g</guid>
+<guid>release-2026-09-25_15:59:27.186240-jeffg__g</guid>
 <link>N/A</link>
-<description>https://evanescence.bandcamp.com/album/the-open-door-deluxe-edition</description>
-<pubDate>2026-09-24 15:58:45.993164</pubDate>
+<description>https://kenjiueda.bandcamp.com/album/soft-suburbia https://turquoisedeath.bandcamp.com/track/tinashe-melatonin-turquoisedeath-remix https://system96.bandcamp.com/track/afterimage https://thomasbarrandon.bandcamp.com/album/the-child</description>
+<pubDate>2026-09-25 15:59:27.186240</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-09-25_16:02:16.384249-bsg__</guid>
+<link>N/A</link>
+<description>https://turquoisedeath.bandcamp.com/track/tinashe-melatonin-turquoisedeath-remix</description>
+<pubDate>2026-09-25 16:02:16.384249</pubDate>
 </item>
 
 </channel>

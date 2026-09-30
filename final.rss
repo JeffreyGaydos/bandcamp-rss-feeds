@@ -4,20 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-09-29 17:07:21.948999</lastBuildDate>
+<lastBuildDate>2026-09-30 17:06:31.028477</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-09-29_17:04:38.442543-jeffg__g</guid>
+<guid>release-2026-09-30_17:03:48.904849-jeffg__g</guid>
 <link>N/A</link>
-<description>https://miaminights1984.bandcamp.com/album/lords-of-netscape https://flamingosis1.bandcamp.com/album/mood-provider-8</description>
-<pubDate>2026-09-29 17:04:38.442543</pubDate>
+<description>https://turquoisedeath.bandcamp.com/track/mariah-carey-honey-turquoisedeath-remix https://mogwai.bandcamp.com/album/happy-tears-2 https://mogwai.bandcamp.com/track/underground-2</description>
+<pubDate>2026-09-30 17:03:48.904849</pubDate>
 </item>
 <item>
 <title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-09-29_17:07:20.665204-bsg__</guid>
+<guid>wishlist-2026-09-30_17:06:29.667135-bsg__</guid>
 <link>N/A</link>
-<description>https://natemercereau.bandcamp.com/album/fantastic-thoughts</description>
-<pubDate>2026-09-29 17:07:20.665204</pubDate>
+<description>https://hella.bandcamp.com/album/tripper https://hella.bandcamp.com/album/hold-your-horse-is</description>
+<pubDate>2026-09-30 17:06:29.667135</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-09-30_17:06:29.667338-bsg__</guid>
+<link>N/A</link>
+<description>https://turquoisedeath.bandcamp.com/track/mariah-carey-honey-turquoisedeath-remix</description>
+<pubDate>2026-09-30 17:06:29.667338</pubDate>
 </item>
 
 </channel>

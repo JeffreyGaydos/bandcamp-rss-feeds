@@ -4,27 +4,34 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-09-30 17:06:31.028477</lastBuildDate>
+<lastBuildDate>2026-10-01 17:36:13.693681</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2026-09-30_17:03:48.904849-jeffg__g</guid>
+<title>Following update for **jeffg__g**</title>
+<guid>following-2026-10-01_17:33:23.190190-jeffg__g</guid>
 <link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/track/mariah-carey-honey-turquoisedeath-remix https://mogwai.bandcamp.com/album/happy-tears-2 https://mogwai.bandcamp.com/track/underground-2</description>
-<pubDate>2026-09-30 17:03:48.904849</pubDate>
+<description>https://noodlecake.bandcamp.com/music</description>
+<pubDate>2026-10-01 17:33:23.190190</pubDate>
 </item>
 <item>
-<title>Wishlist update for **bsg__**</title>
-<guid>wishlist-2026-09-30_17:06:29.667135-bsg__</guid>
+<title>Wishlist update for **jeffg__g**</title>
+<guid>wishlist-2026-10-01_17:33:23.190364-jeffg__g</guid>
 <link>N/A</link>
-<description>https://hella.bandcamp.com/album/tripper https://hella.bandcamp.com/album/hold-your-horse-is</description>
-<pubDate>2026-09-30 17:06:29.667135</pubDate>
+<description>https://noodlecake.bandcamp.com/album/super-stickman-golf-3-ost</description>
+<pubDate>2026-10-01 17:33:23.190364</pubDate>
+</item>
+<item>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-10-01_17:33:23.190957-jeffg__g</guid>
+<link>N/A</link>
+<description>https://turquoisedeath.bandcamp.com/album/turqmixes</description>
+<pubDate>2026-10-01 17:33:23.190957</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2026-09-30_17:06:29.667338-bsg__</guid>
+<guid>release-2026-10-01_17:36:12.445837-bsg__</guid>
 <link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/track/mariah-carey-honey-turquoisedeath-remix</description>
-<pubDate>2026-09-30 17:06:29.667338</pubDate>
+<description>https://sunglaciers.bandcamp.com/album/subterranea-2 https://turquoisedeath.bandcamp.com/album/turqmixes</description>
+<pubDate>2026-10-01 17:36:12.445837</pubDate>
 </item>
 
 </channel>

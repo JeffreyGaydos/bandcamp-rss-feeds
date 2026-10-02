@@ -4,34 +4,27 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-10-01 17:36:13.693681</lastBuildDate>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2026-10-01_17:33:23.190190-jeffg__g</guid>
-<link>N/A</link>
-<description>https://noodlecake.bandcamp.com/music</description>
-<pubDate>2026-10-01 17:33:23.190190</pubDate>
-</item>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2026-10-01_17:33:23.190364-jeffg__g</guid>
-<link>N/A</link>
-<description>https://noodlecake.bandcamp.com/album/super-stickman-golf-3-ost</description>
-<pubDate>2026-10-01 17:33:23.190364</pubDate>
-</item>
+<lastBuildDate>2026-10-02 16:55:48.612020</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-10-01_17:33:23.190957-jeffg__g</guid>
+<guid>release-2026-10-02_16:53:02.810420-jeffg__g</guid>
 <link>N/A</link>
-<description>https://turquoisedeath.bandcamp.com/album/turqmixes</description>
-<pubDate>2026-10-01 17:33:23.190957</pubDate>
+<description>https://ninajirachi.bandcamp.com/track/csirac-dylan-brady-remix https://robinguthrie.bandcamp.com/track/coming-up-for-air https://cynthoni.bandcamp.com/album/coagulation-annihilation https://slowerpace.bandcamp.com/album/a-l-l-u-r-e https://oneheartisok.bandcamp.com/track/dont-need-to-know</description>
+<pubDate>2026-10-02 16:53:02.810420</pubDate>
 </item>
 <item>
 <title>Release update for **bsg__**</title>
-<guid>release-2026-10-01_17:36:12.445837-bsg__</guid>
+<guid>release-2026-10-02_16:55:47.295318-bsg__</guid>
 <link>N/A</link>
-<description>https://sunglaciers.bandcamp.com/album/subterranea-2 https://turquoisedeath.bandcamp.com/album/turqmixes</description>
-<pubDate>2026-10-01 17:36:12.445837</pubDate>
+<description>https://cynthoni.bandcamp.com/album/coagulation-annihilation https://tompkinssquare.bandcamp.com/album/new-orleans-joys-the-earliest-recordings-1923-1926 https://tompkinssquare.bandcamp.com/album/ryley-walker-presents-imaginational-anthem-vol-9 https://whitelabrecs.bandcamp.com/album/all-these-places-together https://whitelabrecs.bandcamp.com/album/sea-of-grey</description>
+<pubDate>2026-10-02 16:55:47.295318</pubDate>
+</item>
+<item>
+<title>**It's Bandcamp Friday!**</title>
+<guid>bandcamp-friday-2026-10-02_16:55:48.611905</guid>
+<link>N/A</link>
+<description>https://media.discordapp.net/attachments/971520732544766002/1221323445217005668/BandcampFriday3.gif?ex=66122918&is=65ffb418&hm=06b0142b915e51f0e11ad205f99ae2428cdeb5c7631064cd7a0a0359334036a5&=</description>
+<pubDate>2026-10-02 16:55:48.611905</pubDate>
 </item>
 
 </channel>

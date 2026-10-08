@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-10-07 18:04:24.848587</lastBuildDate>
+<lastBuildDate>2026-10-08 18:06:37.545096</lastBuildDate>
 <item>
-<title>Release update for **jeffg__g**</title>
-<guid>release-2026-10-07_18:01:33.488744-jeffg__g</guid>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2026-10-08_18:06:36.337300-bsg__</guid>
 <link>N/A</link>
-<description>https://erasedtapes.bandcamp.com/album/music-for-and-inspired-by-chora https://slowerpace.bandcamp.com/album/aplomb</description>
-<pubDate>2026-10-07 18:01:33.488744</pubDate>
+<description>https://daveholland.bandcamp.com/album/freedom-call https://whisperd0ll.bandcamp.com/album/lucky-clover https://blondshell.bandcamp.com/album/violins https://mysterycircles.bandcamp.com/album/kopopo</description>
+<pubDate>2026-10-08 18:06:36.337300</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-10-08_18:06:36.337599-bsg__</guid>
+<link>N/A</link>
+<description>https://grouper.bandcamp.com/album/music-for-two-films-about-water</description>
+<pubDate>2026-10-08 18:06:36.337599</pubDate>
 </item>
 
 </channel>

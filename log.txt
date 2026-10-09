@@ -1,15 +1,15 @@
 [user_orchestrator.py]: Starting
 [user_orchestrator.py]: Clearing existing items from items.rss
 [user_orchestrator.py]: Prepping SSF files based on current users...
-[following_parser:jeffg__g]: Found 186 links...
+[following_parser:jeffg__g]: Found 187 links...
 [following_parser:jeffg__g]: Removed 1 artists that jeffg__g no longer follows
-[following_parser:jeffg__g]: Found 0 new following items
+[following_parser:jeffg__g]: Found 1 new following items
 [following_parser:jeffg__g]: Exited successfully
 [collection_parser:jeffg__g]: Found 149 links...
 [collection_parser:jeffg__g]: Found 0 new collection items
 [collection_parser:jeffg__g]: Exited successfully
-[wishlist_parser:jeffg__g]: Found 235 links...
-[wishlist_parser:jeffg__g]: Found 0 new wishlist items
+[wishlist_parser:jeffg__g]: Found 236 links...
+[wishlist_parser:jeffg__g]: Found 1 new wishlist items
 [wishlist_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://ninajirachi.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
@@ -546,7 +546,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://slowerpace.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://uppermost.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
@@ -638,7 +638,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://vai5000.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://courtneybarnett.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 14 links...
@@ -752,8 +752,14 @@
 [release_parser:jeffg__g]: Found 1 links...
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
-[rss_aggregator.py:jeffg__g]: No updates detected for this user
-[rss_aggregator.py:jeffg__g]: Exited successfully
+[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [NEW: https://431n.bandcamp.com/music]
+[release_parser:jeffg__g]: Found 3 links...
+[release_parser:jeffg__g]: Found 3 new release items
+[release_parser:jeffg__g]: Exited successfully
+[rss_aggregator.py:unknown user...]: Created item Following update for **jeffg__g**
+[rss_aggregator.py:unknown user...]: Created item Wishlist update for **jeffg__g**
+[rss_aggregator.py:unknown user...]: Created item Release update for **jeffg__g**
+[rss_aggregator.py:jeffg__g]: updating items.rss with 3 updates for this user
 [following_parser:bsg__]: Found 118 links...
 [following_parser:bsg__]: Removed 1 artists that bsg__ no longer follows
 [following_parser:bsg__]: Found 0 new following items
@@ -762,7 +768,7 @@
 [collection_parser:bsg__]: Found 0 new collection items
 [collection_parser:bsg__]: Exited successfully
 [wishlist_parser:bsg__]: Found 473 links...
-[wishlist_parser:bsg__]: Found 4 new wishlist items
+[wishlist_parser:bsg__]: Found 0 new wishlist items
 [wishlist_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://tkdpll.bandcamp.com/music]
 [release_parser:bsg__]: Found 15 links...
@@ -1186,7 +1192,7 @@
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://vai5000.bandcamp.com/music]
 [release_parser:bsg__]: Found 16 links...
-[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Found 1 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://haruhikobayashi.bandcamp.com/music]
 [release_parser:bsg__]: Found 1 links...
@@ -1222,7 +1228,7 @@
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://grouper.bandcamp.com/music]
 [release_parser:bsg__]: Found 16 links...
-[release_parser:bsg__]: Found 1 new release items
+[release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://natemercereau.bandcamp.com/music]
 [release_parser:bsg__]: Found 14 links...
@@ -1232,8 +1238,7 @@
 [release_parser:bsg__]: Found 4 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Wishlist update for **bsg__**
 [rss_aggregator.py:unknown user...]: Created item Release update for **bsg__**
-[rss_aggregator.py:bsg__]: updating items.rss with 2 updates for this user
-[user_orchestrator.py]: Updating final.rss at 2026-10-08 18:06:37.545096
+[rss_aggregator.py:bsg__]: updating items.rss with 1 updates for this user
+[user_orchestrator.py]: Updating final.rss at 2026-10-09 17:39:44.671715
 [user_orchestrator.py]: Exited successfully

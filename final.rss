@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-10-10 16:29:23.086277</lastBuildDate>
+<lastBuildDate>2026-10-12 20:32:02.856337</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-10-10_16:26:35.706537-jeffg__g</guid>
+<guid>release-2026-10-12_20:29:12.565125-jeffg__g</guid>
 <link>N/A</link>
-<description>https://glixen.bandcamp.com/track/unwind https://glixen.bandcamp.com/track/medicine-bow</description>
-<pubDate>2026-10-10 16:26:35.706537</pubDate>
+<description>https://vai5000.bandcamp.com/track/spoken-for</description>
+<pubDate>2026-10-12 20:29:12.565125</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-10-12_20:32:01.598614-bsg__</guid>
+<link>N/A</link>
+<description>https://swissportrait.bandcamp.com/track/lets-take-a-walk https://vai5000.bandcamp.com/track/spoken-for</description>
+<pubDate>2026-10-12 20:32:01.598614</pubDate>
 </item>
 
 </channel>

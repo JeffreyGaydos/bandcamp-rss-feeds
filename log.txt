@@ -1,8 +1,8 @@
 [user_orchestrator.py]: Starting
 [user_orchestrator.py]: Clearing existing items from items.rss
 [user_orchestrator.py]: Prepping SSF files based on current users...
-[following_parser:jeffg__g]: Found 187 links...
-[following_parser:jeffg__g]: Removed 1 artists that jeffg__g no longer follows
+[following_parser:jeffg__g]: Found 186 links...
+[following_parser:jeffg__g]: Removed 2 artists that jeffg__g no longer follows
 [following_parser:jeffg__g]: Found 0 new following items
 [following_parser:jeffg__g]: Exited successfully
 [collection_parser:jeffg__g]: Found 149 links...
@@ -168,8 +168,8 @@
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://thebethsnz.bandcamp.com/music]
-[release_parser:jeffg__g]: Found 14 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 15 links...
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://narrowheadtx.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 11 links...
@@ -632,13 +632,9 @@
 [release_parser:jeffg__g]: Found 16 links...
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
-[release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://junkflex.bandcamp.com/music]
-[release_parser:jeffg__g]: Found 2 links...
-[release_parser:jeffg__g]: Found 0 new release items
-[release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://vai5000.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 1 new release items
+[release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://courtneybarnett.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 14 links...
@@ -957,8 +953,8 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://thebethsnz.bandcamp.com/music]
-[release_parser:bsg__]: Found 14 links...
-[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Found 15 links...
+[release_parser:bsg__]: Found 1 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://susumuhirasawa.bandcamp.com/music]
 [release_parser:bsg__]: Found 10 links...
@@ -970,7 +966,7 @@
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://swissportrait.bandcamp.com/music]
 [release_parser:bsg__]: Found 16 links...
-[release_parser:bsg__]: Found 1 new release items
+[release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://madelinegoldstein.bandcamp.com/music]
 [release_parser:bsg__]: Found 9 links...
@@ -1190,7 +1186,7 @@
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://vai5000.bandcamp.com/music]
 [release_parser:bsg__]: Found 16 links...
-[release_parser:bsg__]: Found 1 new release items
+[release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://haruhikobayashi.bandcamp.com/music]
 [release_parser:bsg__]: Found 1 links...
@@ -1238,5 +1234,5 @@
 [release_parser:bsg__]: Exited successfully
 [rss_aggregator.py:unknown user...]: Created item Release update for **bsg__**
 [rss_aggregator.py:bsg__]: updating items.rss with 1 updates for this user
-[user_orchestrator.py]: Updating final.rss at 2026-10-12 20:32:02.856337
+[user_orchestrator.py]: Updating final.rss at 2026-10-13 18:37:14.014577
 [user_orchestrator.py]: Exited successfully

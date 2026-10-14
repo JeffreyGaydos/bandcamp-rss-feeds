@@ -2,7 +2,7 @@
 [user_orchestrator.py]: Clearing existing items from items.rss
 [user_orchestrator.py]: Prepping SSF files based on current users...
 [following_parser:jeffg__g]: Found 186 links...
-[following_parser:jeffg__g]: Removed 2 artists that jeffg__g no longer follows
+[following_parser:jeffg__g]: Removed 1 artists that jeffg__g no longer follows
 [following_parser:jeffg__g]: Found 0 new following items
 [following_parser:jeffg__g]: Exited successfully
 [collection_parser:jeffg__g]: Found 149 links...
@@ -169,7 +169,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://thebethsnz.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 15 links...
-[release_parser:jeffg__g]: Found 1 new release items
+[release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://narrowheadtx.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 11 links...
@@ -184,8 +184,8 @@
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://americanfootball.bandcamp.com/music]
-[release_parser:jeffg__g]: Found 12 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 13 links...
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://sungazermusic.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 7 links...
@@ -200,8 +200,8 @@
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://bigthief.bandcamp.com/music]
-[release_parser:jeffg__g]: Found 17 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 18 links...
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://physicslab.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 14 links...
@@ -797,8 +797,8 @@
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://americanfootball.bandcamp.com/music]
-[release_parser:bsg__]: Found 12 links...
-[release_parser:bsg__]: Found 0 new release items
+[release_parser:bsg__]: Found 13 links...
+[release_parser:bsg__]: Found 1 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://bayledges.bandcamp.com/music]
 [release_parser:bsg__]: Found 15 links...
@@ -954,7 +954,7 @@
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://thebethsnz.bandcamp.com/music]
 [release_parser:bsg__]: Found 15 links...
-[release_parser:bsg__]: Found 1 new release items
+[release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://susumuhirasawa.bandcamp.com/music]
 [release_parser:bsg__]: Found 10 links...
@@ -1234,5 +1234,5 @@
 [release_parser:bsg__]: Exited successfully
 [rss_aggregator.py:unknown user...]: Created item Release update for **bsg__**
 [rss_aggregator.py:bsg__]: updating items.rss with 1 updates for this user
-[user_orchestrator.py]: Updating final.rss at 2026-10-13 18:37:14.014577
+[user_orchestrator.py]: Updating final.rss at 2026-10-14 16:04:11.739390
 [user_orchestrator.py]: Exited successfully

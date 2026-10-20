@@ -5,7 +5,7 @@
 [following_parser:jeffg__g]: Removed 1 artists that jeffg__g no longer follows
 [following_parser:jeffg__g]: Found 0 new following items
 [following_parser:jeffg__g]: Exited successfully
-[collection_parser:jeffg__g]: Found 149 links...
+[collection_parser:jeffg__g]: Found 148 links...
 [collection_parser:jeffg__g]: Found 0 new collection items
 [collection_parser:jeffg__g]: Exited successfully
 [wishlist_parser:jeffg__g]: Found 238 links...
@@ -393,7 +393,8 @@
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://hiroshiyoshimura.bandcamp.com/music]
-[release_parser:jeffg__g]: Found 2 links...
+[release_parser:jeffg__g]: WARNING - could not find any links for https://hiroshiyoshimura.bandcamp.com/music
+[release_parser:jeffg__g]: Found 0 links...
 [release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://gunshipmusic.bandcamp.com/music]
@@ -618,7 +619,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://stroomtv.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://somewherepress.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 19 links...
@@ -690,7 +691,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://makou.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 20 links...
-[release_parser:jeffg__g]: Found 5 new release items
+[release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://gabibelle.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 1 links...
@@ -1242,5 +1243,5 @@
 [release_parser:bsg__]: Exited successfully
 [rss_aggregator.py:bsg__]: No updates detected for this user
 [rss_aggregator.py:bsg__]: Exited successfully
-[user_orchestrator.py]: Updating final.rss at 2026-10-19 17:52:47.419351
+[user_orchestrator.py]: Updating final.rss at 2026-10-20 15:56:27.853407
 [user_orchestrator.py]: Exited successfully

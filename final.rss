@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-10-22 16:07:24.399208</lastBuildDate>
+<lastBuildDate>2026-10-23 16:01:47.250769</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-10-22_16:04:38.827489-jeffg__g</guid>
+<guid>release-2026-10-23_15:58:54.169553-jeffg__g</guid>
 <link>N/A</link>
-<description>https://stateazure.bandcamp.com/album/ancient-light-longform-edit</description>
-<pubDate>2026-10-22 16:04:38.827489</pubDate>
+<description>https://system96.bandcamp.com/track/phase-memory</description>
+<pubDate>2026-10-23 15:58:54.169553</pubDate>
+</item>
+<item>
+<title>Wishlist update for **bsg__**</title>
+<guid>wishlist-2026-10-23_16:01:45.921334-bsg__</guid>
+<link>N/A</link>
+<description>https://wolfcutt.bandcamp.com/album/for-the-hell-of-it https://fraxiom.bandcamp.com/album/the-adventures-of-jester-jackalope https://foodhouse.bandcamp.com/album/two-house</description>
+<pubDate>2026-10-23 16:01:45.921334</pubDate>
 </item>
 
 </channel>

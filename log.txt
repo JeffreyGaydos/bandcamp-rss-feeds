@@ -233,7 +233,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://alisonsynths.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 1 new release items
+[release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://dusqk.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 8 links...
@@ -611,7 +611,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://cassetter.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://marcmatthews.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
@@ -1243,5 +1243,5 @@
 [release_parser:bsg__]: Exited successfully
 [rss_aggregator.py:bsg__]: No updates detected for this user
 [rss_aggregator.py:bsg__]: Exited successfully
-[user_orchestrator.py]: Updating final.rss at 2026-10-28 17:29:47.632912
+[user_orchestrator.py]: Updating final.rss at 2026-10-29 17:37:57.362168
 [user_orchestrator.py]: Exited successfully

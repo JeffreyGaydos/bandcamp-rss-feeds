@@ -4,13 +4,20 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-10-29 17:37:57.362168</lastBuildDate>
+<lastBuildDate>2026-10-30 17:16:54.148942</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-10-29_17:35:14.756262-jeffg__g</guid>
+<guid>release-2026-10-30_17:14:07.587619-jeffg__g</guid>
 <link>N/A</link>
-<description>https://cassetter.bandcamp.com/track/bite-the-night</description>
-<pubDate>2026-10-29 17:35:14.756262</pubDate>
+<description>https://slowerpace.bandcamp.com/album/guilt</description>
+<pubDate>2026-10-30 17:14:07.587619</pubDate>
+</item>
+<item>
+<title>Release update for **bsg__**</title>
+<guid>release-2026-10-30_17:16:52.986401-bsg__</guid>
+<link>N/A</link>
+<description>https://cathedralbellsmusic.bandcamp.com/track/put-me-to-sleep</description>
+<pubDate>2026-10-30 17:16:52.986401</pubDate>
 </item>
 
 </channel>

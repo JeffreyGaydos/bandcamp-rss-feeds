@@ -4,41 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-11-03 18:46:15.506223</lastBuildDate>
-<item>
-<title>Collection update for **jeffg__g**</title>
-<guid>collection-2026-11-03_18:43:25.207118-jeffg__g</guid>
-<link>N/A</link>
-<description>https://mitchmurder.bandcamp.com/album/inertia https://evanescence.bandcamp.com/album/evanescence-deluxe-version https://boa-uk.bandcamp.com/album/get-there</description>
-<pubDate>2026-11-03 18:43:25.207118</pubDate>
-</item>
-<item>
-<title>Following update for **jeffg__g**</title>
-<guid>following-2026-11-03_18:43:25.207255-jeffg__g</guid>
-<link>N/A</link>
-<description>https://etjusticepourtous.bandcamp.com/music</description>
-<pubDate>2026-11-03 18:43:25.207255</pubDate>
-</item>
-<item>
-<title>Wishlist update for **jeffg__g**</title>
-<guid>wishlist-2026-11-03_18:43:25.207391-jeffg__g</guid>
-<link>N/A</link>
-<description>https://etjusticepourtous.bandcamp.com/album/flower-in-a-hurricane-feat-tame-impala-sza-king-gizzard-the-lizard-wizard-from-gtavi</description>
-<pubDate>2026-11-03 18:43:25.207391</pubDate>
-</item>
+<lastBuildDate>2026-11-05 19:05:00.513016</lastBuildDate>
 <item>
 <title>Release update for **jeffg__g**</title>
-<guid>release-2026-11-03_18:43:25.208038-jeffg__g</guid>
+<guid>release-2026-11-05_19:02:09.321809-jeffg__g</guid>
 <link>N/A</link>
-<description>https://golemm.bandcamp.com/track/plastique</description>
-<pubDate>2026-11-03 18:43:25.208038</pubDate>
-</item>
-<item>
-<title>Release update for **bsg__**</title>
-<guid>release-2026-11-03_18:46:14.184666-bsg__</guid>
-<link>N/A</link>
-<description>https://golemm.bandcamp.com/track/plastique</description>
-<pubDate>2026-11-03 18:46:14.184666</pubDate>
+<description>https://cassetter.bandcamp.com/album/amplified-remixes-side-a</description>
+<pubDate>2026-11-05 19:02:09.321809</pubDate>
 </item>
 
 </channel>

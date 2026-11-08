@@ -4,20 +4,13 @@
 <title>Kero Kero MonitoRSS - Bandcamp Mass Aggregator</title>
 <link>https://github.com/JeffreyGaydos/bandcamp-rss-feeds</link>
 <description>Essentially sends what you would normally get from bandcamp in an email, but as a discord notification instead, aggregated daily for multiple users.</description>
-<lastBuildDate>2026-11-07 17:06:09.646167</lastBuildDate>
+<lastBuildDate>2026-11-08 17:21:36.541095</lastBuildDate>
 <item>
-<title>Collection update for **bsg__**</title>
-<guid>collection-2026-11-07_17:06:08.470331-bsg__</guid>
+<title>Release update for **jeffg__g**</title>
+<guid>release-2026-11-08_17:18:39.758657-jeffg__g</guid>
 <link>N/A</link>
-<description>https://titlefightmusic.bandcamp.com/album/hyperview https://intentionsmi.bandcamp.com/album/mr-big-bag https://hella.bandcamp.com/album/tripper</description>
-<pubDate>2026-11-07 17:06:08.470331</pubDate>
-</item>
-<item>
-<title>Following update for **bsg__**</title>
-<guid>following-2026-11-07_17:06:08.470442-bsg__</guid>
-<link>N/A</link>
-<description>https://titlefightmusic.bandcamp.com/music https://intentionsmi.bandcamp.com/music https://hella.bandcamp.com/music</description>
-<pubDate>2026-11-07 17:06:08.470442</pubDate>
+<description>https://cuts.bandcamp.com/album/untitled</description>
+<pubDate>2026-11-08 17:18:39.758657</pubDate>
 </item>
 
 </channel>

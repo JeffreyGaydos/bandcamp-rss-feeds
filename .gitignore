@@ -14,3 +14,4 @@ images/
 
 # for internal testing, non-production code
 scratch.py
+.vscode/settings.json

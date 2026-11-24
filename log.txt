@@ -29,7 +29,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://erasedtapes.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 1 new release items
+[release_parser:jeffg__g]: Found 0 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://etrandelair.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 5 links...
@@ -362,7 +362,7 @@
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://starfucker.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 16 links...
-[release_parser:jeffg__g]: Found 0 new release items
+[release_parser:jeffg__g]: Found 1 new release items
 [release_parser:jeffg__g]: Exited successfully
 [release_parser:jeffg__g]: Pinging bandcamp release feed for user jeffg__g [https://rjraffa.bandcamp.com/music]
 [release_parser:jeffg__g]: Found 6 links...
@@ -782,8 +782,8 @@
 [collection_parser:bsg__]: Found 43 links...
 [collection_parser:bsg__]: Found 0 new collection items
 [collection_parser:bsg__]: Exited successfully
-[wishlist_parser:bsg__]: Found 470 links...
-[wishlist_parser:bsg__]: Found 0 new wishlist items
+[wishlist_parser:bsg__]: Found 472 links...
+[wishlist_parser:bsg__]: Found 2 new wishlist items
 [wishlist_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://tkdpll.bandcamp.com/music]
 [release_parser:bsg__]: Found 15 links...
@@ -1223,7 +1223,7 @@
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://sink4u.bandcamp.com/music]
 [release_parser:bsg__]: Found 4 links...
-[release_parser:bsg__]: Found 1 new release items
+[release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
 [release_parser:bsg__]: Pinging bandcamp release feed for user bsg__ [https://peopleinorbit.bandcamp.com/music]
 [release_parser:bsg__]: Found 1 links...
@@ -1265,7 +1265,7 @@
 [release_parser:bsg__]: Found 14 links...
 [release_parser:bsg__]: Found 0 new release items
 [release_parser:bsg__]: Exited successfully
-[rss_aggregator.py:unknown user...]: Created item Release update for **bsg__**
+[rss_aggregator.py:unknown user...]: Created item Wishlist update for **bsg__**
 [rss_aggregator.py:bsg__]: updating items.rss with 1 updates for this user
-[user_orchestrator.py]: Updating final.rss at 2026-11-23 23:01:59.824853
+[user_orchestrator.py]: Updating final.rss at 2026-11-24 21:37:16.063548
 [user_orchestrator.py]: Exited successfully
